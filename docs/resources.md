@@ -1,0 +1,92 @@
+# 📚 Comprehensive ML Resources
+
+## 📚 Books
+1. **Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow** — Aurélien Géron [🔗 Link](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)
+2. **Deep Learning** — Ian Goodfellow, Yoshua Bengio, Aaron Courville [🔗 Link](https://www.deeplearningbook.org/)
+3. **Pattern Recognition and Machine Learning** — Christopher Bishop [🔗 Link](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
+4. **Python Machine Learning** — Sebastian Raschka [🔗 Link](https://leanpub.com/machine-learning-with-python)
+5. **Introduction to Statistical Learning** — Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani [🔗 Link](https://www.statlearning.com/)
+6. **Approaching (Almost) Any Machine Learning Problem** — Abhishek Thakur [🔗 Link](https://github.com/abhishekkrthakur/approachingalmost)
+7. **Designing Machine Learning Systems** — Chip Huyen [🔗 Link](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/)
+8. **Dive into Deep Learning** — Aston Zhang, Zachary C. Lipton, Mu Li, and Alexander J. Smola [🔗 Link](https://d2l.ai/)
+9. **Practical Statistics for Data Scientists** — Peter Bruce, Andrew Bruce [🔗 Link](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/)
+10. **The Hundred-Page Machine Learning Book** — Andriy Burkov [🔗 Link](http://themlbook.com/)
+
+## 🎓 Courses
+1. **Machine Learning Specialization** — Andrew Ng / Coursera [🔗 Link](https://www.coursera.org/specializations/machine-learning-introduction)
+2. **Deep Learning Specialization** — Andrew Ng / Coursera [🔗 Link](https://www.coursera.org/specializations/deep-learning)
+3. **Practical Deep Learning for Coders** — fast.ai [🔗 Link](https://course.fast.ai/)
+4. **CS231n: Convolutional Neural Networks for Visual Recognition** — Stanford [🔗 Link](http://cs231n.stanford.edu/)
+5. **CS224n: Natural Language Processing with Deep Learning** — Stanford [🔗 Link](http://web.stanford.edu/class/cs224n/)
+6. **Machine Learning Crash Course** — Google [🔗 Link](https://developers.google.com/machine-learning/crash-course)
+7. **Kaggle Micro-Courses** — Kaggle [🔗 Link](https://www.kaggle.com/learn)
+8. **Hugging Face NLP Course** — Hugging Face [🔗 Link](https://huggingface.co/course/chapter1/1)
+9. **Full Stack Deep Learning** — FSDL Team [🔗 Link](https://fullstackdeeplearning.com/)
+10. **MIT 6.S191: Introduction to Deep Learning** — MIT [🔗 Link](http://introtodeeplearning.com/)
+
+## 📺 YouTube Channels
+1. **3Blue1Brown** — Excellent visual explanations of math and neural networks [🔗 Link](https://www.youtube.com/c/3blue1brown)
+2. **StatQuest with Josh Starmer** — Clear explanations of statistics and ML algorithms [🔗 Link](https://www.youtube.com/c/joshstarmer)
+3. **Sentdex** — Practical Python programming and ML tutorials [🔗 Link](https://www.youtube.com/c/sentdex)
+4. **Yannic Kilcher** — In-depth paper reviews and AI news [🔗 Link](https://www.youtube.com/c/YannicKilcher)
+5. **Andrej Karpathy** — Deep dives into neural networks and LLMs [🔗 Link](https://www.youtube.com/c/AndrejKarpathy)
+6. **Lex Fridman** — Podcasts with AI researchers and thinkers [🔗 Link](https://www.youtube.com/c/lexfridman)
+7. **Two Minute Papers** — Quick summaries of cutting-edge research [🔗 Link](https://www.youtube.com/c/KárolyZsolnai)
+8. **Jeremy Howard (fast.ai)** — Top-down approach to deep learning [🔗 Link](https://www.youtube.com/c/fastai)
+9. **Krish Naik** — End-to-end ML projects and interview prep [🔗 Link](https://www.youtube.com/user/krishnaik06)
+10. **Corey Schafer** — Comprehensive Python tutorials [🔗 Link](https://www.youtube.com/c/Coreyms)
+
+## 📖 Documentation
+1. **Python** — Official docs [🔗 Link](https://docs.python.org/3/)
+2. **NumPy** — Official docs [🔗 Link](https://numpy.org/doc/stable/)
+3. **Pandas** — Official docs [🔗 Link](https://pandas.pydata.org/docs/)
+4. **Scikit-Learn** — Official docs [🔗 Link](https://scikit-learn.org/stable/user_guide.html)
+5. **PyTorch** — Official docs [🔗 Link](https://pytorch.org/docs/stable/index.html)
+6. **TensorFlow** — Official docs [🔗 Link](https://www.tensorflow.org/api_docs)
+7. **Matplotlib** — Official docs [🔗 Link](https://matplotlib.org/stable/contents.html)
+8. **Seaborn** — Official docs [🔗 Link](https://seaborn.pydata.org/)
+9. **Hugging Face Transformers** — Official docs [🔗 Link](https://huggingface.co/docs/transformers/index)
+10. **FastAPI** — Official docs [🔗 Link](https://fastapi.tiangolo.com/)
+
+## 📝 Blogs & Websites
+1. **Towards Data Science** — Community ML articles [🔗 Link](https://towardsdatascience.com/)
+2. **Machine Learning Mastery** — Jason Brownlee's practical tutorials [🔗 Link](https://machinelearningmastery.com/)
+3. **Distill.pub** — Beautiful visual explanations of ML concepts [🔗 Link](https://distill.pub/)
+4. **Jay Alammar's Blog** — Visualizing ML architectures (Transformers, Word2Vec) [🔗 Link](https://jalammar.github.io/)
+5. **Sebastian Ruder's Blog** — Excellent NLP content [🔗 Link](https://ruder.io/)
+6. **OpenAI Blog** — Updates on cutting-edge research [🔗 Link](https://openai.com/blog/)
+7. **Google AI Blog** — Research from Google [🔗 Link](https://ai.googleblog.com/)
+8. **DeepMind Blog** — Updates from DeepMind [🔗 Link](https://deepmind.com/blog)
+9. **PyImageSearch** — Computer Vision tutorials [🔗 Link](https://pyimagesearch.com/)
+10. **KDnuggets** — Data science news and tutorials [🔗 Link](https://www.kdnuggets.com/)
+
+## 🔗 GitHub Repositories
+1. **Awesome Machine Learning** — Curated list of ML frameworks [🔗 Link](https://github.com/josephmisiti/awesome-machine-learning)
+2. **Scikit-Learn** — The machine learning library in Python [🔗 Link](https://github.com/scikit-learn/scikit-learn)
+3. **PyTorch** — Deep learning framework [🔗 Link](https://github.com/pytorch/pytorch)
+4. **Transformers (Hugging Face)** — State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX [🔗 Link](https://github.com/huggingface/transformers)
+5. **TensorFlow** — End-to-end open source platform for machine learning [🔗 Link](https://github.com/tensorflow/tensorflow)
+6. **fastai** — The fastai deep learning library [🔗 Link](https://github.com/fastai/fastai)
+7. **DeepSpeed** — Deep learning optimization library [🔗 Link](https://github.com/microsoft/DeepSpeed)
+8. **Keras** — Deep Learning for humans [🔗 Link](https://github.com/keras-team/keras)
+9. **ML-For-Beginners** — Microsoft's 12-week, 26-lesson curriculum [🔗 Link](https://github.com/microsoft/ML-For-Beginners)
+10. **Data-Science-For-Beginners** — Microsoft's curriculum [🔗 Link](https://github.com/microsoft/Data-Science-For-Beginners)
+
+## 🛠️ Tools & Platforms
+1. **Kaggle** — Datasets and competitions [🔗 Link](https://www.kaggle.com/)
+2. **Google Colab** — Free Jupyter notebooks with GPUs [🔗 Link](https://colab.research.google.com/)
+3. **Weights & Biases (W&B)** — Experiment tracking [🔗 Link](https://wandb.ai/)
+4. **MLflow** — Machine learning lifecycle platform [🔗 Link](https://mlflow.org/)
+5. **Hugging Face Hub** — Model and dataset hosting [🔗 Link](https://huggingface.co/)
+6. **Docker** — Containerization for reproducibility [🔗 Link](https://www.docker.com/)
+7. **Streamlit** — Build web apps for ML models [🔗 Link](https://streamlit.io/)
+8. **Gradio** — UI components for ML models [🔗 Link](https://gradio.app/)
+9. **DVC (Data Version Control)** — Git for data [🔗 Link](https://dvc.org/)
+10. **Paperspace / RunPod** — Cloud GPUs for training [🔗 Link](https://www.paperspace.com/)
+
+## 📄 Research Resources
+1. **arXiv** — Open access repository for research papers [🔗 Link](https://arxiv.org/)
+2. **Papers With Code** — Research papers linked to their implementations [🔗 Link](https://paperswithcode.com/)
+3. **Connected Papers** — Visual tool to explore connected research papers [🔗 Link](https://www.connectedpapers.com/)
+4. **Semantic Scholar** — AI-powered research tool [🔗 Link](https://www.semanticscholar.org/)
+5. **AK's Twitter (@_akhaliq)** — Daily updates on new papers [🔗 Link](https://twitter.com/_akhaliq)
