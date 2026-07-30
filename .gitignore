@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Datasets
+datasets/raw/*
+datasets/processed/*
+!datasets/**/.gitkeep
+
+# Model Checkpoints & Weights
+checkpoints/
+*.pt
+*.pth
+*.h5
+*.pkl
+*.joblib
+saved_models/
+
+# Logs
+logs/
+*.log
+runs/
+mlruns/
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Coverage
+.coverage
+coverage.xml
+
+# Distribution
+*.tar.gz
+*.zip
+
+# Misc
+*.csv
+*.tsv
+*.parquet
+!datasets/sample/*.csv
+!datasets/sample/*.tsv
+site/
