@@ -1,192 +1,295 @@
-<!-- Banner: Replace with your own banner image -->
-<h1 align="center">🚀 Machine Learning Journey</h1>
+<h1 align="center">Machine Learning Journey</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" alt="Python version">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
-  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg" alt="PRs Welcome">
-  <img src="https://img.shields.io/github/last-commit/Mehedi032003/machine-learning-journey" alt="Last Commit">
-  <img src="https://img.shields.io/github/stars/Mehedi032003/machine-learning-journey?style=social" alt="Stars">
-  <img src="https://github.com/Mehedi032003/machine-learning-journey/workflows/CI/badge.svg" alt="Build Status">
+  A structured roadmap documenting my journey from Computer Science student to Machine Learning Engineer.
 </p>
 
-Welcome to my Machine Learning Journey! This repository serves as my digital garden, where I cultivate my skills in Data Science, Machine Learning, Deep Learning, and MLOps. It contains my notes, projects, code snippets, and resources as I progress from Python basics to advanced LLMs.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?logo=scikitlearn&logoColor=white" alt="Scikit Learn">
+  <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch">
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white" alt="Jupyter">
+  <img src="https://img.shields.io/github/last-commit/Mehedi032003/machine-learning-journey" alt="Last Commit">
+  <img src="https://img.shields.io/github/repo-size/Mehedi032003/machine-learning-journey" alt="Repository Size">
+</p>
 
 ---
 
-## 📑 Table of Contents
+# Overview
 
-- [Vision & Goals](#-vision--goals)
-- [Learning Roadmap](#-learning-roadmap)
-- [Progress Tracker](#-progress-tracker)
-- [Repository Structure](#-repository-structure)
-- [Technology Stack](#-technology-stack)
-- [Featured Projects](#-featured-projects)
-- [Learning Philosophy](#-learning-philosophy)
-- [Books I'm Reading](#-books-im-reading)
-- [Quick Start](#-quick-start)
-- [Current Focus](#-current-focus)
-- [Future Milestones](#-future-milestones)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Connect With Me](#-connect-with-me)
+This repository documents my journey from Computer Science student to Machine Learning Engineer.
+
+Rather than collecting tutorial code, this repository focuses on understanding concepts from first principles, implementing algorithms from scratch, building end-to-end projects, and documenting everything learned throughout the process.
+
+The long-term objective is to become industry-ready in Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, MLOps, and Large Language Models.
 
 ---
 
-## 🎯 Vision & Goals
+# Table of Contents
 
-- **Master the Fundamentals**: Deep understanding of statistics, probability, and linear algebra.
-- **Build Real-World Projects**: Solve actual problems rather than just following tutorials.
-- **Understand the Math**: Go beyond API calls to grasp the algorithms under the hood.
-- **Embrace MLOps**: Learn how to deploy, scale, and monitor models in production.
-- **Share Knowledge**: Document my journey to help others and reinforce my own learning.
-
----
-
-## 🗺️ Learning Roadmap
-
-Python ➔ NumPy ➔ Pandas ➔ Visualization ➔ Statistics ➔ ML ➔ DL ➔ PyTorch ➔ CV ➔ Deployment ➔ MLOps ➔ LLMs
-
----
-
-## 📈 Progress Tracker
-
-| # | Topic | Status | Start Date | Resources | Notes |
-|---|-------|--------|------------|-----------|-------|
-| 1 | Python | ✅ | 2026-07-01 | Python Docs, Corey Schafer | Fundamentals |
-| 2 | NumPy | ✅ | 2026-07-15 | NumPy Docs | Array Operations |
-| 3 | Pandas | 🔄 | 2026-07-25 | Pandas Docs | Data Manipulation |
-| 4 | Visualization | 🔄 | 2026-07-30 | Matplotlib/Seaborn Docs | EDA |
-| 5 | Statistics | ⬜ | TBD | StatQuest | Probability distributions |
-| 6 | Machine Learning | ⬜ | TBD | ISLR, Andrew Ng | Scikit-Learn |
-| 7 | Deep Learning | ⬜ | TBD | Deep Learning Book | Neural Networks |
-| 8 | PyTorch | ⬜ | TBD | PyTorch Docs | Tensors, Autograd |
-| 9 | Computer Vision | ⬜ | TBD | CS231n | CNNs, Object Detection |
-| 10 | Deployment | ⬜ | TBD | FastAPI, Docker | APIs |
-| 11 | MLOps | ⬜ | TBD | MLflow, GitHub Actions | CI/CD |
-| 12 | LLMs | ⬜ | TBD | HuggingFace | Transformers |
+- [Overview](#overview)
+- [Learning Roadmap](#learning-roadmap)
+- [Repository Structure](#repository-structure)
+- [Technology Stack](#technology-stack)
+- [Progress Tracker](#progress-tracker)
+- [Current Focus](#current-focus)
+- [Featured Projects](#featured-projects)
+- [Learning Philosophy](#learning-philosophy)
+- [Books & Resources](#books--resources)
+- [Long-Term Goals](#long-term-goals)
+- [Quick Start](#quick-start)
+- [License](#license)
+- [Connect](#connect)
 
 ---
 
-## 🗂️ Repository Structure
+# Learning Roadmap
 
 ```text
-machine-learning-journey/
-├── docs/                # Documentation, roadmaps, resources
-├── src/                 # Reusable source code and utilities
-├── notebooks/           # Jupyter notebooks for experiments and EDA
-├── projects/            # Real-world projects categorized by difficulty
-│   ├── beginner/
-│   ├── intermediate/
-│   └── advanced/
-├── templates/           # Project and notebook templates
-├── tests/               # Unit tests
-├── requirements.txt     # Python dependencies
-└── README.md            # You are here
+Python
+   │
+   ▼
+NumPy
+   │
+   ▼
+Pandas
+   │
+   ▼
+Data Visualization
+   │
+   ▼
+Statistics & Probability
+   │
+   ▼
+Machine Learning
+   │
+   ▼
+Deep Learning
+   │
+   ▼
+Computer Vision
+   │
+   ▼
+Natural Language Processing
+   │
+   ▼
+Model Deployment
+   │
+   ▼
+MLOps
+   │
+   ▼
+Large Language Models
 ```
 
 ---
 
-## 🛠️ Technology Stack
+# Repository Structure
 
-- **Languages**: 🐍 Python, 🗃️ SQL, 🐚 Bash
-- **Libraries**: 📊 NumPy, 🐼 Pandas, 📈 Matplotlib, 📉 Seaborn, 🧠 Scikit-Learn, 🔥 PyTorch, 🤖 HuggingFace
-- **Tools**: 📓 Jupyter, 🐳 Docker, 🐙 Git
-- **MLOps**: 🚀 FastAPI, ⚙️ GitHub Actions, 🧪 MLflow
-
----
-
-## 🌟 Featured Projects (Planned)
-
-- **Beginner**: House Price Prediction (Regression)
-- **Intermediate**: Customer Churn Analysis (Classification & EDA)
-- **Advanced**: Real-time Object Detection with PyTorch
-
----
-
-## 🧠 Learning Philosophy
-
-*"I hear and I forget. I see and I remember. I do and I understand."* – Confucius
-
-I focus on **active learning**:
-1. Implement algorithms from scratch.
-2. Read research papers.
-3. Build end-to-end projects.
-
----
-
-## 📚 Books I'm Reading
-
-- 📙 *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* (Aurélien Géron)
-- 📘 *Deep Learning* (Ian Goodfellow, Yoshua Bengio, Aaron Courville)
-- 📕 *Pattern Recognition and Machine Learning* (Christopher Bishop)
-- 📗 *Python Machine Learning* (Sebastian Raschka)
+```text
+machine-learning-journey
+│
+├── docs/
+│   ├── notes/
+│   ├── roadmaps/
+│   └── resources/
+│
+├── notebooks/
+│
+├── src/
+│
+├── projects/
+│   ├── beginner/
+│   ├── intermediate/
+│   └── advanced/
+│
+├── templates/
+│
+├── tests/
+│
+├── requirements.txt
+│
+└── README.md
+```
 
 ---
 
-## ⚡ Quick Start
+# Technology Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| Programming | Python |
+| Data Analysis | NumPy, Pandas |
+| Visualization | Matplotlib, Seaborn |
+| Machine Learning | Scikit-Learn |
+| Deep Learning | PyTorch |
+| Computer Vision | OpenCV |
+| NLP | Hugging Face Transformers |
+| Deployment | FastAPI, Docker |
+| Version Control | Git, GitHub |
+| Development | Jupyter Notebook, VS Code |
+
+---
+
+# Progress Tracker
+
+| Module | Status |
+|----------|--------|
+| Python Fundamentals | 🔄 In Progress |
+| NumPy | ⏳ Planned |
+| Pandas | ⏳ Planned |
+| Data Visualization | ⏳ Planned |
+| Statistics | ⏳ Planned |
+| Machine Learning | ⏳ Planned |
+| Deep Learning | ⏳ Planned |
+| Computer Vision | ⏳ Planned |
+| NLP | ⏳ Planned |
+| MLOps | ⏳ Planned |
+| LLMs | ⏳ Planned |
+
+---
+
+# Current Focus
+
+Currently working on:
+
+- Python Fundamentals
+- Git & GitHub Workflow
+- Development Environment Setup
+
+Upcoming:
+
+- NumPy
+- Pandas
+- Data Visualization
+- Statistics
+
+---
+
+# Featured Projects
+
+Projects will be added as I progress through the roadmap.
+
+### Beginner
+
+- House Price Prediction
+- Iris Flower Classification
+- Titanic Survival Prediction
+
+### Intermediate
+
+- Customer Churn Prediction
+- Movie Recommendation System
+- Sentiment Analysis
+
+### Advanced
+
+- Object Detection with YOLO
+- Image Classification with PyTorch
+- End-to-End MLOps Pipeline
+- Large Language Model Applications
+
+---
+
+# Learning Philosophy
+
+The objective of this repository is not simply to complete courses but to develop a deep understanding of Machine Learning.
+
+For every major topic, I aim to:
+
+- Learn the underlying mathematics
+- Implement algorithms from scratch
+- Build practical projects
+- Document what I learn
+- Apply concepts to real-world problems
+
+Learning by building remains the guiding principle of this repository.
+
+---
+
+# Books & Resources
+
+## Books
+
+- Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow
+- Python Machine Learning
+- Pattern Recognition and Machine Learning
+- Deep Learning (Goodfellow, Bengio & Courville)
+
+## Online Resources
+
+- Python Documentation
+- NumPy Documentation
+- Pandas Documentation
+- Scikit-Learn Documentation
+- PyTorch Documentation
+- Hugging Face Documentation
+
+---
+
+# Long-Term Goals
+
+- Complete the entire Machine Learning roadmap
+- Build 30+ Machine Learning projects
+- Publish detailed technical notes
+- Read influential research papers
+- Deploy production-ready ML applications
+- Learn MLOps best practices
+- Contribute to open-source Machine Learning projects
+
+---
+
+# Quick Start
 
 ```bash
 # Clone the repository
+
 git clone https://github.com/Mehedi032003/machine-learning-journey.git
 
-# Navigate to the project directory
+# Enter the project
+
 cd machine-learning-journey
 
 # Create a virtual environment
-python -m venv venv
 
-# Activate the virtual environment (Windows)
-venv\Scripts\activate
-# For Unix or MacOS: source venv/bin/activate
+python -m venv .venv
+
+# Activate the environment
+
+# Windows
+.venv\Scripts\activate
+
+# Linux/macOS
+source .venv/bin/activate
 
 # Install dependencies
-pip install -r requirements.txt
-pre-commit install
 
-# Start Jupyter Notebook
+pip install -r requirements.txt
+
+# Launch Jupyter Notebook
+
 jupyter notebook
 ```
 
 ---
 
-## 🎯 Current Focus
 
-- 📅 **Day**: 001
-- 📚 **Topic**: Python Fundamentals
-- 🎯 **Goal**: Master Python for ML
+# License
 
----
+This project is licensed under the MIT License.
 
-## 🛣️ Future Milestones
-
-- [ ] Complete 10 Beginner Projects
-- [ ] Implement a Neural Network from scratch using NumPy
-- [ ] Deploy an ML model using FastAPI and Docker
-- [ ] Read and summarize 10 influential ML research papers
+See the **LICENSE** file for details.
 
 ---
 
-## 🤝 Contributing
+# Connect
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute, coding standards, and PR process.
+GitHub: **https://github.com/Mehedi032003**
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+If you have suggestions or ideas, feel free to open an issue or start a discussion.
 
 ---
 
-## 🌐 Connect With Me
-
-- [GitHub Profile](https://github.com/Mehedi032003)
-- Feel free to open an issue if you want to collaborate!
-
----
-
-## ⭐ Star History
-
-<!-- Placeholder for Star History graph -->
-[![Star History Chart](https://api.star-history.com/svg?repos=Mehedi032003/machine-learning-journey&type=Date)](https://star-history.com/#Mehedi032003/machine-learning-journey&Date)
+<p align="center">
+    <strong>Learning every day. Building consistently. Improving continuously.</strong>
+</p>
