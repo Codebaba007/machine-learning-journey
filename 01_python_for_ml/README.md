@@ -1,30 +1,99 @@
-# 🐍 Module 01: Python for Machine Learning
+# Python for Machine Learning
 
-## 📖 Overview
-A solid foundation in Python is essential for machine learning. This module covers core Python features tailored for data processing, mathematical modeling, and ML workflows.
+## Overview
 
-## 🎯 Learning Objectives
-1. Understand and apply core data structures (lists, dicts, sets, tuples).
-2. Utilize list comprehensions for concise array manipulations.
-3. Define and use functions, including lambda functions.
-4. Grasp Object-Oriented Programming (OOP) concepts in Python.
-5. Perform file I/O operations (read/write txt, csv, json).
-6. Implement robust error handling (try/except).
-7. Understand iterators and generators for large datasets.
-8. Apply decorators to extend function behavior.
-9. Utilize type hints for cleaner ML pipelines.
-10. Manage packages and virtual environments effectively.
+This module builds the Python foundation required for machine learning and data science. It covers the core language features needed for data manipulation, algorithm implementation, and model development.
 
-## 🛠️ Prerequisites
-- Basic computer literacy
-- Familiarity with basic programming logic (if statements, loops)
+## Learning Objectives
 
-## 📂 Folder Structure
-- `notes/`: Detailed conceptual explanations.
-- `exercises/`: Coding challenges.
-- `mini_projects/`: Hands-on project guidelines.
+- Understand Python syntax and programming fundamentals.
+- Develop problem-solving skills using Python.
+- Write clean, readable, and maintainable code.
+- Build a foundation for NumPy, Pandas, Scikit-learn, and PyTorch.
 
-## 📚 Resources
-- [Python Official Documentation](https://docs.python.org/3/)
-- [Real Python](https://realpython.com/)
-- [Corey Schafer Python Tutorials (YouTube)](https://www.youtube.com/user/schafer5)
+## Module Structure
+
+```
+01_python_for_ml/
+│
+├── notes/
+├── exercises/
+├── mini_projects/
+└── README.md
+```
+
+## Progress
+
+### Day 1 — Variables
+
+#### Topics Covered
+
+- Variables
+- Variable naming conventions
+- Variable assignment
+- Variable reassignment
+- Python keywords
+- `print()` function
+
+#### Files
+
+**Notes**
+
+- `notes/01_variables.py`
+
+**Exercises**
+
+- `exercises/exercise_01.py`
+
+**Mini Project**
+
+- `mini_projects/student_information_card.py`
+
+#### Learning Outcomes
+
+- Create and use variables.
+- Apply meaningful variable names.
+- Store different kinds of information correctly.
+- Print variable values.
+
+---
+
+### Day 2 — Data Types
+
+#### Topics Covered
+
+- Integer (`int`)
+- Float (`float`)
+- String (`str`)
+- Boolean (`bool`)
+- `type()`
+- Type conversion
+
+#### Files
+
+**Notes**
+
+- `notes/02_data_types.py`
+
+**Exercises**
+
+- `exercises/exercise_02.py`
+
+**Mini Project**
+
+- `mini_projects/student_profile_v2.py`
+
+#### Learning Outcomes
+
+- Identify Python data types.
+- Select appropriate data types for different problems.
+- Inspect data types using `type()`.
+- Understand why numeric data should remain numeric.
+
+---
+
+## References
+
+- Python Documentation
+- Real Python
+- Corey Schafer Python Tutorials
