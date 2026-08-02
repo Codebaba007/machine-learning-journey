@@ -92,6 +92,60 @@ This module builds the Python foundation required for machine learning and data 
 
 ---
 
+---
+
+### Day 3 — User Input and Output
+
+#### Topics Covered
+
+- User Input with `input()`
+- Console Output with `print()`
+- Type Conversion
+  - `int()`
+  - `float()`
+  - `str()`
+- Understanding that `input()` always returns a string
+- Using `type()` to inspect data types
+
+#### Files
+
+**Notes**
+
+- `notes/03_input_output.py`
+
+**Exercises**
+
+- `exercises/exercise_03.py`
+
+**Mini Project**
+
+- `mini_projects/student_registration.py`
+
+#### Learning Outcomes
+
+- Accept user input from the keyboard.
+- Convert user input into the appropriate data type.
+- Differentiate between strings and numeric values.
+- Build interactive console applications.
+- Display information in a structured format.
+
+#### Concepts Practiced
+
+- Reading user input
+- Type conversion
+- Interactive programs
+- Basic debugging
+- Console application development
+
+#### Mini Project Summary
+
+Built an interactive **Student Registration System** that:
+
+- Collects student information from the user.
+- Converts numeric values to the correct data types.
+- Displays the collected information in a formatted profile.
+- Reinforces the use of `input()`, `print()`, and type conversion.
+
 ## References
 
 - Python Documentation
