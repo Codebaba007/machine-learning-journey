@@ -2,40 +2,74 @@
 
 ## Overview
 
-This module builds the Python foundation required for machine learning and data science. It covers the core language features needed for data manipulation, algorithm implementation, and model development.
+This module establishes the Python foundation required for Machine Learning and Data Science. It focuses on core programming concepts, problem-solving techniques, and best coding practices that will be used throughout the remainder of this learning journey.
+
+---
 
 ## Learning Objectives
 
+By the end of this module, I will be able to:
+
 - Understand Python syntax and programming fundamentals.
-- Develop problem-solving skills using Python.
-- Write clean, readable, and maintainable code.
-- Build a foundation for NumPy, Pandas, Scikit-learn, and PyTorch.
+- Write clean, readable, and maintainable Python code.
+- Solve programming problems using structured thinking.
+- Work with Python's built-in data structures.
+- Build interactive console applications.
+- Prepare for libraries such as NumPy, Pandas, Scikit-learn, and PyTorch.
+
+---
 
 ## Module Structure
 
-```
+```text
 01_python_for_ml/
 │
+├── README.md
 ├── notes/
 ├── exercises/
-├── mini_projects/
-└── README.md
+└── mini_projects/
 ```
 
-## Progress
+---
 
-### Day 1 — Variables
+## Module Progress
 
-#### Topics Covered
+| Day | Topic | Status |
+|:---:|--------------------------------------------|:------:|
+| 1 | Variables | ✅ |
+| 2 | Data Types | ✅ |
+| 3 | User Input and Output | ✅ |
+| 4 | Operators | ✅ |
+| 5 | Conditional Statements | ⏳ |
+| 6 | Loops | ⏳ |
+| 7 | Functions | ⏳ |
+| 8 | Lists | ⏳ |
+| 9 | Tuples | ⏳ |
+| 10 | Dictionaries | ⏳ |
+| 11 | Sets | ⏳ |
+| 12 | String Manipulation | ⏳ |
+| 13 | Exception Handling | ⏳ |
+| 14 | File Handling | ⏳ |
+| 15 | Object-Oriented Programming | ⏳ |
+
+---
+
+# Progress
+
+---
+
+## Day 1 — Variables
+
+### Topics Covered
 
 - Variables
-- Variable naming conventions
-- Variable assignment
-- Variable reassignment
-- Python keywords
-- `print()` function
+- Variable Naming Conventions
+- Variable Assignment
+- Variable Reassignment
+- Python Keywords
+- `print()`
 
-#### Files
+### Files
 
 **Notes**
 
@@ -49,27 +83,34 @@ This module builds the Python foundation required for machine learning and data 
 
 - `mini_projects/student_information_card.py`
 
-#### Learning Outcomes
+### Learning Outcomes
 
 - Create and use variables.
-- Apply meaningful variable names.
-- Store different kinds of information correctly.
-- Print variable values.
+- Follow Python naming conventions.
+- Store different types of information.
+- Display values using `print()`.
+
+### Key Concepts
+
+- Variables
+- Assignment Operator (`=`)
+- Identifiers
+- Keywords
 
 ---
 
-### Day 2 — Data Types
+## Day 2 — Data Types
 
-#### Topics Covered
+### Topics Covered
 
 - Integer (`int`)
 - Float (`float`)
 - String (`str`)
 - Boolean (`bool`)
 - `type()`
-- Type conversion
+- Type Conversion
 
-#### Files
+### Files
 
 **Notes**
 
@@ -83,31 +124,35 @@ This module builds the Python foundation required for machine learning and data 
 
 - `mini_projects/student_profile_v2.py`
 
-#### Learning Outcomes
+### Learning Outcomes
 
 - Identify Python data types.
-- Select appropriate data types for different problems.
+- Choose appropriate data types.
 - Inspect data types using `type()`.
-- Understand why numeric data should remain numeric.
+- Understand the importance of storing numeric values correctly.
+
+### Key Concepts
+
+- `int`
+- `float`
+- `str`
+- `bool`
+- `type()`
 
 ---
 
----
+## Day 3 — User Input and Output
 
-### Day 3 — User Input and Output
-
-#### Topics Covered
+### Topics Covered
 
 - User Input with `input()`
 - Console Output with `print()`
 - Type Conversion
-  - `int()`
-  - `float()`
-  - `str()`
-- Understanding that `input()` always returns a string
-- Using `type()` to inspect data types
+- `int()`
+- `float()`
+- `str()`
 
-#### Files
+### Files
 
 **Notes**
 
@@ -121,33 +166,100 @@ This module builds the Python foundation required for machine learning and data 
 
 - `mini_projects/student_registration.py`
 
-#### Learning Outcomes
+### Learning Outcomes
 
-- Accept user input from the keyboard.
-- Convert user input into the appropriate data type.
-- Differentiate between strings and numeric values.
+- Accept user input.
+- Convert user input into appropriate data types.
 - Build interactive console applications.
-- Display information in a structured format.
+- Display structured output.
 
-#### Concepts Practiced
+### Key Concepts
 
-- Reading user input
-- Type conversion
-- Interactive programs
-- Basic debugging
-- Console application development
+- `input()`
+- `print()`
+- Type Conversion
+- Interactive Programs
 
-#### Mini Project Summary
+---
 
-Built an interactive **Student Registration System** that:
+## Day 4 — Operators
 
-- Collects student information from the user.
-- Converts numeric values to the correct data types.
-- Displays the collected information in a formatted profile.
-- Reinforces the use of `input()`, `print()`, and type conversion.
+### Topics Covered
 
-## References
+- Arithmetic Operators
+- Comparison Operators
+- Logical Operators
+- Operator Precedence
 
-- Python Documentation
+### Files
+
+**Notes**
+
+- `notes/04_operators.py`
+
+**Exercises**
+
+- `exercises/exercise_04.py`
+
+**Mini Project**
+
+- `mini_projects/simple_calculator.py`
+
+### Learning Outcomes
+
+- Perform arithmetic calculations.
+- Compare values using comparison operators.
+- Evaluate logical expressions.
+- Build an interactive calculator.
+
+### Key Concepts
+
+- `+`
+- `-`
+- `*`
+- `/`
+- `//`
+- `%`
+- `**`
+- `==`
+- `!=`
+- `>`
+- `<`
+- `>=`
+- `<=`
+- `and`
+- `or`
+- `not`
+
+---
+
+# Skills Acquired
+
+After completing the current lessons, I can:
+
+- Create and manage variables.
+- Use appropriate Python data types.
+- Accept and process user input.
+- Perform type conversion.
+- Apply arithmetic, comparison, and logical operators.
+- Build simple interactive console applications.
+- Write cleaner and more readable Python code.
+
+---
+
+# Mini Projects
+
+| Day | Project |
+|:---:|--------------------------------|
+| 1 | Student Information Card |
+| 2 | Student Profile V2 |
+| 3 | Student Registration System |
+| 4 | Simple Calculator |
+
+---
+
+# References
+
+- Python Official Documentation
 - Real Python
 - Corey Schafer Python Tutorials
