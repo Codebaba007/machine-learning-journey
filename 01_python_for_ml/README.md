@@ -13,8 +13,8 @@ By the end of this module, I will be able to:
 - Understand Python syntax and programming fundamentals.
 - Write clean, readable, and maintainable Python code.
 - Solve programming problems using structured thinking.
-- Work with Python's built-in data structures.
 - Build interactive console applications.
+- Apply programming concepts to Machine Learning workflows.
 - Prepare for libraries such as NumPy, Pandas, Scikit-learn, and PyTorch.
 
 ---
@@ -35,12 +35,12 @@ By the end of this module, I will be able to:
 ## Module Progress
 
 | Day | Topic | Status |
-|:---:|--------------------------------------------|:------:|
+|:---:|--------------------------------------|:------:|
 | 1 | Variables | ✅ |
 | 2 | Data Types | ✅ |
 | 3 | User Input and Output | ✅ |
 | 4 | Operators | ✅ |
-| 5 | Conditional Statements | ⏳ |
+| 5 | Conditional Statements | ✅ |
 | 6 | Loops | ⏳ |
 | 7 | Functions | ⏳ |
 | 8 | Lists | ⏳ |
@@ -233,17 +233,62 @@ By the end of this module, I will be able to:
 
 ---
 
+## Day 5 — Conditional Statements
+
+### Topics Covered
+
+- Conditional Statements
+- `if`
+- `elif`
+- `else`
+- Boolean Expressions
+- Nested Conditions (Introduction)
+- Indentation
+
+### Files
+
+**Notes**
+
+- `notes/05_conditionals.py`
+
+**Exercises**
+
+- `exercises/exercise_05.py`
+
+**Mini Project**
+
+- `mini_projects/student_grade_system.py`
+
+### Learning Outcomes
+
+- Make decisions using conditional statements.
+- Write programs with multiple execution paths.
+- Evaluate Boolean expressions.
+- Build real-world decision-based applications.
+
+### Key Concepts
+
+- `if`
+- `elif`
+- `else`
+- Boolean Logic
+- Decision Making
+- Program Flow
+
+---
+
 # Skills Acquired
 
 After completing the current lessons, I can:
 
 - Create and manage variables.
-- Use appropriate Python data types.
+- Work with Python data types.
 - Accept and process user input.
 - Perform type conversion.
-- Apply arithmetic, comparison, and logical operators.
-- Build simple interactive console applications.
-- Write cleaner and more readable Python code.
+- Use arithmetic, comparison, and logical operators.
+- Write decision-making programs using conditional statements.
+- Build interactive console applications.
+- Apply clean coding practices and meaningful variable naming.
 
 ---
 
@@ -253,8 +298,21 @@ After completing the current lessons, I can:
 |:---:|--------------------------------|
 | 1 | Student Information Card |
 | 2 | Student Profile V2 |
-| 3 | Student Registration System |
+| 3 | Student Registration |
 | 4 | Simple Calculator |
+| 5 | Student Grade System |
+
+---
+
+# Module Statistics
+
+| Category | Count |
+|----------|------:|
+| Days Completed | 5 / 15 |
+| Notes Files | 5 |
+| Exercise Files | 5 |
+| Mini Projects | 5 |
+| Python Concepts Learned | 30+ |
 
 ---
 
