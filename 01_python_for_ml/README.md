@@ -41,7 +41,7 @@ By the end of this module, I will be able to:
 | 3 | User Input and Output | ✅ |
 | 4 | Operators | ✅ |
 | 5 | Conditional Statements | ✅ |
-| 6 | Loops | ⏳ |
+| 6 | Loops | ✅ |
 | 7 | Functions | ⏳ |
 | 8 | Lists | ⏳ |
 | 9 | Tuples | ⏳ |
@@ -277,6 +277,50 @@ By the end of this module, I will be able to:
 
 ---
 
+## Day 6 — Loops
+
+### Topics Covered
+
+- `for` Loops
+- `while` Loops
+- The `range()` Function
+- Loop Variables
+- Iteration
+- Infinite Loops (Introduction)
+
+### Files
+
+**Notes**
+
+- `notes/06_loops.py`
+
+**Exercises**
+
+- `exercises/exercise_06.py`
+
+**Mini Project**
+
+- `mini_projects/multiplication_table_generator.py`
+
+### Learning Outcomes
+
+- Write `for` loops to iterate over a sequence.
+- Write `while` loops using conditional expressions.
+- Control iteration using `range()`.
+- Automate repetitive programming tasks.
+- Understand the fundamentals of iteration.
+
+### Key Concepts
+
+- `for`
+- `while`
+- `range()`
+- Iteration
+- Loop Variables
+- Infinite Loops
+
+---
+
 # Skills Acquired
 
 After completing the current lessons, I can:
@@ -285,8 +329,10 @@ After completing the current lessons, I can:
 - Work with Python data types.
 - Accept and process user input.
 - Perform type conversion.
-- Use arithmetic, comparison, and logical operators.
+- Apply arithmetic, comparison, and logical operators.
 - Write decision-making programs using conditional statements.
+- Build repetitive workflows using `for` and `while` loops.
+- Use the `range()` function for controlled iteration.
 - Build interactive console applications.
 - Apply clean coding practices and meaningful variable naming.
 
@@ -295,12 +341,13 @@ After completing the current lessons, I can:
 # Mini Projects
 
 | Day | Project |
-|:---:|--------------------------------|
+|:---:|--------------------------------------|
 | 1 | Student Information Card |
 | 2 | Student Profile V2 |
 | 3 | Student Registration |
 | 4 | Simple Calculator |
 | 5 | Student Grade System |
+| 6 | Multiplication Table Generator |
 
 ---
 
@@ -308,11 +355,11 @@ After completing the current lessons, I can:
 
 | Category | Count |
 |----------|------:|
-| Days Completed | 5 / 15 |
-| Notes Files | 5 |
-| Exercise Files | 5 |
-| Mini Projects | 5 |
-| Python Concepts Learned | 30+ |
+| Days Completed | 6 / 15 |
+| Notes Files | 6 |
+| Exercise Files | 6 |
+| Mini Projects | 6 |
+| Python Concepts Learned | 40+ |
 
 ---
 
