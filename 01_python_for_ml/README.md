@@ -1,25 +1,32 @@
 # Python for Machine Learning
 
+A structured journey through Python fundamentals with a focus on Machine Learning, Data Science, and AI.
+
+---
+
 ## Overview
 
-This module establishes the Python foundation required for Machine Learning and Data Science. It focuses on core programming concepts, problem-solving techniques, and best coding practices that will be used throughout the remainder of this learning journey.
+This repository documents my progress as I build a strong Python foundation for Machine Learning.
+
+The goal is to master Python before moving to:
+
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- PyTorch
+- Deep Learning
+- Computer Vision
+
+Every lesson contains:
+
+- Notes
+- Exercises
+- A Mini Project
 
 ---
 
-## Learning Objectives
-
-By the end of this module, I will be able to:
-
-- Understand Python syntax and programming fundamentals.
-- Write clean, readable, and maintainable Python code.
-- Solve programming problems using structured thinking.
-- Build interactive console applications.
-- Apply programming concepts to Machine Learning workflows.
-- Prepare for libraries such as NumPy, Pandas, Scikit-learn, and PyTorch.
-
----
-
-## Module Structure
+## Repository Structure
 
 ```text
 01_python_for_ml/
@@ -32,29 +39,7 @@ By the end of this module, I will be able to:
 
 ---
 
-## Module Progress
-
-| Day | Topic | Status |
-|:---:|--------------------------------------|:------:|
-| 1 | Variables | ✅ |
-| 2 | Data Types | ✅ |
-| 3 | User Input and Output | ✅ |
-| 4 | Operators | ✅ |
-| 5 | Conditional Statements | ✅ |
-| 6 | Loops | ✅ |
-| 7 | Functions | ⏳ |
-| 8 | Lists | ⏳ |
-| 9 | Tuples | ⏳ |
-| 10 | Dictionaries | ⏳ |
-| 11 | Sets | ⏳ |
-| 12 | String Manipulation | ⏳ |
-| 13 | Exception Handling | ⏳ |
-| 14 | File Handling | ⏳ |
-| 15 | Object-Oriented Programming | ⏳ |
-
----
-
-# Progress
+# Learning Journal
 
 ---
 
@@ -85,17 +70,10 @@ By the end of this module, I will be able to:
 
 ### Learning Outcomes
 
-- Create and use variables.
-- Follow Python naming conventions.
-- Store different types of information.
-- Display values using `print()`.
-
-### Key Concepts
-
-- Variables
-- Assignment Operator (`=`)
-- Identifiers
-- Keywords
+- Create variables.
+- Follow naming conventions.
+- Store different data types.
+- Display information using `print()`.
 
 ---
 
@@ -126,18 +104,9 @@ By the end of this module, I will be able to:
 
 ### Learning Outcomes
 
-- Identify Python data types.
-- Choose appropriate data types.
-- Inspect data types using `type()`.
-- Understand the importance of storing numeric values correctly.
-
-### Key Concepts
-
-- `int`
-- `float`
-- `str`
-- `bool`
-- `type()`
+- Understand Python's built-in data types.
+- Convert values between different data types.
+- Inspect object types using `type()`.
 
 ---
 
@@ -145,12 +114,9 @@ By the end of this module, I will be able to:
 
 ### Topics Covered
 
-- User Input with `input()`
-- Console Output with `print()`
+- `input()`
+- `print()`
 - Type Conversion
-- `int()`
-- `float()`
-- `str()`
 
 ### Files
 
@@ -168,17 +134,9 @@ By the end of this module, I will be able to:
 
 ### Learning Outcomes
 
-- Accept user input.
-- Convert user input into appropriate data types.
+- Read user input.
+- Convert input into appropriate data types.
 - Build interactive console applications.
-- Display structured output.
-
-### Key Concepts
-
-- `input()`
-- `print()`
-- Type Conversion
-- Interactive Programs
 
 ---
 
@@ -207,29 +165,10 @@ By the end of this module, I will be able to:
 
 ### Learning Outcomes
 
-- Perform arithmetic calculations.
-- Compare values using comparison operators.
-- Evaluate logical expressions.
-- Build an interactive calculator.
-
-### Key Concepts
-
-- `+`
-- `-`
-- `*`
-- `/`
-- `//`
-- `%`
-- `**`
-- `==`
-- `!=`
-- `>`
-- `<`
-- `>=`
-- `<=`
-- `and`
-- `or`
-- `not`
+- Perform arithmetic operations.
+- Compare values.
+- Build logical expressions.
+- Create a calculator application.
 
 ---
 
@@ -237,13 +176,11 @@ By the end of this module, I will be able to:
 
 ### Topics Covered
 
-- Conditional Statements
 - `if`
 - `elif`
 - `else`
 - Boolean Expressions
-- Nested Conditions (Introduction)
-- Indentation
+- Nested Conditions
 
 ### Files
 
@@ -261,19 +198,9 @@ By the end of this module, I will be able to:
 
 ### Learning Outcomes
 
-- Make decisions using conditional statements.
-- Write programs with multiple execution paths.
-- Evaluate Boolean expressions.
-- Build real-world decision-based applications.
-
-### Key Concepts
-
-- `if`
-- `elif`
-- `else`
-- Boolean Logic
-- Decision Making
-- Program Flow
+- Write decision-making programs.
+- Evaluate conditions.
+- Build branching logic.
 
 ---
 
@@ -281,12 +208,10 @@ By the end of this module, I will be able to:
 
 ### Topics Covered
 
-- `for` Loops
-- `while` Loops
-- The `range()` Function
-- Loop Variables
+- `for`
+- `while`
+- `range()`
 - Iteration
-- Infinite Loops (Introduction)
 
 ### Files
 
@@ -304,62 +229,53 @@ By the end of this module, I will be able to:
 
 ### Learning Outcomes
 
-- Write `for` loops to iterate over a sequence.
-- Write `while` loops using conditional expressions.
-- Control iteration using `range()`.
-- Automate repetitive programming tasks.
-- Understand the fundamentals of iteration.
-
-### Key Concepts
-
-- `for`
-- `while`
-- `range()`
-- Iteration
-- Loop Variables
-- Infinite Loops
+- Repeat tasks using loops.
+- Control iteration with `range()`.
+- Build repetitive workflows.
 
 ---
 
-# Skills Acquired
+## Day 7 — Functions
 
-After completing the current lessons, I can:
+### Topics Covered
 
-- Create and manage variables.
-- Work with Python data types.
-- Accept and process user input.
-- Perform type conversion.
-- Apply arithmetic, comparison, and logical operators.
-- Write decision-making programs using conditional statements.
-- Build repetitive workflows using `for` and `while` loops.
-- Use the `range()` function for controlled iteration.
-- Build interactive console applications.
-- Apply clean coding practices and meaningful variable naming.
+- Defining Functions
+- Calling Functions
+- Parameters
+- Arguments
+- Return Values
+- Reusability
+
+### Files
+
+**Notes**
+
+- `notes/07_functions.py`
+
+**Exercises**
+
+- `exercises/exercise_07.py`
+
+**Mini Project**
+
+- `mini_projects/student_grade_calculator.py`
+
+### Learning Outcomes
+
+- Define reusable functions.
+- Pass data through parameters.
+- Return values.
+- Organize code into reusable components.
 
 ---
 
-# Mini Projects
+# Progress
 
-| Day | Project |
-|:---:|--------------------------------------|
-| 1 | Student Information Card |
-| 2 | Student Profile V2 |
-| 3 | Student Registration |
-| 4 | Simple Calculator |
-| 5 | Student Grade System |
-| 6 | Multiplication Table Generator |
+Completed: **7 / 15 Days**
 
----
+Current Topic: **Functions**
 
-# Module Statistics
-
-| Category | Count |
-|----------|------:|
-| Days Completed | 6 / 15 |
-| Notes Files | 6 |
-| Exercise Files | 6 |
-| Mini Projects | 6 |
-| Python Concepts Learned | 40+ |
+Next Topic: **Lists**
 
 ---
 
