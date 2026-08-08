@@ -1,27 +1,10 @@
-<h1 align="center">Machine Learning Journey</h1>
+# Machine Learning Journey
 
-<p align="center">
-  A structured roadmap documenting my journey from Computer Science student to Machine Learning Engineer.
-</p>
+A structured journey from Computer Science student to Machine Learning Engineer.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?logo=scikitlearn&logoColor=white" alt="Scikit Learn">
-  <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white" alt="Jupyter">
-  <img src="https://img.shields.io/github/last-commit/Mehedi032003/machine-learning-journey" alt="Last Commit">
-  <img src="https://img.shields.io/github/repo-size/Mehedi032003/machine-learning-journey" alt="Repository Size">
-</p>
+This repository documents the process of building a strong foundation in Python, mathematics, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, MLOps, and Large Language Models.
 
----
-
-# Overview
-
-This repository documents my journey from Computer Science student to Machine Learning Engineer.
-
-Rather than collecting tutorial code, this repository focuses on understanding concepts from first principles, implementing algorithms from scratch, building end-to-end projects, and documenting everything learned throughout the process.
-
-The long-term objective is to become industry-ready in Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, MLOps, and Large Language Models.
+The focus is not simply on completing tutorials. The goal is to understand concepts from first principles, implement important algorithms, build practical projects, and document the learning process.
 
 ---
 
@@ -33,13 +16,36 @@ The long-term objective is to become industry-ready in Machine Learning, Deep Le
 - [Technology Stack](#technology-stack)
 - [Progress Tracker](#progress-tracker)
 - [Current Focus](#current-focus)
-- [Featured Projects](#featured-projects)
 - [Learning Philosophy](#learning-philosophy)
-- [Books & Resources](#books--resources)
+- [Featured Projects](#featured-projects)
+- [Books and Resources](#books-and-resources)
 - [Long-Term Goals](#long-term-goals)
 - [Quick Start](#quick-start)
 - [License](#license)
 - [Connect](#connect)
+
+---
+
+# Overview
+
+The long-term objective is to become industry-ready in:
+
+- Machine Learning
+- Deep Learning
+- Computer Vision
+- Natural Language Processing
+- MLOps
+- Large Language Models
+
+The journey is structured progressively, starting with Python fundamentals and moving toward increasingly advanced Machine Learning systems.
+
+Each major stage will contain:
+
+- Conceptual notes
+- Coding exercises
+- Practical projects
+- Experiments
+- Technical documentation
 
 ---
 
@@ -87,102 +93,156 @@ Large Language Models
 # Repository Structure
 
 ```text
-machine-learning-journey
+machine-learning-journey/
 │
-├── docs/
+├── 01_python_for_ml/
 │   ├── notes/
-│   ├── roadmaps/
-│   └── resources/
+│   ├── exercises/
+│   ├── mini_projects/
+│   └── README.md
 │
+├── 02_numpy/
+├── 03_pandas/
+├── 04_matplotlib/
+├── 05_statistics/
+├── 06_machine_learning/
+├── 07_deep_learning/
+├── 08_pytorch/
+├── 09_computer_vision/
+├── 10_projects/
+│
+├── assets/
+├── daily_journal/
+├── datasets/
+├── docs/
 ├── notebooks/
-│
 ├── src/
-│
-├── projects/
-│   ├── beginner/
-│   ├── intermediate/
-│   └── advanced/
-│
 ├── templates/
-│
 ├── tests/
 │
 ├── requirements.txt
-│
+├── pyproject.toml
+├── Dockerfile
+├── docker-compose.yml
+├── mkdocs.yml
 └── README.md
 ```
+
+Each numbered module contains its own learning material and progress documentation.
 
 ---
 
 # Technology Stack
 
 | Category | Technologies |
-|-----------|--------------|
+|----------|--------------|
 | Programming | Python |
 | Data Analysis | NumPy, Pandas |
 | Visualization | Matplotlib, Seaborn |
-| Machine Learning | Scikit-Learn |
+| Machine Learning | Scikit-learn, XGBoost, LightGBM |
 | Deep Learning | PyTorch |
-| Computer Vision | OpenCV |
+| Computer Vision | OpenCV, Albumentations |
 | NLP | Hugging Face Transformers |
-| Deployment | FastAPI, Docker |
+| Experiment Tracking | MLflow, Weights & Biases |
+| Data Versioning | DVC |
+| Deployment | FastAPI, Streamlit, Docker |
+| Testing | Pytest |
+| Code Quality | Ruff, Black, Pre-commit |
+| Documentation | MkDocs |
 | Version Control | Git, GitHub |
-| Development | Jupyter Notebook, VS Code |
+| Development | VS Code, JupyterLab |
 
 ---
 
 # Progress Tracker
 
 | Module | Status |
-|----------|--------|
-| Python Fundamentals | 🔄 In Progress |
-| NumPy | ⏳ Planned |
-| Pandas | ⏳ Planned |
-| Data Visualization | ⏳ Planned |
-| Statistics | ⏳ Planned |
-| Machine Learning | ⏳ Planned |
-| Deep Learning | ⏳ Planned |
-| Computer Vision | ⏳ Planned |
-| NLP | ⏳ Planned |
-| MLOps | ⏳ Planned |
-| LLMs | ⏳ Planned |
+|--------|--------|
+| Python Fundamentals | In Progress |
+| NumPy | Planned |
+| Pandas | Planned |
+| Data Visualization | Planned |
+| Statistics | Planned |
+| Machine Learning | Planned |
+| Deep Learning | Planned |
+| PyTorch | Planned |
+| Computer Vision | Planned |
+| Projects | Planned |
+
+Detailed progress is maintained inside each module.
 
 ---
 
 # Current Focus
 
-Currently working on:
+## Python Fundamentals
 
-- Python Fundamentals
-- Git & GitHub Workflow
-- Development Environment Setup
+Currently completing the Python foundation required for Machine Learning.
 
-Upcoming:
+### Completed
 
-- NumPy
-- Pandas
-- Data Visualization
-- Statistics
+- Variables
+- Data Types
+- User Input and Output
+- Operators
+- Conditional Statements
+- Loops
+- Functions
+- Lists
+- Tuples
+
+### Next
+
+- Dictionaries
+- Sets
+- String Manipulation
+- Exception Handling
+- File Handling
+- Object-Oriented Programming
+
+The complete daily learning journal is available in:
+
+```text
+01_python_for_ml/README.md
+```
+
+---
+
+# Learning Philosophy
+
+The objective of this repository is not simply to collect tutorial code.
+
+For every major topic, the goal is to:
+
+- Understand the underlying concepts.
+- Practice through focused exercises.
+- Implement solutions independently.
+- Build practical projects.
+- Document what was learned.
+- Connect concepts to Machine Learning.
+- Progress from simple implementations toward production-oriented systems.
+
+Learning by building is the guiding principle of this journey.
 
 ---
 
 # Featured Projects
 
-Projects will be added as I progress through the roadmap.
+Projects will be added as the journey progresses.
 
-### Beginner
+## Beginner
 
 - House Price Prediction
 - Iris Flower Classification
 - Titanic Survival Prediction
 
-### Intermediate
+## Intermediate
 
 - Customer Churn Prediction
 - Movie Recommendation System
 - Sentiment Analysis
 
-### Advanced
+## Advanced
 
 - Object Detection with YOLO
 - Image Classification with PyTorch
@@ -191,37 +251,21 @@ Projects will be added as I progress through the roadmap.
 
 ---
 
-# Learning Philosophy
-
-The objective of this repository is not simply to complete courses but to develop a deep understanding of Machine Learning.
-
-For every major topic, I aim to:
-
-- Learn the underlying mathematics
-- Implement algorithms from scratch
-- Build practical projects
-- Document what I learn
-- Apply concepts to real-world problems
-
-Learning by building remains the guiding principle of this repository.
-
----
-
-# Books & Resources
+# Books and Resources
 
 ## Books
 
-- Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow
-- Python Machine Learning
-- Pattern Recognition and Machine Learning
-- Deep Learning (Goodfellow, Bengio & Courville)
+- *Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow*
+- *Python Machine Learning*
+- *Pattern Recognition and Machine Learning*
+- *Deep Learning* — Goodfellow, Bengio & Courville
 
-## Online Resources
+## Documentation
 
 - Python Documentation
 - NumPy Documentation
 - Pandas Documentation
-- Scikit-Learn Documentation
+- Scikit-learn Documentation
 - PyTorch Documentation
 - Hugging Face Documentation
 
@@ -229,67 +273,110 @@ Learning by building remains the guiding principle of this repository.
 
 # Long-Term Goals
 
-- Complete the entire Machine Learning roadmap
-- Build 30+ Machine Learning projects
-- Publish detailed technical notes
-- Read influential research papers
-- Deploy production-ready ML applications
-- Learn MLOps best practices
-- Contribute to open-source Machine Learning projects
+- Complete the Machine Learning roadmap.
+- Build 30+ Machine Learning projects.
+- Develop strong mathematical foundations for ML.
+- Implement important algorithms from scratch.
+- Publish detailed technical notes.
+- Study influential research papers.
+- Build and deploy production-ready ML applications.
+- Learn modern MLOps practices.
+- Contribute to open-source Machine Learning projects.
+- Develop practical expertise in Deep Learning, Computer Vision, NLP, and LLMs.
 
 ---
 
 # Quick Start
 
+## Clone the Repository
+
 ```bash
-# Clone the repository
-
 git clone https://github.com/Mehedi032003/machine-learning-journey.git
+```
 
-# Enter the project
+## Enter the Project
 
+```bash
 cd machine-learning-journey
+```
 
-# Create a virtual environment
+## Create a Virtual Environment
 
+```bash
 python -m venv .venv
+```
 
-# Activate the environment
+## Activate the Environment
 
-# Windows
+### Windows — Command Prompt
+
+```cmd
 .venv\Scripts\activate
+```
 
-# Linux/macOS
+### Windows — Git Bash
+
+```bash
+source .venv/Scripts/activate
+```
+
+### Linux / macOS
+
+```bash
 source .venv/bin/activate
+```
 
-# Install dependencies
+## Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
-# Launch Jupyter Notebook
+## Launch JupyterLab
 
-jupyter notebook
+```bash
+jupyter lab
 ```
 
 ---
 
+# Development
+
+The repository uses a number of tools to maintain code quality and reproducibility.
+
+```text
+Python
+   │
+   ├── Ruff
+   ├── Black
+   ├── Pytest
+   └── Pre-commit
+```
+
+Machine Learning workflows will additionally use tools such as:
+
+```text
+MLflow
+DVC
+Weights & Biases
+Docker
+FastAPI
+```
+
+These tools will be introduced progressively as the roadmap advances.
+
+---
 
 # License
 
 This project is licensed under the MIT License.
 
-See the **LICENSE** file for details.
+See the [LICENSE](LICENSE) file for details.
 
 ---
 
 # Connect
 
-GitHub: **https://github.com/Mehedi032003**
+GitHub: https://github.com/Mehedi032003
 
-If you have suggestions or ideas, feel free to open an issue or start a discussion.
-
----
-
-<p align="center">
-    <strong>Learning every day. Building consistently. Improving continuously.</strong>
-</p>
+If you have suggestions, ideas, or improvements, feel free to open an issue or start a discussion.
