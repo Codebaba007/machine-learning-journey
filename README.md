@@ -134,42 +134,42 @@ Each numbered module contains its own learning material and progress documentati
 
 # Technology Stack
 
-| Category | Technologies |
-|----------|--------------|
-| Programming | Python |
-| Data Analysis | NumPy, Pandas |
-| Visualization | Matplotlib, Seaborn |
-| Machine Learning | Scikit-learn, XGBoost, LightGBM |
-| Deep Learning | PyTorch |
-| Computer Vision | OpenCV, Albumentations |
-| NLP | Hugging Face Transformers |
-| Experiment Tracking | MLflow, Weights & Biases |
-| Data Versioning | DVC |
-| Deployment | FastAPI, Streamlit, Docker |
-| Testing | Pytest |
-| Code Quality | Ruff, Black, Pre-commit |
-| Documentation | MkDocs |
-| Version Control | Git, GitHub |
-| Development | VS Code, JupyterLab |
+| Category            | Technologies                    |
+| ------------------- | ------------------------------- |
+| Programming         | Python                          |
+| Data Analysis       | NumPy, Pandas                   |
+| Visualization       | Matplotlib, Seaborn             |
+| Machine Learning    | Scikit-learn, XGBoost, LightGBM |
+| Deep Learning       | PyTorch                         |
+| Computer Vision     | OpenCV, Albumentations          |
+| NLP                 | Hugging Face Transformers       |
+| Experiment Tracking | MLflow, Weights & Biases        |
+| Data Versioning     | DVC                             |
+| Deployment          | FastAPI, Streamlit, Docker      |
+| Testing             | Pytest                          |
+| Code Quality        | Ruff, Black, Pre-commit         |
+| Documentation       | MkDocs                          |
+| Version Control     | Git, GitHub                     |
+| Development         | VS Code, JupyterLab             |
 
 ---
 
 # Progress Tracker
 
-| Module | Status |
-|--------|--------|
+| Module              | Status      |
+| ------------------- | ----------- |
 | Python Fundamentals | In Progress |
-| NumPy | Planned |
-| Pandas | Planned |
-| Data Visualization | Planned |
-| Statistics | Planned |
-| Machine Learning | Planned |
-| Deep Learning | Planned |
-| PyTorch | Planned |
-| Computer Vision | Planned |
-| Projects | Planned |
+| NumPy               | Planned     |
+| Pandas              | Planned     |
+| Data Visualization  | Planned     |
+| Statistics          | Planned     |
+| Machine Learning    | Planned     |
+| Deep Learning       | Planned     |
+| PyTorch             | Planned     |
+| Computer Vision     | Planned     |
+| Projects            | Planned     |
 
-Detailed progress is maintained inside each module.
+Detailed daily progress is maintained inside each module.
 
 ---
 
@@ -190,17 +190,24 @@ Currently completing the Python foundation required for Machine Learning.
 - Functions
 - Lists
 - Tuples
+- Dictionaries
 
 ### Next
 
-- Dictionaries
 - Sets
 - String Manipulation
 - Exception Handling
 - File Handling
 - Object-Oriented Programming
 
-The complete daily learning journal is available in:
+### Current Progress
+
+```text
+Python Fundamentals
+██████████████░░░░░░ 10 / 15 Days
+```
+
+Detailed daily learning progress is available in:
 
 ```text
 01_python_for_ml/README.md
@@ -371,7 +378,7 @@ These tools will be introduced progressively as the roadmap advances.
 
 This project is licensed under the MIT License.
 
-See the [LICENSE](LICENSE) file for details.
+See the LICENSE file for details.
 
 ---
 
