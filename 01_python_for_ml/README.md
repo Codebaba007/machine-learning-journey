@@ -117,6 +117,9 @@ Every lesson contains:
 - `input()`
 - `print()`
 - Type Conversion
+- `int()`
+- `float()`
+- `str()`
 
 ### Files
 
@@ -137,6 +140,7 @@ Every lesson contains:
 - Read user input.
 - Convert input into appropriate data types.
 - Build interactive console applications.
+- Display structured information.
 
 ---
 
@@ -170,17 +174,39 @@ Every lesson contains:
 - Build logical expressions.
 - Create a calculator application.
 
+### Key Concepts
+
+- `+`
+- `-`
+- `*`
+- `/`
+- `//`
+- `%`
+- `**`
+- `==`
+- `!=`
+- `>`
+- `<`
+- `>=`
+- `<=`
+- `and`
+- `or`
+- `not`
+
 ---
 
 ## Day 5 — Conditional Statements
 
 ### Topics Covered
 
+- Conditional Statements
 - `if`
 - `elif`
 - `else`
 - Boolean Expressions
 - Nested Conditions
+- Indentation
+- Decision Making
 
 ### Files
 
@@ -199,8 +225,18 @@ Every lesson contains:
 ### Learning Outcomes
 
 - Write decision-making programs.
-- Evaluate conditions.
+- Evaluate Boolean expressions.
+- Create multiple execution paths.
 - Build branching logic.
+
+### Key Concepts
+
+- `if`
+- `elif`
+- `else`
+- Boolean Logic
+- Decision Making
+- Program Flow
 
 ---
 
@@ -208,10 +244,12 @@ Every lesson contains:
 
 ### Topics Covered
 
-- `for`
-- `while`
+- `for` Loops
+- `while` Loops
 - `range()`
+- Loop Variables
 - Iteration
+- Infinite Loops
 
 ### Files
 
@@ -230,8 +268,19 @@ Every lesson contains:
 ### Learning Outcomes
 
 - Repeat tasks using loops.
-- Control iteration with `range()`.
+- Control iteration using `range()`.
+- Automate repetitive tasks.
+- Understand loop variables.
 - Build repetitive workflows.
+
+### Key Concepts
+
+- `for`
+- `while`
+- `range()`
+- Iteration
+- Loop Variables
+- `break`
 
 ---
 
@@ -244,7 +293,7 @@ Every lesson contains:
 - Parameters
 - Arguments
 - Return Values
-- Reusability
+- Code Reusability
 
 ### Files
 
@@ -264,18 +313,264 @@ Every lesson contains:
 
 - Define reusable functions.
 - Pass data through parameters.
-- Return values.
-- Organize code into reusable components.
+- Understand arguments.
+- Return values from functions.
+- Organize programs into reusable components.
+
+### Key Concepts
+
+- `def`
+- Parameters
+- Arguments
+- Function Calls
+- `return`
+- Reusability
+
+---
+
+## Day 8 — Lists
+
+### Topics Covered
+
+- Creating Lists
+- List Indexing
+- Negative Indexing
+- Modifying Lists
+- Adding Elements
+- Removing Elements
+- List Methods
+- Iterating Through Lists
+
+### Files
+
+**Notes**
+
+- `notes/08_lists.py`
+
+**Exercises**
+
+- `exercises/exercise_08.py`
+
+**Mini Project**
+
+- `mini_projects/student_record_manager.py`
+
+### Learning Outcomes
+
+- Create and manipulate Python lists.
+- Access elements using indexes.
+- Use positive and negative indexing.
+- Add and remove list elements.
+- Iterate through lists using loops.
+- Store multiple values in a single variable.
+
+### Key Concepts
+
+- Lists
+- Indexing
+- `append()`
+- `insert()`
+- `remove()`
+- `pop()`
+- `len()`
+- Iteration
+
+---
+
+## Day 9 — Tuples
+
+### Topics Covered
+
+- Creating Tuples
+- Tuple Indexing
+- Negative Indexing
+- Tuple Immutability
+- Tuple Length
+- Iterating Through Tuples
+- `count()`
+- `index()`
+
+### Files
+
+**Notes**
+
+- `notes/09_tuples.py`
+
+**Exercises**
+
+- `exercises/exercise_09.py`
+
+**Mini Project**
+
+- `mini_projects/student_information_record.py`
+
+### Learning Outcomes
+
+- Create and access tuples.
+- Use positive and negative indexing.
+- Understand tuple immutability.
+- Iterate through tuple elements.
+- Use `count()` and `index()`.
+- Understand when a tuple is more appropriate than a list.
+
+### Key Concepts
+
+- Tuples
+- Indexing
+- Immutability
+- `count()`
+- `index()`
+- Iteration
+
+---
+
+## Day 10 — Dictionaries
+
+### Topics Covered
+
+- Creating Dictionaries
+- Key-Value Pairs
+- Accessing Values Using Keys
+- Adding Key-Value Pairs
+- Modifying Dictionary Values
+- Removing Dictionary Items
+- Checking for Keys
+- Dictionary Length
+- Dictionary Iteration
+- `keys()`
+- `values()`
+- `items()`
+- `get()`
+- `pop()`
+
+### Files
+
+**Notes**
+
+- `notes/10_dictionaries.py`
+
+**Exercises**
+
+- `exercises/exercise_10.py`
+
+**Mini Project**
+
+- `mini_projects/student_grade_book.py`
+
+### Learning Outcomes
+
+- Create and work with Python dictionaries.
+- Understand key-value data structures.
+- Access values using dictionary keys.
+- Add and modify dictionary entries.
+- Remove dictionary entries.
+- Check whether a key exists.
+- Iterate through dictionary keys and values.
+- Use dictionaries to represent structured data.
+- Combine dictionaries with loops and conditional statements.
+
+### Key Concepts
+
+- Dictionaries
+- Keys
+- Values
+- Key-Value Pairs
+- `keys()`
+- `values()`
+- `items()`
+- `get()`
+- `pop()`
+- `len()`
+- Dictionary Iteration
+
+### Mini Project Summary
+
+Built a **Student Grade Book** that:
+
+- Collects subjects and marks from the user.
+- Stores the data using a dictionary.
+- Displays the complete grade book.
+- Calculates total marks.
+- Calculates the average mark.
+- Finds the highest mark.
+- Identifies the subject with the highest mark.
+
+---
+
+## Day 11 — Sets
+
+### Topics Covered
+
+- Creating Sets
+- Unique Values
+- Removing Duplicates
+- Set Membership
+- Adding Set Elements
+- Removing Set Elements
+- Set Length
+- Iterating Through Sets
+- Union
+- Intersection
+- Difference
+
+### Files
+
+**Notes**
+
+- `notes/11_sets.py`
+
+**Exercises**
+
+- `exercises/exercise_11.py`
+
+**Mini Project**
+
+- `mini_projects/student_set_analyzer.py`
+
+### Learning Outcomes
+
+- Create and manipulate Python sets.
+- Understand how sets store unique values.
+- Remove duplicate values from collections.
+- Check whether a value exists using `in`.
+- Add and remove elements from sets.
+- Iterate through set elements.
+- Perform union, intersection, and difference operations.
+- Apply sets to simple dataset-related problems.
+
+### Key Concepts
+
+- Sets
+- Unique Values
+- Membership
+- `add()`
+- `remove()`
+- `discard()`
+- `len()`
+- Union (`|`)
+- Intersection (`&`)
+- Difference (`-`)
+
+### Mini Project Summary
+
+Built a **Student Set Analyzer** that:
+
+- Stores students from two different courses using sets.
+- Finds all unique students.
+- Finds students enrolled in both courses.
+- Finds students enrolled only in Python.
+- Calculates the total number of unique students.
+- Demonstrates practical use of set operations.
 
 ---
 
 # Progress
 
-Completed: **7 / 15 Days**
+Completed: **11 / 15 Days**
 
-Current Topic: **Functions**
+Current Topic: **Sets**
 
-Next Topic: **Lists**
+Next Topic: **String Manipulation**
 
 ---
 
