@@ -39,6 +39,13 @@ Every lesson contains:
 
 ---
 
+# Current Progress
+
+> **Day 12 / 15 — String Manipulation**  
+> Next: **Exception Handling**
+
+---
+
 # Learning Journal
 
 ---
@@ -564,13 +571,91 @@ Built a **Student Set Analyzer** that:
 
 ---
 
-# Progress
+## Day 12 — String Manipulation
 
-Completed: **11 / 15 Days**
+### Topics Covered
 
-Current Topic: **Sets**
+- String Indexing
+- Negative Indexing
+- String Slicing
+- String Length
+- Case Conversion
+- `upper()`
+- `lower()`
+- `capitalize()`
+- `title()`
+- Removing Whitespace with `strip()`
+- Replacing Text with `replace()`
+- Searching with `in`
+- Finding Positions with `find()`
+- Splitting Strings with `split()`
+- Joining Strings with `join()`
+- Counting Occurrences with `count()`
+- `startswith()`
+- `endswith()`
+- f-Strings
 
-Next Topic: **String Manipulation**
+### Files
+
+**Notes**
+
+- `notes/12_string_manipulation.py`
+
+**Exercises**
+
+- `exercises/exercise_12.py`
+
+**Mini Project**
+
+- `mini_projects/text_analyzer.py`
+
+### Learning Outcomes
+
+- Access individual characters using string indexing.
+- Extract portions of strings using slicing.
+- Convert strings between different cases.
+- Remove unnecessary whitespace.
+- Search for text within strings.
+- Find the position of text using `find()`.
+- Replace specific text using `replace()`.
+- Split strings into lists.
+- Join lists of strings into a single string.
+- Count occurrences of text.
+- Format strings using f-strings.
+- Apply basic text-cleaning techniques relevant to Machine Learning and NLP.
+
+### Key Concepts
+
+- String Indexing
+- String Slicing
+- String Methods
+- `len()`
+- `upper()`
+- `lower()`
+- `strip()`
+- `replace()`
+- `find()`
+- `split()`
+- `join()`
+- `count()`
+- `startswith()`
+- `endswith()`
+- `in`
+- f-Strings
+
+### Mini Project Summary
+
+Built a **Text Analyzer** that:
+
+- Accepts a sentence from the user.
+- Cleans unnecessary whitespace.
+- Converts the text to lowercase.
+- Calculates the number of characters.
+- Calculates the number of words.
+- Searches for a user-provided word.
+- Counts word occurrences.
+- Replaces the searched word with a masked value.
+- Demonstrates basic text preprocessing techniques.
 
 ---
 

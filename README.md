@@ -2,89 +2,88 @@
 
 A structured journey from Computer Science student to Machine Learning Engineer.
 
-This repository documents the process of building a strong foundation in Python, mathematics, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, MLOps, and Large Language Models.
+This repository documents my progress as I build the foundations required for Machine Learning and gradually move toward Deep Learning, Computer Vision, NLP, MLOps, and Large Language Models.
 
-The focus is not simply on completing tutorials. The goal is to understand concepts from first principles, implement important algorithms, build practical projects, and document the learning process.
+The focus is not simply on completing tutorials.
+
+The goal is to:
+
+- Understand concepts from first principles.
+- Practice through exercises.
+- Implement solutions independently.
+- Build practical projects.
+- Document the learning process.
+- Connect programming concepts to Machine Learning.
+- Progress toward production-oriented Machine Learning systems.
 
 ---
 
-# Table of Contents
+## Table of Contents
 
-- [Overview](#overview)
+- [Journey Status](#journey-status)
 - [Learning Roadmap](#learning-roadmap)
 - [Repository Structure](#repository-structure)
 - [Technology Stack](#technology-stack)
-- [Progress Tracker](#progress-tracker)
-- [Current Focus](#current-focus)
 - [Learning Philosophy](#learning-philosophy)
 - [Featured Projects](#featured-projects)
 - [Books and Resources](#books-and-resources)
 - [Long-Term Goals](#long-term-goals)
 - [Quick Start](#quick-start)
+- [Development](#development)
 - [License](#license)
 - [Connect](#connect)
 
 ---
 
-# Overview
+# Journey Status
 
-The long-term objective is to become industry-ready in:
+> **Current Module:** Python Fundamentals  
+> **Status:** In Progress  
+> **Module Progress:** See [`01_python_for_ml/README.md`](01_python_for_ml/README.md)
 
-- Machine Learning
-- Deep Learning
-- Computer Vision
-- Natural Language Processing
-- MLOps
-- Large Language Models
-
-The journey is structured progressively, starting with Python fundamentals and moving toward increasingly advanced Machine Learning systems.
-
-Each major stage will contain:
-
-- Conceptual notes
-- Coding exercises
-- Practical projects
-- Experiments
-- Technical documentation
+The detailed daily progress is intentionally maintained inside each module rather than duplicated in this README.
 
 ---
 
 # Learning Roadmap
 
 ```text
-Python
-   │
-   ▼
-NumPy
-   │
-   ▼
-Pandas
-   │
-   ▼
+Python Fundamentals
+        │
+        ▼
+      NumPy
+        │
+        ▼
+      Pandas
+        │
+        ▼
 Data Visualization
-   │
-   ▼
+        │
+        ▼
 Statistics & Probability
-   │
-   ▼
+        │
+        ▼
 Machine Learning
-   │
-   ▼
-Deep Learning
-   │
-   ▼
+        │
+        ▼
+  Deep Learning
+        │
+        ▼
+     PyTorch
+        │
+        ▼
 Computer Vision
-   │
-   ▼
-Natural Language Processing
-   │
-   ▼
+        │
+        ▼
+      NLP
+        │
+        ▼
 Model Deployment
-   │
-   ▼
-MLOps
-   │
-   ▼
+        │
+        ▼
+      MLOps
+        │
+        ▼
 Large Language Models
 ```
 
@@ -128,114 +127,64 @@ machine-learning-journey/
 └── README.md
 ```
 
-Each numbered module contains its own learning material and progress documentation.
+Each numbered directory represents a major stage of the learning journey.
+
+Each module will contain its own:
+
+- README
+- Notes
+- Exercises
+- Mini Projects
+
+This keeps detailed learning progress separated from the main repository overview.
 
 ---
 
 # Technology Stack
 
-| Category            | Technologies                    |
-| ------------------- | ------------------------------- |
-| Programming         | Python                          |
-| Data Analysis       | NumPy, Pandas                   |
-| Visualization       | Matplotlib, Seaborn             |
-| Machine Learning    | Scikit-learn, XGBoost, LightGBM |
-| Deep Learning       | PyTorch                         |
-| Computer Vision     | OpenCV, Albumentations          |
-| NLP                 | Hugging Face Transformers       |
-| Experiment Tracking | MLflow, Weights & Biases        |
-| Data Versioning     | DVC                             |
-| Deployment          | FastAPI, Streamlit, Docker      |
-| Testing             | Pytest                          |
-| Code Quality        | Ruff, Black, Pre-commit         |
-| Documentation       | MkDocs                          |
-| Version Control     | Git, GitHub                     |
-| Development         | VS Code, JupyterLab             |
+| Category | Technologies |
+|---|---|
+| Programming | Python |
+| Data Analysis | NumPy, Pandas |
+| Visualization | Matplotlib, Seaborn |
+| Machine Learning | Scikit-learn, XGBoost, LightGBM |
+| Deep Learning | PyTorch |
+| Computer Vision | OpenCV, Albumentations |
+| NLP | Hugging Face Transformers |
+| Experiment Tracking | MLflow, Weights & Biases |
+| Data Versioning | DVC |
+| Deployment | FastAPI, Streamlit, Docker |
+| Testing | Pytest |
+| Code Quality | Ruff, Black, Pre-commit |
+| Documentation | MkDocs |
+| Version Control | Git, GitHub |
+| Development | VS Code, JupyterLab |
 
----
-
-# Progress Tracker
-
-| Module              | Status      |
-| ------------------- | ----------- |
-| Python Fundamentals | In Progress |
-| NumPy               | Planned     |
-| Pandas              | Planned     |
-| Data Visualization  | Planned     |
-| Statistics          | Planned     |
-| Machine Learning    | Planned     |
-| Deep Learning       | Planned     |
-| PyTorch             | Planned     |
-| Computer Vision     | Planned     |
-| Projects            | Planned     |
-
-Detailed daily progress is maintained inside each module.
-
----
-
-# Current Focus
-
-## Python Fundamentals
-
-Currently completing the Python foundation required for Machine Learning.
-
-### Completed
-
-- Variables
-- Data Types
-- User Input and Output
-- Operators
-- Conditional Statements
-- Loops
-- Functions
-- Lists
-- Tuples
-- Dictionaries
-
-### Next
-
-- Sets
-- String Manipulation
-- Exception Handling
-- File Handling
-- Object-Oriented Programming
-
-### Current Progress
-
-```text
-Python Fundamentals
-██████████████░░░░░░ 10 / 15 Days
-```
-
-Detailed daily learning progress is available in:
-
-```text
-01_python_for_ml/README.md
-```
+These technologies will be introduced progressively as they become relevant to the roadmap.
 
 ---
 
 # Learning Philosophy
 
-The objective of this repository is not simply to collect tutorial code.
+This repository is designed around **learning by building**.
 
 For every major topic, the goal is to:
 
-- Understand the underlying concepts.
-- Practice through focused exercises.
-- Implement solutions independently.
-- Build practical projects.
-- Document what was learned.
-- Connect concepts to Machine Learning.
-- Progress from simple implementations toward production-oriented systems.
+1. Understand the concept.
+2. Study the underlying reasoning.
+3. Practice with focused exercises.
+4. Implement solutions independently.
+5. Build a small practical project.
+6. Document what was learned.
+7. Connect the concept to Machine Learning where appropriate.
 
-Learning by building is the guiding principle of this journey.
+The objective is understanding, not simply completing tutorials.
 
 ---
 
 # Featured Projects
 
-Projects will be added as the journey progresses.
+Projects will be added and developed as the roadmap progresses.
 
 ## Beginner
 
@@ -282,14 +231,20 @@ Projects will be added as the journey progresses.
 
 - Complete the Machine Learning roadmap.
 - Build 30+ Machine Learning projects.
-- Develop strong mathematical foundations for ML.
+- Develop strong mathematical foundations for Machine Learning.
 - Implement important algorithms from scratch.
 - Publish detailed technical notes.
 - Study influential research papers.
 - Build and deploy production-ready ML applications.
 - Learn modern MLOps practices.
 - Contribute to open-source Machine Learning projects.
-- Develop practical expertise in Deep Learning, Computer Vision, NLP, and LLMs.
+- Develop practical expertise in:
+  - Machine Learning
+  - Deep Learning
+  - Computer Vision
+  - NLP
+  - MLOps
+  - Large Language Models
 
 ---
 
@@ -349,7 +304,9 @@ jupyter lab
 
 # Development
 
-The repository uses a number of tools to maintain code quality and reproducibility.
+The repository will progressively introduce tools for writing maintainable, reproducible, and production-oriented code.
+
+### Python Development
 
 ```text
 Python
@@ -360,17 +317,38 @@ Python
    └── Pre-commit
 ```
 
-Machine Learning workflows will additionally use tools such as:
+### Machine Learning Development
 
 ```text
-MLflow
-DVC
-Weights & Biases
-Docker
-FastAPI
+Machine Learning
+       │
+       ├── MLflow
+       ├── DVC
+       ├── Weights & Biases
+       ├── Docker
+       └── FastAPI
 ```
 
-These tools will be introduced progressively as the roadmap advances.
+These tools will be introduced when they become relevant to the learning stage.
+
+---
+
+# Progress Tracking
+
+Detailed progress is intentionally **not duplicated here**.
+
+For daily learning progress, exercises, notes, and mini projects, see the relevant module README.
+
+### Current Module
+
+```text
+01_python_for_ml/
+└── README.md
+```
+
+The module README contains the complete day-by-day learning journal.
+
+Future modules will follow the same structure.
 
 ---
 
@@ -378,7 +356,7 @@ These tools will be introduced progressively as the roadmap advances.
 
 This project is licensed under the MIT License.
 
-See the LICENSE file for details.
+See the `LICENSE` file for details.
 
 ---
 
@@ -386,4 +364,4 @@ See the LICENSE file for details.
 
 GitHub: https://github.com/Mehedi032003
 
-If you have suggestions, ideas, or improvements, feel free to open an issue or start a discussion.
+Suggestions, ideas, and improvements are welcome through GitHub issues or discussions.
