@@ -41,9 +41,8 @@ Every lesson contains:
 
 # Current Progress
 
-> **Day 12 / 15 — String Manipulation**  
-> Next: **Exception Handling**
-
+> **Day 13 / 15 — Exception Handling**  
+> Next: **File Handling**
 ---
 
 # Learning Journal
@@ -657,6 +656,70 @@ Built a **Text Analyzer** that:
 - Replaces the searched word with a masked value.
 - Demonstrates basic text preprocessing techniques.
 
+---
+
+## Day 13 — Exception Handling
+
+### Topics Covered
+
+- Exceptions and Runtime Errors
+- `try`
+- `except`
+- Specific Exceptions
+- `ValueError`
+- `ZeroDivisionError`
+- `IndexError`
+- `KeyError`
+- Multiple `except` Blocks
+- `else`
+- `finally`
+
+### Files
+
+**Notes**
+
+- `notes/13_exception_handling.py`
+
+**Exercises**
+
+- `exercises/exercise_13.py`
+
+**Mini Project**
+
+- `mini_projects/error_safe_calculator.py`
+
+### Learning Outcomes
+
+- Understand the purpose of exception handling.
+- Identify common Python exceptions.
+- Handle invalid user input safely.
+- Use specific exception types with `except`.
+- Handle multiple types of exceptions.
+- Use `else` for successful execution.
+- Use `finally` for code that should always run.
+- Build programs that handle unexpected input without crashing.
+
+### Key Concepts
+
+- `try`
+- `except`
+- `else`
+- `finally`
+- `ValueError`
+- `ZeroDivisionError`
+- `IndexError`
+- `KeyError`
+
+### Mini Project Summary
+
+Built an **Error-Safe Calculator** that:
+
+- Accepts two numbers and an arithmetic operation.
+- Handles invalid numeric input.
+- Prevents crashes caused by division by zero.
+- Handles invalid operations.
+- Uses exception handling to keep the program running safely.
+- Uses `finally` to display a completion message.
 ---
 
 # References
