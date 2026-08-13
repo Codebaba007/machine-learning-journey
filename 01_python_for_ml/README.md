@@ -41,8 +41,8 @@ Every lesson contains:
 
 # Current Progress
 
-> **Day 13 / 15 — Exception Handling**  
-> Next: **File Handling**
+> **Day 14 / 15 — File Handling**  
+> Next: **Object-Oriented Programming (OOP)**
 ---
 
 # Learning Journal
@@ -720,6 +720,58 @@ Built an **Error-Safe Calculator** that:
 - Handles invalid operations.
 - Uses exception handling to keep the program running safely.
 - Uses `finally` to display a completion message.
+---
+## Day 14 — File Handling
+
+### Topics Covered
+
+- File handling fundamentals
+- `open()`
+- File modes: `r`, `w`, and `a`
+- Reading files with `read()`
+- Reading files line by line
+- `readline()`
+- `readlines()`
+- Writing to files with `write()`
+- Appending data to files
+- Newline character `\n`
+- Using `with open(...)`
+- Automatic file closing
+- `FileNotFoundError`
+- Combining file handling with exception handling
+
+### Files
+
+- `notes/14_file_handling.py`
+- `exercises/exercise_14.py`
+- `mini_projects/student_data_file_manager.py`
+
+### Learning Outcomes
+
+By the end of this day, I can:
+
+- Create and open files using Python.
+- Read information from text files.
+- Write information to files.
+- Append information without replacing existing data.
+- Read files line by line.
+- Count lines in a file.
+- Handle missing files using `FileNotFoundError`.
+- Use `with open(...)` for safe file handling.
+- Combine file handling with exception handling.
+
+### Mini-Project — Student Data File Manager
+
+Built a command-line student data manager that allows users to:
+
+- Add student information.
+- Save student records to a text file.
+- View saved student records.
+- Append multiple student records without deleting previous data.
+- Handle missing student data files safely.
+
+The project combines Python fundamentals, functions, loops, conditionals, file handling, and exception handling.
+
 ---
 
 # References
