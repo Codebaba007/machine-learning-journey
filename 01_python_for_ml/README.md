@@ -41,8 +41,8 @@ Every lesson contains:
 
 # Current Progress
 
-> **Day 14 / 15 — File Handling**  
-> Next: **Object-Oriented Programming (OOP)**
+> **Day 15 / 15 — File Handling**  
+> Next: ** NumPy **
 ---
 
 # Learning Journal
@@ -771,6 +771,58 @@ Built a command-line student data manager that allows users to:
 - Handle missing student data files safely.
 
 The project combines Python fundamentals, functions, loops, conditionals, file handling, and exception handling.
+
+---
+## Day 15 — Object-Oriented Programming (OOP)
+
+### Topics Covered
+
+- Object-oriented programming fundamentals
+- Classes and objects
+- Attributes
+- Methods
+- `__init__()`
+- `self`
+- Creating multiple objects from a class
+- Updating object attributes
+- Storing objects inside lists
+- Iterating through a list of objects
+- Combining OOP with functions, loops, conditionals, and user input
+
+### Files
+
+- `notes/15_oop.py`
+- `exercises/exercise_15.py`
+- `mini_projects/student_management_system.py`
+
+### Learning Outcomes
+
+By the end of this day, I can:
+
+- Create Python classes.
+- Create objects from classes.
+- Initialize objects using `__init__()`.
+- Store information as object attributes.
+- Create methods that operate on objects.
+- Modify object attributes after creation.
+- Store multiple objects inside a list.
+- Loop through objects and call their methods.
+- Build a command-line program using OOP.
+
+### Mini-Project — Student Management System
+
+Built a command-line student management system using object-oriented programming.
+
+The system allows users to:
+
+- Add students.
+- View all students.
+- Search for a student by name.
+- Store student information using `Student` objects.
+- Manage multiple student objects using a list.
+- Exit the program through a menu.
+
+The project combines OOP with Python fundamentals including classes, objects, methods, lists, functions, loops, conditionals, user input, and type conversion.
 
 ---
 
