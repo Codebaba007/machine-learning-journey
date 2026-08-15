@@ -1,29 +1,105 @@
-# 🔢 Module 02: NumPy for Numerical Computing
+# NumPy
 
-## 📖 Overview
-NumPy is the foundational library for scientific computing in Python. It provides high-performance multidimensional array objects and tools for working with them, essential for all ML algorithms.
+A structured journey through NumPy with a focus on Machine Learning, Data Science, and AI.
 
-## 🎯 Learning Objectives
-1. Create and manipulate N-dimensional NumPy arrays.
-2. Understand array attributes (shape, dtype, strides).
-3. Perform advanced indexing and slicing on arrays.
-4. Apply mathematical operations efficiently using vectorization.
-5. Understand and apply broadcasting rules.
-6. Use aggregation functions (sum, mean, std) across different axes.
-7. Perform essential linear algebra operations (dot product, matrix multiplication).
-8. Utilize boolean and fancy indexing for data filtering.
-9. Reshape, stack, and split arrays without copying data.
-10. Benchmark NumPy vs vanilla Python to understand performance gains.
+---
 
-## 🛠️ Prerequisites
-- Completion of Module 01 (Python Fundamentals)
-- Basic understanding of linear algebra concepts (vectors, matrices)
+## Overview
 
-## 📂 Folder Structure
-- `notes/`: Concepts of vectorization and array manipulation.
-- `exercises/`: Array challenges and math problems.
-- `mini_projects/`: Projects applying NumPy to real data structures.
+This repository documents my progress as I build a strong foundation in NumPy for Machine Learning.
 
-## 📚 Resources
-- [NumPy Official Documentation](https://numpy.org/doc/)
-- [Python Data Science Handbook (NumPy chapter)](https://jakevdp.github.io/PythonDataScienceHandbook/)
+The goal is to learn NumPy through practical exercises and projects before moving deeper into:
+
+- Pandas
+- Matplotlib
+- Statistics and Probability
+- Scikit-learn
+- Machine Learning
+- PyTorch
+- Deep Learning
+- Computer Vision
+
+Every day contains:
+
+- Notes
+- Exercises
+- A Mini Project
+
+---
+
+# Current Progress
+
+> **Day 1 — NumPy Fundamentals**  
+> Next: **Array Operations and Data Manipulation**
+
+---
+
+## Day 1 — NumPy Fundamentals
+
+### Topics Covered
+
+- NumPy fundamentals
+- Importing NumPy
+- NumPy arrays
+- `numpy.ndarray`
+- Creating arrays
+- Array indexing
+- Negative indexing
+- Array length
+- Basic numerical operations
+- `np.mean()`
+- `np.max()`
+- `np.min()`
+- `np.sum()`
+- `np.sort()`
+- Boolean comparisons
+- Array filtering
+- Vectorized operations
+- Arithmetic operations across arrays
+
+### Files
+
+- `notes/01_numpy_fundamentals.py`
+- `exercises/exercise_01.py`
+- `mini_projects/numpy_student_analyzer.py`
+
+### Learning Outcomes
+
+By the end of this day, I can:
+
+- Create NumPy arrays.
+- Access array elements using indexes.
+- Use positive and negative indexing.
+- Calculate basic statistics from arrays.
+- Sort NumPy arrays.
+- Perform arithmetic operations across entire arrays.
+- Create Boolean conditions from arrays.
+- Filter array values using Boolean conditions.
+- Perform basic numerical data analysis using NumPy.
+
+### Mini-Project — NumPy Student Performance Analyzer
+
+Built a student performance analyzer using NumPy arrays.
+
+The project:
+
+- Stores student marks using a NumPy array.
+- Calculates total marks.
+- Calculates average marks.
+- Finds the highest mark.
+- Finds the lowest mark.
+- Separates passing and failing marks.
+- Sorts student marks.
+- Applies a bonus to all marks using vectorized operations.
+
+The project introduced NumPy arrays, numerical operations, Boolean filtering, and vectorized calculations.
+---
+## Repository Structure
+
+```text
+02_numpy/
+│
+├── README.md
+├── notes/
+├── exercises/
+└── mini_projects/

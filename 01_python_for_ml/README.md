@@ -41,8 +41,8 @@ Every lesson contains:
 
 # Current Progress
 
-> **Day 16 — NumPy**  
-> Next: **NumPy Arrays and Data Manipulation**
+> **Day 15 — NumPy**  
+> Next: ** NumPy **
 
 # Learning Journal
 
@@ -822,65 +822,6 @@ The system allows users to:
 - Exit the program through a menu.
 
 The project combines OOP with Python fundamentals including classes, objects, methods, lists, functions, loops, conditionals, user input, and type conversion.
-
----
-
-## Day 16 — NumPy
-
-### Topics Covered
-
-- NumPy fundamentals
-- Importing NumPy
-- Creating NumPy arrays
-- `numpy.ndarray`
-- Array indexing
-- Negative indexing
-- Array length
-- `np.mean()`
-- `np.max()`
-- `np.min()`
-- `np.sum()`
-- `np.sort()`
-- Boolean comparisons
-- NumPy array filtering
-- Vectorized operations
-- Performing arithmetic operations on entire arrays
-
-### Files
-
-- `notes/16_numpy.py`
-- `exercises/exercise_16.py`
-- `mini_projects/numpy_student_analyzer.py`
-
-### Learning Outcomes
-
-By the end of this day, I can:
-
-- Create NumPy arrays.
-- Access elements using indexing.
-- Calculate basic statistics from arrays.
-- Sort NumPy arrays.
-- Perform arithmetic operations across entire arrays.
-- Create Boolean conditions from arrays.
-- Filter array values using Boolean conditions.
-- Use NumPy for basic data analysis.
-
-### Mini-Project — NumPy Student Performance Analyzer
-
-Built a student performance analyzer using NumPy arrays.
-
-The project calculates:
-
-- Total marks.
-- Average marks.
-- Highest mark.
-- Lowest mark.
-- Passing students.
-- Failing students.
-- Sorted marks.
-- Marks after applying a bonus.
-
-The project introduced NumPy array operations, Boolean filtering, and vectorized calculations that will be important when working with machine learning datasets.
 
 ---
 
