@@ -30,8 +30,8 @@ Every day contains:
 # Current Progress
 
 
-> **Day 3 — Array Operations and Data Manipulation**
-> Next: **Array Aggregation and Statistical Operations**
+> **Day 4 — Array Aggregation and Statistical Operations**  
+> Next: **Array Manipulation and Data Cleaning**
 ---
 
 ## Day 1 — NumPy Fundamentals
@@ -223,6 +223,75 @@ The project:
 - Creates zero-filled and one-filled arrays using `zeros()` and `ones()`.
 
 The project combined two-dimensional arrays, indexing, slicing, modification, vectorization, broadcasting, and NumPy array creation methods.
+---
+---
+
+## Day 4 — Array Aggregation and Statistical Operations
+
+### Topics Covered
+
+- Array aggregation
+- `axis`
+- `np.sum()`
+- `np.mean()`
+- `np.max()`
+- `np.min()`
+- `np.std()`
+- `np.median()`
+- `np.argmax()`
+- `np.argmin()`
+- `np.ptp()`
+- Boolean aggregation
+- `np.any()`
+- `np.all()`
+- Counting Boolean conditions with `np.sum()`
+- Combining Boolean conditions
+- `axis=0`
+- `axis=1`
+- Statistical analysis of two-dimensional arrays
+
+### Files
+
+- `notes/03_array_aggregation.py`
+- `exercises/exercise_03.py`
+- `mini_projects/numpy_statistics_analyzer.py`
+
+### Learning Outcomes
+
+By the end of this day, I can:
+
+- Perform aggregation operations on NumPy arrays.
+- Calculate totals and averages.
+- Find maximum and minimum values.
+- Calculate standard deviation and median.
+- Find the positions of maximum and minimum values.
+- Calculate the range of an array.
+- Use `axis=0` to analyze columns.
+- Use `axis=1` to analyze rows.
+- Use Boolean conditions to analyze array data.
+- Determine whether any or all values satisfy a condition.
+- Count values that satisfy a condition.
+- Combine multiple Boolean conditions.
+- Perform statistical analysis on two-dimensional datasets.
+
+### Mini-Project — Student Statistics Analyzer
+
+Built a **Student Statistics Analyzer** using NumPy.
+
+The project:
+
+- Stores student marks in a two-dimensional array.
+- Displays dataset dimensions and structure.
+- Calculates overall statistics.
+- Calculates subject-level statistics.
+- Calculates student-level statistics.
+- Calculates averages, medians, ranges, and standard deviations.
+- Identifies the best and weakest subject based on average performance.
+- Counts marks meeting specific performance thresholds.
+- Uses Boolean aggregation for performance analysis.
+- Uses `argmax()` and `argmin()` to identify the best and weakest subjects.
+
+The project combined NumPy aggregation, statistical operations, axis-based analysis, Boolean conditions, and two-dimensional dataset analysis.
 ---
 ## Repository Structure
 
