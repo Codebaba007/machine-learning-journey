@@ -29,9 +29,9 @@ Every day contains:
 
 # Current Progress
 
+> **Day 5 — Array Manipulation and Data Cleaning**  
+> Next: **NumPy Revision**
 
-> **Day 4 — Array Aggregation and Statistical Operations**  
-> Next: **Array Manipulation and Data Cleaning**
 ---
 
 ## Day 1 — NumPy Fundamentals
@@ -292,6 +292,79 @@ The project:
 - Uses `argmax()` and `argmin()` to identify the best and weakest subjects.
 
 The project combined NumPy aggregation, statistical operations, axis-based analysis, Boolean conditions, and two-dimensional dataset analysis.
+---
+---
+
+## Day 5 — Array Manipulation and Data Cleaning
+
+### Topics Covered
+
+- Array concatenation
+- `np.concatenate()`
+- Vertical stacking
+- `np.vstack()`
+- Horizontal stacking
+- `np.hstack()`
+- Adding elements with `np.append()`
+- Inserting elements with `np.insert()`
+- Removing elements with `np.delete()`
+- Conditional replacement
+- `np.where()`
+- Conditional labels
+- Missing values
+- `np.nan`
+- Detecting missing values with `np.isnan()`
+- Counting missing values
+- `np.nanmean()`
+- `np.nanmin()`
+- `np.nanmax()`
+- Replacing missing values
+- Removing missing values
+- Sorting arrays
+- Column-based data cleaning
+- Missing-value imputation
+- Preparing datasets for machine learning
+
+### Files
+
+- `notes/04_array_manipulation.py`
+- `exercises/exercise_04.py`
+- `mini_projects/numpy_data_cleaner.py`
+
+### Learning Outcomes
+
+- Combine NumPy arrays.
+- Stack arrays vertically and horizontally.
+- Add, insert, and delete array elements.
+- Replace values based on conditions.
+- Use `np.where()` for vectorized conditional operations.
+- Detect missing values using `np.isnan()`.
+- Count missing values in a dataset.
+- Calculate statistics while ignoring missing values.
+- Replace missing values using column means.
+- Remove missing values when appropriate.
+- Sort array data.
+- Perform basic data-cleaning operations on two-dimensional datasets.
+- Prepare numerical data for later machine learning workflows.
+
+### Mini-Project — NumPy Data Cleaner
+
+Built a NumPy-based data cleaning and analysis system.
+
+The project:
+
+- Stores student performance data in a two-dimensional array.
+- Detects missing values.
+- Counts missing values by subject.
+- Calculates subject averages while ignoring missing values.
+- Replaces missing values with the corresponding subject average.
+- Calculates student totals and averages.
+- Classifies students as pass or fail.
+- Identifies the best-performing student.
+- Identifies the strongest and weakest subjects.
+- Performs threshold-based performance analysis.
+- Sorts each student's marks.
+- Produces a cleaned dataset ready for further analysis.
 ---
 ## Repository Structure
 
