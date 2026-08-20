@@ -29,7 +29,7 @@ Every day contains:
 
 # Current Progress
 
-> **Day 5 — Array Manipulation and Data Cleaning**  
+> **Day 6 — Random Numbers and Data Generation**  
 > Next: **NumPy Revision**
 
 ---
@@ -366,6 +366,60 @@ The project:
 - Sorts each student's marks.
 - Produces a cleaned dataset ready for further analysis.
 ---
+
+---
+
+## Day 6 — Random Numbers and Data Generation
+
+### Topics Covered
+
+- Random number generation
+- `np.random.rand()`
+- `np.random.randint()`
+- `np.random.uniform()`
+- `np.random.normal()`
+- `np.random.choice()`
+- Random seeds
+- `np.random.seed()`
+- Reproducible random data
+- Synthetic dataset generation
+- Random student datasets
+- Statistical analysis of generated data
+
+### Files
+
+- `notes/05_random_numbers.py`
+- `exercises/exercise_05.py`
+- `mini_projects/numpy_random_data_generator.py`
+
+### Learning Outcomes
+
+- Generate random numerical data.
+- Generate random integers within a specified range.
+- Generate uniformly distributed values.
+- Generate normally distributed values.
+- Randomly select values from an array.
+- Use random seeds for reproducibility.
+- Generate synthetic datasets.
+- Calculate statistics from generated data.
+- Use generated datasets for experimentation and testing.
+
+### Mini-Project — Random Student Dataset Generator
+
+Built a synthetic student dataset generator using NumPy.
+
+The project:
+
+- Generates student marks randomly.
+- Uses a fixed random seed for reproducibility.
+- Calculates subject-level statistics.
+- Calculates student averages.
+- Identifies the best and lowest-performing students.
+- Calculates overall dataset statistics.
+- Determines pass/fail counts.
+- Demonstrates how NumPy can generate synthetic data for experimentation.
+---
+
 ## Repository Structure
 
 ```text
