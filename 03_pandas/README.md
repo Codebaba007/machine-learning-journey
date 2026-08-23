@@ -28,9 +28,8 @@ Every day contains:
 
 # Current Progress
 
-> **Day 1 — Pandas Fundamentals**  
-> Next: **Pandas Data Selection and Filtering**
-
+> **Day 2 — Data Selection and Filtering**  
+> Next: **Pandas Data Cleaning and Missing Values**
 ---
 
 ## Day 1 — Pandas Fundamentals
@@ -96,6 +95,68 @@ The project:
 
 The project introduced Pandas Series, DataFrames, column selection, DataFrame inspection, statistical calculations, and calculated columns.
 
+---
+---
+
+## Day 2 — Data Selection and Filtering
+
+### Topics Covered
+
+- DataFrame row selection
+- `loc[]`
+- `iloc[]`
+- Selecting individual rows
+- Selecting multiple rows
+- Selecting specific rows and columns
+- Boolean filtering
+- Conditional filtering
+- Multiple conditions
+- AND conditions with `&`
+- OR conditions with `|`
+- Range filtering
+- Filtering based on column values
+- Selecting columns from filtered data
+- Creating calculated columns
+
+### Files
+
+- `notes/02_data_selection.py`
+- `exercises/exercise_02.py`
+- `mini_projects/pandas_data_filter.py`
+
+### Learning Outcomes
+
+By the end of this day, I can:
+
+- Select rows using `loc[]`.
+- Select rows using `iloc[]`.
+- Select specific rows and columns.
+- Filter DataFrames using Boolean conditions.
+- Combine multiple filtering conditions.
+- Use `&` for AND conditions.
+- Use `|` for OR conditions.
+- Filter values within a specific range.
+- Select specific columns from filtered data.
+- Create calculated columns for further filtering.
+- Analyze structured datasets using conditional selection.
+
+### Mini-Project — Pandas Student Data Filter
+
+Built a student data filtering system using Pandas.
+
+The project:
+
+- Stores student marks in a DataFrame.
+- Displays selected rows and columns.
+- Filters students based on Python marks.
+- Filters students based on Mathematics marks.
+- Combines multiple conditions using AND.
+- Combines multiple conditions using OR.
+- Filters marks within a specified range.
+- Calculates student averages.
+- Identifies students with an average of 80 or higher.
+
+The project combined DataFrame selection, `loc[]`, `iloc[]`, Boolean filtering, multiple conditions, and calculated columns.
 ---
 
 ## Repository Structure
