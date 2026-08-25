@@ -27,10 +27,8 @@ Every day contains:
 ---
 
 # Current Progress
-
-> **Day 3 — Data Cleaning and Missing Values**  
-> Next: **Pandas Data Transformation**
----
+> **Day 4 — Data Transformation**  
+> Next: **Pandas Grouping and Aggregation**
 
 ## Day 1 — Pandas Fundamentals
 
@@ -219,6 +217,70 @@ The project:
 
 The project combined missing-value detection, DataFrame cleaning, `copy()`, `fillna()`, statistical calculations, and conditional filtering.
 
+---
+---
+
+## Day 4 — Data Transformation
+
+### Topics Covered
+
+- Creating new columns
+- Modifying DataFrame columns
+- Calculated columns
+- `apply()`
+- Lambda functions
+- Custom functions
+- `map()`
+- Renaming columns
+- `rename()`
+- Sorting DataFrames
+- `sort_values()`
+- Ascending and descending sorting
+- Filtering transformed data
+- Data transformation workflows
+
+### Files
+
+- `notes/04_data_transformation.py`
+- `exercises/exercise_04.py`
+- `mini_projects/pandas_data_transformer.py`
+
+### Learning Outcomes
+
+By the end of this day, I can:
+
+- Create new calculated columns.
+- Modify existing DataFrame columns.
+- Apply functions to DataFrame values.
+- Use lambda functions for simple transformations.
+- Create custom functions for data transformation.
+- Rename DataFrame columns.
+- Sort DataFrames by specific columns.
+- Sort values in ascending or descending order.
+- Filter transformed DataFrames.
+- Combine multiple transformation operations.
+- Prepare structured data for further analysis.
+
+### Mini-Project — Pandas Student Data Transformer
+
+Built a student data transformation system using Pandas.
+
+The project:
+
+- Stores student marks in a DataFrame.
+- Calculates total marks.
+- Calculates student averages.
+- Creates pass/fail status.
+- Assigns grades using a custom function.
+- Renames subject columns.
+- Ranks students by average.
+- Identifies the best-performing student.
+- Filters high-performing students.
+- Calculates subject averages.
+- Identifies the lowest-performing students.
+- Produces a final performance summary.
+
+The project combined calculated columns, `apply()`, lambda functions, custom functions, column renaming, sorting, filtering, and DataFrame transformation.
 ---
 
 ## Repository Structure
