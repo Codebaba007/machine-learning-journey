@@ -25,10 +25,8 @@ Every day contains:
 - A Mini Project
 
 ---
-
-# Current Progress
-> **Day 4 — Data Transformation**  
-> Next: **Pandas Grouping and Aggregation**
+> **Day 5 — Grouping and Aggregation**  
+> Next: **Pandas Data Combining and Merging**
 
 ## Day 1 — Pandas Fundamentals
 
@@ -281,6 +279,69 @@ The project:
 - Produces a final performance summary.
 
 The project combined calculated columns, `apply()`, lambda functions, custom functions, column renaming, sorting, filtering, and DataFrame transformation.
+---
+---
+
+## Day 5 — Grouping and Aggregation
+
+### Topics Covered
+
+- Grouping DataFrames
+- `groupby()`
+- Group-based analysis
+- Group averages
+- Group totals
+- Group maximum values
+- Group minimum values
+- Group counts
+- `agg()`
+- Multiple aggregations
+- `idxmax()`
+- `nunique()`
+- Group-level performance analysis
+- Comparing groups using calculated statistics
+
+### Files
+
+- `notes/05_grouping_aggregation.py`
+- `exercises/exercise_05.py`
+- `mini_projects/pandas_grouped_analyzer.py`
+
+### Learning Outcomes
+
+By the end of this day, I can:
+
+- Group DataFrame data using `groupby()`.
+- Calculate averages for individual groups.
+- Calculate totals for individual groups.
+- Find maximum and minimum values within groups.
+- Count records within each group.
+- Perform multiple aggregations using `agg()`.
+- Find the index of the highest value using `idxmax()`.
+- Count unique groups using `nunique()`.
+- Compare group-level statistics.
+- Analyze performance across different groups.
+
+### Mini-Project — Pandas Grouped Student Analyzer
+
+Built a grouped student performance analyzer using Pandas.
+
+The project:
+
+- Stores student performance data with department information.
+- Calculates student averages.
+- Groups students by department.
+- Counts students in each department.
+- Calculates average performance by department.
+- Calculates total, highest, and lowest marks by department.
+- Performs multiple aggregations.
+- Identifies the best-performing department.
+- Identifies the best student in each department.
+- Calculates the overall class average.
+- Finds students performing above the class average.
+
+The project combined `groupby()`, aggregation functions, `agg()`, `idxmax()`, `nunique()`, calculated columns, and group-level analysis.
+
 ---
 
 ## Repository Structure
