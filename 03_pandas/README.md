@@ -25,8 +25,8 @@ Every day contains:
 - A Mini Project
 
 ---
-> **Day 5 — Grouping and Aggregation**  
-> Next: **Pandas Data Combining and Merging**
+> **Day 6 — Data Combining and Merging**  
+> Next: **Pandas Data Input and Output**
 
 ## Day 1 — Pandas Fundamentals
 
@@ -343,6 +343,70 @@ The project:
 The project combined `groupby()`, aggregation functions, `agg()`, `idxmax()`, `nunique()`, calculated columns, and group-level analysis.
 
 ---
+---
+
+## Day 6 — Data Combining and Merging
+
+### Topics Covered
+
+- Combining DataFrames
+- `pd.concat()`
+- Combining rows
+- Combining columns
+- `merge()`
+- `join()`
+- Merge keys
+- `on`
+- `left_on`
+- `right_on`
+- Inner merge
+- Left merge
+- Right merge
+- Outer merge
+- Index-based joining
+- Combining multiple DataFrames
+- Handling missing values after merging
+
+### Files
+
+- `notes/06_combining_merging.py`
+- `exercises/exercise_06.py`
+- `mini_projects/pandas_data_merger.py`
+
+### Learning Outcomes
+
+By the end of this day, I can:
+
+- Combine DataFrames using `concat()`.
+- Combine DataFrames vertically and horizontally.
+- Merge DataFrames using common keys.
+- Use different merge types.
+- Understand inner, left, right, and outer merges.
+- Merge DataFrames with differently named key columns.
+- Join DataFrames using their indexes.
+- Understand the difference between `concat()`, `merge()`, and `join()`.
+- Combine multiple datasets into a single DataFrame.
+- Handle missing values created during data merging.
+
+### Mini-Project — Pandas Student Data Merger
+
+Built a student data merging system using Pandas.
+
+The project:
+
+- Stores student information separately from marks and attendance.
+- Combines datasets using `merge()`.
+- Demonstrates inner and left merges.
+- Adds attendance information to the main dataset.
+- Handles missing marks.
+- Calculates student averages.
+- Filters high-performing students.
+- Filters students based on attendance.
+- Performs department-level analysis.
+- Identifies the best-performing student.
+- Produces a final combined dataset.
+
+The project combined `merge()`, multiple DataFrames, missing-value handling, calculated columns, filtering, and `groupby()` analysis.
 
 ## Repository Structure
 
