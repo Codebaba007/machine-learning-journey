@@ -25,8 +25,8 @@ Every day contains:
 - A Mini Project
 
 ---
-> **Day 6 — Data Combining and Merging**  
-> Next: **Pandas Data Input and Output**
+> **Day 7 — Data Input and Output**  
+> Next: **Pandas Data Cleaning & Preprocessing**
 
 ## Day 1 — Pandas Fundamentals
 
@@ -407,6 +407,72 @@ The project:
 - Produces a final combined dataset.
 
 The project combined `merge()`, multiple DataFrames, missing-value handling, calculated columns, filtering, and `groupby()` analysis.
+---
+---
+
+## Day 7 — Data Input and Output
+
+### Topics Covered
+
+- Reading CSV files
+- Writing CSV files
+- `read_csv()`
+- `to_csv()`
+- Reading Excel files
+- Writing Excel files
+- `read_excel()`
+- `to_excel()`
+- Reading JSON files
+- Writing JSON files
+- `read_json()`
+- `to_json()`
+- `usecols`
+- Dataset inspection
+- Loading and saving real data
+- DataFrame ↔ file workflows
+
+### Files
+
+- `notes/07_data_io.py`
+- `exercises/exercise_07.py`
+- `mini_projects/pandas_file_analyzer.py`
+
+### Learning Outcomes
+
+By the end of this day, I can:
+
+- Load CSV data into a DataFrame.
+- Save DataFrames as CSV files.
+- Load and save Excel files.
+- Load and save JSON files.
+- Select specific columns while importing data.
+- Inspect imported datasets.
+- Build a basic file-based data pipeline.
+- Clean and transform imported data.
+- Export processed datasets.
+
+### Mini-Project — Pandas Student File Analyzer
+
+Built a student file analysis system using Pandas.
+
+The project:
+
+- Loads student data from a CSV file.
+- Inspects the dataset structure.
+- Checks for missing values.
+- Cleans missing numerical values.
+- Calculates total and average marks.
+- Assigns grades.
+- Determines pass/fail status.
+- Sorts students by performance.
+- Identifies top students.
+- Calculates class statistics.
+- Creates a grade distribution.
+- Exports the analyzed dataset.
+- Exports the top-performing students.
+
+The project combined file I/O, DataFrame inspection, data cleaning, transformation, analysis, and exporting results.
+---
 
 ## Repository Structure
 

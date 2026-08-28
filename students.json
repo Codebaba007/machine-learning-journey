@@ -1,0 +1,62 @@
+[
+    {
+        "Student":"Student 1",
+        "Python":78,
+        "NumPy":85,
+        "Math":92
+    },
+    {
+        "Student":"Student 2",
+        "Python":85,
+        "NumPy":91,
+        "Math":87
+    },
+    {
+        "Student":"Student 3",
+        "Python":72,
+        "NumPy":81,
+        "Math":89
+    },
+    {
+        "Student":"Student 4",
+        "Python":90,
+        "NumPy":76,
+        "Math":84
+    },
+    {
+        "Student":"Student 5",
+        "Python":88,
+        "NumPy":94,
+        "Math":91
+    },
+    {
+        "Student":"Student 6",
+        "Python":76,
+        "NumPy":89,
+        "Math":93
+    },
+    {
+        "Student":"Student 7",
+        "Python":95,
+        "NumPy":90,
+        "Math":96
+    },
+    {
+        "Student":"Student 8",
+        "Python":81,
+        "NumPy":84,
+        "Math":86
+    },
+    {
+        "Student":"Student 9",
+        "Python":69,
+        "NumPy":73,
+        "Math":75
+    },
+    {
+        "Student":"Student 10",
+        "Python":92,
+        "NumPy":88,
+        "Math":95
+    }
+]
