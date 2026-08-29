@@ -25,8 +25,8 @@ Every day contains:
 - A Mini Project
 
 ---
-> **Day 7 — Data Input and Output**  
-> Next: **Pandas Data Cleaning & Preprocessing**
+> **Day 8 — Data Cleaning and Preprocessing**
+> Next: **Pandas Data Analysis & Descriptive Statistics**
 
 ## Day 1 — Pandas Fundamentals
 
@@ -472,6 +472,77 @@ The project:
 - Exports the top-performing students.
 
 The project combined file I/O, DataFrame inspection, data cleaning, transformation, analysis, and exporting results.
+---
+---
+
+## Day 8 — Data Cleaning and Preprocessing
+
+### Topics Covered
+
+- Duplicate detection
+- `duplicated()`
+- `drop_duplicates()`
+- Cleaning column names
+- String cleaning
+- `.str.strip()`
+- Standardizing text values
+- `.str.lower()`
+- `replace()`
+- Data type conversion
+- `astype()`
+- `pd.to_numeric()`
+- Handling invalid numeric values
+- Missing-value preprocessing
+- Filling missing values
+- Creating calculated columns
+- Data preprocessing pipelines
+- Exporting cleaned datasets
+
+### Files
+
+- `notes/08_data_preprocessing.py`
+- `exercises/exercise_08.py`
+- `mini_projects/pandas_preprocessing_pipeline.py`
+
+### Learning Outcomes
+
+By the end of this day, I can:
+
+- Detect duplicate rows.
+- Remove duplicate records.
+- Clean whitespace from column names and text values.
+- Standardize inconsistent text values.
+- Convert string-based numerical data into numeric data.
+- Handle invalid numerical values.
+- Detect and handle missing values.
+- Create calculated columns after preprocessing.
+- Build a basic data preprocessing pipeline.
+- Export a cleaned dataset for further analysis or machine learning.
+
+### Mini-Project — Pandas Student Data Preprocessing Pipeline
+
+Built a complete student data preprocessing pipeline using Pandas.
+
+The project:
+
+- Starts with intentionally messy student data.
+- Cleans column names.
+- Removes duplicate records.
+- Cleans student names.
+- Converts score columns into numeric values.
+- Detects missing values.
+- Fills missing scores using column means.
+- Standardizes status values.
+- Renames score columns.
+- Calculates total and average marks.
+- Assigns student grades.
+- Sorts students by performance.
+- Identifies high-performing students.
+- Performs final data-quality checks.
+- Exports the cleaned dataset as a CSV file.
+
+The project combined duplicate handling, string cleaning, type conversion, missing-value handling, value standardization, feature creation, filtering, sorting, and file export into a practical preprocessing pipeline.
+
 ---
 
 ## Repository Structure
