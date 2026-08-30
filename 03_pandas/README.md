@@ -24,9 +24,8 @@ Every day contains:
 - Exercises
 - A Mini Project
 
----
-> **Day 8 — Data Cleaning and Preprocessing**
-> Next: **Pandas Data Analysis & Descriptive Statistics**
+> **Day 9 — Data Analysis and Descriptive Statistics**
+> Next: **Pandas Pivot Tables and Advanced Analysis**
 
 ## Day 1 — Pandas Fundamentals
 
@@ -542,6 +541,73 @@ The project:
 - Exports the cleaned dataset as a CSV file.
 
 The project combined duplicate handling, string cleaning, type conversion, missing-value handling, value standardization, feature creation, filtering, sorting, and file export into a practical preprocessing pipeline.
+
+---
+---
+
+## Day 9 — Data Analysis and Descriptive Statistics
+
+### Topics Covered
+
+- Descriptive statistics
+- `describe()`
+- `mean()`
+- `median()`
+- `mode()`
+- `std()`
+- `var()`
+- `min()`
+- `max()`
+- `sum()`
+- `count()`
+- `quantile()`
+- `corr()`
+- Statistical summaries
+- Data distribution
+- Performance comparison
+- Correlation analysis
+
+### Files
+
+- `notes/09_descriptive_statistics.py`
+- `exercises/exercise_09.py`
+- `mini_projects/pandas_statistics_analyzer.py`
+
+### Learning Outcomes
+
+By the end of this day, I can:
+
+- Generate descriptive statistical summaries.
+- Calculate mean, median, and mode.
+- Calculate standard deviation and variance.
+- Find minimum and maximum values.
+- Calculate totals and counts.
+- Calculate quartiles using `quantile()`.
+- Analyze relationships between numerical columns using correlation.
+- Compare subject-level statistics.
+- Analyze student performance using statistical measures.
+- Use Pandas for basic exploratory data analysis.
+
+### Mini-Project — Pandas Student Statistics Analyzer
+
+Built a student statistics analysis system using Pandas.
+
+The project:
+
+- Analyzes student performance across multiple subjects.
+- Generates descriptive statistics.
+- Calculates subject means, medians, and modes.
+- Measures standard deviation and variance.
+- Calculates quartiles.
+- Analyzes correlations between subjects.
+- Compares subject averages.
+- Calculates individual student averages.
+- Identifies the best and lowest-performing students.
+- Finds students above the class average.
+- Measures performance ranges.
+- Produces a final statistical summary.
+
+The project combined Pandas statistical functions with practical student-performance analysis.
 
 ---
 
