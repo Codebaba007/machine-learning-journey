@@ -24,8 +24,11 @@ Every day contains:
 - Exercises
 - A Mini Project
 
-> **Day 9 — Data Analysis and Descriptive Statistics**
-> Next: **Pandas Pivot Tables and Advanced Analysis**
+### Current Progress
+
+Pandas — Day 10 completed ✅ — Covered data manipulation, cleaning, transformation, aggregation, merging, file I/O, statistics, pivot tables, and data reshaping.
+
+Next Step: Continue with Pandas Day 11 and complete the remaining practical topics before moving to Matplotlib and Statistics.
 
 ## Day 1 — Pandas Fundamentals
 
@@ -608,6 +611,67 @@ The project:
 - Produces a final statistical summary.
 
 The project combined Pandas statistical functions with practical student-performance analysis.
+
+---
+---
+
+## Day 10 — Pivot Tables and Advanced Analysis
+
+### Topics Covered
+
+- `value_counts()`
+- `pivot_table()`
+- `crosstab()`
+- `melt()`
+- `pivot()`
+- Multi-level analysis
+- Department-level analysis
+- Gender-based analysis
+- Wide and long data formats
+- Data reshaping
+- Group-based statistical analysis
+
+### Files
+
+- `notes/10_pivot_tables.py`
+- `exercises/exercise_10.py`
+- `mini_projects/pandas_pivot_analyzer.py`
+
+### Learning Outcomes
+
+By the end of this day, I can:
+
+- Count categorical values using `value_counts()`.
+- Create summary tables using `pivot_table()`.
+- Analyze data across multiple categories.
+- Create frequency tables using `crosstab()`.
+- Calculate category percentages.
+- Convert wide data into long format using `melt()`.
+- Convert long data back into wide format using `pivot()`.
+- Perform multi-dimensional DataFrame analysis.
+- Compare performance across departments and genders.
+- Reshape datasets for analysis and visualization.
+
+### Mini-Project — Pandas Student Performance Pivot Analyzer
+
+Built an advanced student performance analysis system using Pandas.
+
+The project:
+
+- Analyzes student distribution by department and gender.
+- Creates department-level performance summaries.
+- Compares subject performance across departments.
+- Performs department and gender analysis.
+- Generates categorical frequency tables.
+- Calculates department-wise gender percentages.
+- Reshapes student data from wide to long format.
+- Analyzes average performance by subject.
+- Identifies the best-performing subject.
+- Converts long-format data back to wide format.
+- Identifies the best student in each department.
+- Produces a final performance summary.
+
+The project combined `value_counts()`, `pivot_table()`, `crosstab()`, `melt()`, `pivot()`, `groupby()`, and statistical analysis.
 
 ---
 
