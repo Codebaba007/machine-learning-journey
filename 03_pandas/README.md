@@ -156,7 +156,7 @@ The project:
 
 The project combined DataFrame selection, `loc[]`, `iloc[]`, Boolean filtering, multiple conditions, and calculated columns.
 ---
----
+
 
 ## Day 3 — Data Cleaning and Missing Values
 
@@ -218,7 +218,7 @@ The project:
 The project combined missing-value detection, DataFrame cleaning, `copy()`, `fillna()`, statistical calculations, and conditional filtering.
 
 ---
----
+
 
 ## Day 4 — Data Transformation
 
@@ -282,7 +282,6 @@ The project:
 
 The project combined calculated columns, `apply()`, lambda functions, custom functions, column renaming, sorting, filtering, and DataFrame transformation.
 ---
----
 
 ## Day 5 — Grouping and Aggregation
 
@@ -344,7 +343,6 @@ The project:
 
 The project combined `groupby()`, aggregation functions, `agg()`, `idxmax()`, `nunique()`, calculated columns, and group-level analysis.
 
----
 ---
 
 ## Day 6 — Data Combining and Merging
@@ -410,7 +408,7 @@ The project:
 
 The project combined `merge()`, multiple DataFrames, missing-value handling, calculated columns, filtering, and `groupby()` analysis.
 ---
----
+
 
 ## Day 7 — Data Input and Output
 
@@ -475,7 +473,7 @@ The project:
 
 The project combined file I/O, DataFrame inspection, data cleaning, transformation, analysis, and exporting results.
 ---
----
+
 
 ## Day 8 — Data Cleaning and Preprocessing
 
