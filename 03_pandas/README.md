@@ -26,9 +26,9 @@ Every day contains:
 
 ### Current Progress
 
-Pandas — Day 10 completed ✅ — Covered data manipulation, cleaning, transformation, aggregation, merging, file I/O, statistics, pivot tables, and data reshaping.
+Pandas — Day 11 completed ✅ — Covered datetime conversion, date extraction, date arithmetic, filtering, sorting, and time-based analysis.
 
-Next Step: Continue with Pandas Day 11 and complete the remaining practical topics before moving to Matplotlib and Statistics.
+Next Step: Continue with Pandas Day 12 and cover another practical data-analysis topic before finishing the Pandas phase.
 
 ## Day 1 — Pandas Fundamentals
 
@@ -94,7 +94,7 @@ The project:
 The project introduced Pandas Series, DataFrames, column selection, DataFrame inspection, statistical calculations, and calculated columns.
 
 ---
----
+
 
 ## Day 2 — Data Selection and Filtering
 
@@ -546,7 +546,6 @@ The project:
 The project combined duplicate handling, string cleaning, type conversion, missing-value handling, value standardization, feature creation, filtering, sorting, and file export into a practical preprocessing pipeline.
 
 ---
----
 
 ## Day 9 — Data Analysis and Descriptive Statistics
 
@@ -613,7 +612,7 @@ The project:
 The project combined Pandas statistical functions with practical student-performance analysis.
 
 ---
----
+
 
 ## Day 10 — Pivot Tables and Advanced Analysis
 
@@ -672,6 +671,61 @@ The project:
 - Produces a final performance summary.
 
 The project combined `value_counts()`, `pivot_table()`, `crosstab()`, `melt()`, `pivot()`, `groupby()`, and statistical analysis.
+---
+
+## Day 11 — Working with Dates and Time
+
+### Topics Covered
+
+- `pd.to_datetime()`
+- Datetime conversion
+- `.dt` accessor
+- Extracting year, month, and day
+- `month_name()`
+- `day_name()`
+- Date differences
+- Date filtering
+- Date sorting
+- `pd.date_range()`
+- Time-based data analysis
+
+### Files
+
+- `notes/11_datetime.py`
+- `exercises/exercise_11.py`
+- `mini_projects/pandas_date_analyzer.py`
+
+### Learning Outcomes
+
+By the end of this day, I can:
+
+- Convert string dates into Pandas datetime values.
+- Extract useful information from dates.
+- Find weekdays and month names from dates.
+- Calculate the number of days between dates.
+- Filter DataFrames using dates.
+- Sort records chronologically.
+- Generate date ranges.
+- Perform basic time-based data analysis.
+
+### Mini-Project — Pandas Student Date Analyzer
+
+Built a student date analysis system using Pandas.
+
+The project:
+
+- Converts student join and exam dates into datetime values.
+- Extracts year, month, day, and weekday information.
+- Calculates preparation time between dates.
+- Filters students by join date.
+- Identifies students with longer preparation periods.
+- Creates a monthly student distribution.
+- Builds an exam schedule.
+- Identifies the highest-performing student.
+- Exports the analyzed date dataset.
+
+The project combined datetime conversion, `.dt` operations, date arithmetic, filtering, sorting, and file export.
+
 
 ---
 
