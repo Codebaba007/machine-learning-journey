@@ -26,9 +26,9 @@ Every day contains:
 
 ### Current Progress
 
-Pandas — Day 11 completed ✅ — Covered datetime conversion, date extraction, date arithmetic, filtering, sorting, and time-based analysis.
+Pandas — Day 12 completed — Covered string operations, text cleaning, text filtering, pattern extraction, and practical text preprocessing.
 
-Next Step: Continue with Pandas Day 12 and cover another practical data-analysis topic before finishing the Pandas phase.
+Next Step: Continue with Pandas Day 13 and complete the remaining practical Pandas topics before moving to Matplotlib and Statistics.
 
 ## Day 1 — Pandas Fundamentals
 
@@ -723,7 +723,65 @@ The project:
 - Exports the analyzed date dataset.
 
 The project combined datetime conversion, `.dt` operations, date arithmetic, filtering, sorting, and file export.
+---
 
+## Day 12 — Working with Text Data
+
+### Topics Covered
+
+- `.str` accessor
+- `.str.lower()`
+- `.str.upper()`
+- `.str.strip()`
+- `.str.replace()`
+- `.str.contains()`
+- `.str.startswith()`
+- `.str.endswith()`
+- `.str.len()`
+- `.str.split()`
+- `.str.extract()`
+- Combining string operations
+- Text cleaning and preprocessing
+
+### Files
+
+- `notes/12_text_data.py`
+- `exercises/exercise_12.py`
+- `mini_projects/pandas_text_analyzer.py`
+
+### Learning Outcomes
+
+By the end of this day, I can:
+
+- Perform string operations on Pandas columns.
+- Standardize text using lowercase, uppercase, and title case.
+- Remove unnecessary spaces.
+- Replace specific text values.
+- Search and filter text using patterns.
+- Check whether text starts or ends with specific values.
+- Measure string length.
+- Split text into separate parts.
+- Extract patterns from text.
+- Combine multiple string operations for data cleaning.
+
+### Mini-Project — Pandas Text Analyzer
+
+Built a text analysis and preprocessing system using Pandas.
+
+The project:
+
+- Cleans student names, departments, and statuses.
+- Standardizes inconsistent text.
+- Extracts email usernames and domains.
+- Calculates name lengths.
+- Filters students by email and department.
+- Searches names for specific text.
+- Identifies active students.
+- Counts students by department and email domain.
+- Finds the student with the longest name.
+- Exports the cleaned dataset to CSV.
+
+The project combined Pandas string operations with filtering, extraction, aggregation, and data preprocessing.
 
 ---
 
