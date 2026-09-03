@@ -24,11 +24,6 @@ Every day contains:
 - Exercises
 - A Mini Project
 
-### Current Progress
-
-Pandas — Day 12 completed — Covered string operations, text cleaning, text filtering, pattern extraction, and practical text preprocessing.
-
-Next Step: Continue with Pandas Day 13 and complete the remaining practical Pandas topics before moving to Matplotlib and Statistics.
 
 ## Day 1 — Pandas Fundamentals
 
@@ -784,6 +779,70 @@ The project:
 The project combined Pandas string operations with filtering, extraction, aggregation, and data preprocessing.
 
 ---
+
+## Day 13 — Working with Categorical Data
+
+### Topics Covered
+
+- Categorical data
+- `astype("category")`
+- `.cat.categories`
+- `.cat.codes`
+- `.cat.rename_categories()`
+- `.cat.add_categories()`
+- `.cat.remove_categories()`
+- `.cat.set_categories()`
+- Ordered categorical data
+- `.cat.reorder_categories()`
+- `value_counts()`
+- Filtering categorical data
+- Sorting categorical data
+- Categorical data analysis
+
+### Files
+
+- `notes/13_categorical_data.py`
+- `exercises/exercise_13.py`
+- `mini_projects/pandas_category_analyzer.py`
+
+### Learning Outcomes
+
+By the end of this day, I can:
+
+- Identify categorical data in a DataFrame.
+- Convert columns to the categorical data type.
+- View categories and their numerical codes.
+- Add, remove, rename, and set categories.
+- Create ordered categorical data.
+- Reorder categories.
+- Filter and sort categorical data.
+- Analyze categorical distributions.
+- Use categorical data for practical preprocessing.
+
+### Mini-Project — Pandas Categorical Data Analyzer
+
+Built a categorical data analysis system using Pandas.
+
+The project:
+
+- Converts student columns into categorical data.
+- Inspects categories and category codes.
+- Adds and removes categories.
+- Renames existing categories.
+- Creates ordered performance categories.
+- Counts students by department and performance.
+- Filters students based on performance.
+- Sorts students using ordered categories.
+- Analyzes departments and performance using a cross-tabulation.
+- Exports the analyzed dataset to CSV.
+
+The project combined categorical data types, category management, ordering, filtering, sorting, and categorical analysis.
+
+### Current Progress
+
+Pandas — Day 13 completed — Covered categorical data, category management, ordered categories, filtering, sorting, and categorical analysis.
+
+Next Step: Continue with Pandas Day 14 and complete the remaining practical Pandas topics before moving to Matplotlib and Statistics.
 
 ## Repository Structure
 
