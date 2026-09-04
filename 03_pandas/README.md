@@ -838,11 +838,66 @@ The project:
 
 The project combined categorical data types, category management, ordering, filtering, sorting, and categorical analysis.
 
+---
+
+## Day 14 — Working with Duplicate Data
+
+### Topics Covered
+
+- Duplicate data
+- `duplicated()`
+- `drop_duplicates()`
+- Duplicate detection using specific columns
+- `keep="first"`
+- `keep="last"`
+- `keep=False`
+- Removing duplicates from specific columns
+- Counting duplicates
+- Sorting before removing duplicates
+- Practical duplicate-data cleaning
+
+### Files
+
+- `notes/14_duplicates.py`
+- `exercises/exercise_14.py`
+- `mini_projects/pandas_duplicate_analyzer.py`
+
+### Learning Outcomes
+
+By the end of this day, I can:
+
+- Detect duplicate rows in a DataFrame.
+- Count duplicate records.
+- Identify duplicates using specific columns.
+- Keep the first or last duplicate record.
+- Identify all records belonging to duplicate groups.
+- Remove duplicate records.
+- Sort data before removing duplicates.
+- Keep the best record from duplicate groups.
+- Prepare cleaner datasets for further analysis and ML.
+
+### Mini-Project — Pandas Duplicate Data Analyzer
+
+Built a duplicate-data analysis and cleaning system using Pandas.
+
+The project:
+
+- Detects duplicate rows.
+- Identifies students appearing multiple times.
+- Counts duplicate records.
+- Removes duplicate student records.
+- Keeps the highest-scoring record for each student.
+- Analyzes the cleaned student dataset.
+- Calculates department-level statistics.
+- Exports the cleaned dataset to CSV.
+
+The project combined duplicate detection, filtering, sorting, deduplication, grouping, and data export.
+
 ### Current Progress
 
-Pandas — Day 13 completed — Covered categorical data, category management, ordered categories, filtering, sorting, and categorical analysis.
+Pandas — Day 14 completed — Covered duplicate detection, deduplication, sorting, filtering, and practical duplicate-data cleaning.
 
-Next Step: Continue with Pandas Day 14 and complete the remaining practical Pandas topics before moving to Matplotlib and Statistics.
+Next Step: Continue with Pandas Day 15 and complete the remaining practical Pandas topics before moving to Matplotlib and Statistics.
 
 ## Repository Structure
 
