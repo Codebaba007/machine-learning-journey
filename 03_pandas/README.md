@@ -893,12 +893,65 @@ The project:
 
 The project combined duplicate detection, filtering, sorting, deduplication, grouping, and data export.
 
+---
+
+## Day 15 — Working with apply() and Custom Functions
+
+### Topics Covered
+
+- `apply()`
+- Custom functions with `apply()`
+- `lambda` functions
+- Applying functions to columns
+- Applying functions to rows with `axis=1`
+- Creating new columns with `apply()`
+- Conditional transformations
+- Combining multiple columns with `apply()`
+- `map()` vs `apply()`
+- Practical data transformation with `apply()`
+
+### Files
+
+- `notes/15_apply_functions.py`
+- `exercises/exercise_15.py`
+- `mini_projects/pandas_apply_analyzer.py`
+
+### Learning Outcomes
+
+By the end of this day, I can:
+
+- Apply functions to Pandas columns.
+- Create custom functions for data transformation.
+- Use lambda functions with `apply()`.
+- Apply functions across DataFrame rows.
+- Create new columns using calculated values.
+- Perform conditional transformations.
+- Combine multiple columns using row-wise operations.
+- Use `map()` for simple value mapping.
+- Use `apply()` for more flexible data transformations.
+
+### Mini-Project — Pandas Apply Analyzer
+
+Built a student performance analyzer using Pandas.
+
+The project:
+
+- Calculates grades for individual subjects.
+- Calculates total and average scores.
+- Classifies student performance.
+- Determines pass or fail status.
+- Combines multiple columns to create student summaries.
+- Filters high-performing students.
+- Sorts students by average score.
+- Exports the analyzed dataset to CSV.
+
+The project combined custom functions, lambda functions, column-wise operations, row-wise operations, conditional logic, filtering, sorting, and data export.
+
 ### Current Progress
 
-Pandas — Day 14 completed — Covered duplicate detection, deduplication, sorting, filtering, and practical duplicate-data cleaning.
+Pandas — Day 15 completed — Covered apply(), custom functions, lambda functions, row-wise operations, conditional transformations, and practical data transformation.
 
-Next Step: Continue with Pandas Day 15 and complete the remaining practical Pandas topics before moving to Matplotlib and Statistics.
-
+Next Step: Continue with Pandas Day 16 and complete the remaining practical Pandas topics before moving to Matplotlib and Statistics.
 ## Repository Structure
 
 ```text
