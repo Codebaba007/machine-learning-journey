@@ -946,12 +946,74 @@ The project:
 - Exports the analyzed dataset to CSV.
 
 The project combined custom functions, lambda functions, column-wise operations, row-wise operations, conditional logic, filtering, sorting, and data export.
+---
+
+## Day 16 — Working with MultiIndex and Hierarchical Data
+
+### Topics Covered
+
+- MultiIndex
+- Creating a MultiIndex
+- `set_index()`
+- `.index`
+- `.loc[]` with multiple index levels
+- `reset_index()`
+- `swaplevel()`
+- `sort_index()`
+- `xs()`
+- Grouping by multiple columns
+- MultiIndex columns
+- `agg()`
+- Flattening MultiIndex columns
+- Hierarchical data analysis
+
+### Files
+
+- `notes/16_multiindex.py`
+- `exercises/exercise_16.py`
+- `mini_projects/pandas_multiindex_analyzer.py`
+
+### Learning Outcomes
+
+By the end of this day, I can:
+
+- Create MultiIndex DataFrames.
+- Work with multiple index levels.
+- Select data using MultiIndex labels.
+- Reset and swap index levels.
+- Sort MultiIndex data.
+- Select data from a specific index level.
+- Group data using multiple columns.
+- Perform multiple aggregations.
+- Work with MultiIndex columns.
+- Flatten hierarchical columns.
+- Analyze hierarchical datasets.
+
+### Mini-Project — Pandas MultiIndex Analyzer
+
+Built a hierarchical student data analysis system using Pandas.
+
+The project:
+
+- Creates a MultiIndex using department and semester.
+- Selects students from specific departments and semesters.
+- Resets and swaps index levels.
+- Sorts hierarchical data.
+- Uses cross-sections to select specific index levels.
+- Calculates average, highest, and lowest scores.
+- Counts students by department and semester.
+- Performs multi-level aggregation.
+- Converts the final analysis back into a normal DataFrame.
+- Exports the analysis to CSV.
+
+The project combined MultiIndex operations, grouping, aggregation, filtering, sorting, and hierarchical data analysis.
 
 ### Current Progress
 
-Pandas — Day 15 completed — Covered apply(), custom functions, lambda functions, row-wise operations, conditional transformations, and practical data transformation.
+Pandas — Day 16 completed — Covered MultiIndex, hierarchical indexing, multi-level grouping, aggregation, and hierarchical data analysis.
 
-Next Step: Continue with Pandas Day 16 and complete the remaining practical Pandas topics before moving to Matplotlib and Statistics.
+Next Step: Continue with Pandas Day 17 and complete the remaining practical Pandas topics before moving to Matplotlib and Statistics.
+---
 ## Repository Structure
 
 ```text
