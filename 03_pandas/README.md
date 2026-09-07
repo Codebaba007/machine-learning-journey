@@ -1008,11 +1008,58 @@ The project:
 
 The project combined MultiIndex operations, grouping, aggregation, filtering, sorting, and hierarchical data analysis.
 
+
+---
+## Day 17 — Time-Based Merging
+
+### Topics Covered
+
+- Time-based data merging
+- `pd.merge_asof()`
+- `pd.to_datetime()`
+- `sort_values()`
+- `direction="backward"`
+- `direction="forward"`
+- `direction="nearest"`
+- `on=`
+- `by=`
+- `tolerance=`
+- `pd.Timedelta()`
+- Time-based event matching
+- Practical time-series data analysis
+
+### Files
+
+- `notes/17_time_merging.py`
+- `exercises/exercise_17.py`
+- `mini_projects/pandas_time_merger.py`
+
+### What I Learned
+
+- How `merge_asof()` differs from normal `merge()`
+- How to match rows using nearby timestamps
+- How to find previous, next, or closest timestamps
+- How to limit matching with `tolerance`
+- How to match timestamps within the same category using `by`
+- How to prepare datetime data before time-based merging
+
+### Mini Project
+
+Built a Time-Based Sales & Event Analyzer that:
+
+- Converts sales and event timestamps
+- Sorts time-based data
+- Matches sales with nearby events
+- Matches within the same department
+- Uses a 2-minute tolerance
+- Calculates sales statistics by event
+- Saves analysis results to CSV files
+---
 ### Current Progress
 
-Pandas — Day 16 completed — Covered MultiIndex, hierarchical indexing, multi-level grouping, aggregation, and hierarchical data analysis.
+Pandas — Day 17 completed — Covered time-based merging with merge_asof(), backward, forward, nearest matching, tolerance, by-based matching, and practical time-based analysis.
 
-Next Step: Continue with Pandas Day 17 and complete the remaining practical Pandas topics before moving to Matplotlib and Statistics.
+Next Step: Continue with Pandas Day 18 and complete the remaining practical Pandas topics before moving to Matplotlib and Statistics.
 ---
 ## Repository Structure
 
