@@ -1055,11 +1055,57 @@ Built a Time-Based Sales & Event Analyzer that:
 - Calculates sales statistics by event
 - Saves analysis results to CSV files
 ---
+## Day 18 — Advanced Data Manipulation
+
+### Topics Covered
+
+- `assign()`
+- Creating multiple columns
+- `rename()`
+- `drop()`
+- Sorting by multiple columns
+- `query()`
+- `nlargest()`
+- `nsmallest()`
+- `clip()`
+- Combining DataFrame transformations
+- Practical data-cleaning workflow
+- Preparing data for ML-style analysis
+
+### Files
+
+- `notes/18_advanced_manipulation.py`
+- `exercises/exercise_18.py`
+- `mini_projects/pandas_data_transformer.py`
+
+### What I Learned
+
+- How to create new columns with `assign()`
+- How to rename and remove columns
+- How to sort using multiple columns
+- How to filter rows using `query()`
+- How to quickly find the largest and smallest values
+- How to restrict values to a specific range with `clip()`
+- How to combine multiple Pandas operations into a data-transformation workflow
+
+### Mini Project
+
+Built a Student Performance Data Transformer that:
+
+- Calculates average scores
+- Adds bonus points
+- Cleans and renames columns
+- Filters students by attendance
+- Sorts students by final score
+- Finds top and lowest-performing students
+- Creates department performance statistics
+- Saves cleaned data and summary data to CSV files
+---
 ### Current Progress
 
-Pandas — Day 17 completed — Covered time-based merging with merge_asof(), backward, forward, nearest matching, tolerance, by-based matching, and practical time-based analysis.
+Pandas — Day 18 completed — Covered advanced data manipulation with assign(), rename(), drop(), query(), multi-column sorting, nlargest(), nsmallest(), clip(), and practical DataFrame transformation.
 
-Next Step: Continue with Pandas Day 18 and complete the remaining practical Pandas topics before moving to Matplotlib and Statistics.
+Next Step: Continue with Pandas Day 19 and complete the remaining practical Pandas topics before moving to Matplotlib and Statistics.
 ---
 ## Repository Structure
 
