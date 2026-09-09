@@ -1101,11 +1101,62 @@ Built a Student Performance Data Transformer that:
 - Creates department performance statistics
 - Saves cleaned data and summary data to CSV files
 ---
+## Day 19 — Combining DataFrames
+
+### Topics Covered
+
+- `concat()`
+- Combining rows
+- Combining columns
+- `ignore_index=True`
+- `merge()`
+- `on=`
+- `how="inner"`
+- `how="left"`
+- `how="right"`
+- `how="outer"`
+- `combine_first()`
+- `fillna()`
+- `groupby()`
+- `agg()`
+- `reset_index()`
+- Combining multiple datasets
+- Building a final ML-ready dataset
+
+### Files
+
+- `notes/19_data_combining.py`
+- `exercises/exercise_19.py`
+- `mini_projects/pandas_dataset_builder.py`
+
+### What I Learned
+
+- How to stack DataFrames with `concat()`
+- How to connect related datasets with `merge()`
+- How different merge types affect the final dataset
+- How to fill missing values after combining datasets
+- How to use `combine_first()` to recover missing information
+- How to group data and calculate multiple statistics
+- How to build a final dataset from multiple sources
+
+### Mini Project
+
+Built a Student Dataset Builder that:
+
+- Combines exam datasets
+- Merges student information with scores
+- Handles missing scores
+- Calculates average scores
+- Creates pass/fail status
+- Sorts students by performance
+- Generates department-level statistics
+- Saves the final datasets to CSV files
+---
 ### Current Progress
 
-Pandas — Day 18 completed — Covered advanced data manipulation with assign(), rename(), drop(), query(), multi-column sorting, nlargest(), nsmallest(), clip(), and practical DataFrame transformation.
+Pandas — Day 19 completed — Covered combining DataFrames with concat(), merge(), combine_first(), different merge types, missing-value handling, groupby(), agg(), and practical dataset building.
 
-Next Step: Continue with Pandas Day 19 and complete the remaining practical Pandas topics before moving to Matplotlib and Statistics.
+Next Step: Continue with Pandas Day 20 and complete the remaining practical Pandas topics before moving to Matplotlib and Statistics.
 ---
 ## Repository Structure
 
