@@ -1152,11 +1152,74 @@ Built a Student Dataset Builder that:
 - Generates department-level statistics
 - Saves the final datasets to CSV files
 ---
+## Day 20 — ML Data Preprocessing
+
+### Topics Covered
+
+- Inspecting a raw dataset
+- `shape`
+- `columns`
+- `dtypes`
+- `isna()`
+- `duplicated()`
+- `pd.to_numeric()`
+- `fillna()`
+- `mean()`
+- `median()`
+- `mode()`
+- String cleaning with `.str`
+- `strip()`
+- `lower()`
+- `upper()`
+- `title()`
+- `replace()`
+- `clip()`
+- `drop_duplicates()`
+- `apply()`
+- `astype()`
+- Feature creation
+- Dataset validation
+- Exporting ML-ready data
+
+### Files
+
+- `notes/20_ml_data_preprocessing.py`
+- `exercises/exercise_20.py`
+- `mini_projects/pandas_ml_preprocessor.py`
+
+### What I Learned
+
+- How to inspect a new dataset before modifying it
+- How to identify missing values and duplicates
+- How to convert incorrect data types
+- How to clean inconsistent text and categorical values
+- How to handle missing numerical and categorical data
+- How to detect and limit invalid values
+- How to create useful features from existing columns
+- How to validate a cleaned dataset
+- How to prepare and export an ML-ready dataset
+
+### Mini Project
+
+Built a Student ML Dataset Preprocessor that:
+
+- Cleans messy student data
+- Converts data types
+- Handles missing values
+- Standardizes text and categories
+- Converts attendance percentages into numbers
+- Fixes invalid attendance values
+- Calculates average scores
+- Creates a Pass target
+- Creates performance categories
+- Generates department statistics
+- Exports ML-ready datasets to CSV
+---
 ### Current Progress
 
-Pandas — Day 19 completed — Covered combining DataFrames with concat(), merge(), combine_first(), different merge types, missing-value handling, groupby(), agg(), and practical dataset building.
+Pandas — Day 20 completed — Completed a practical ML data preprocessing workflow covering dataset inspection, missing values, data type conversion, text cleaning, category cleaning, invalid-value handling, duplicate removal, feature creation, validation, and CSV export.
 
-Next Step: Continue with Pandas Day 20 and complete the remaining practical Pandas topics before moving to Matplotlib and Statistics.
+Next Step: Continue with Pandas Day 21 for the final practical project and review before moving to Matplotlib.
 ---
 ## Repository Structure
 
