@@ -24,6 +24,14 @@ Every day contains:
 - Exercises
 - A Mini Project
 
+---
+### Current Progress
+
+Pandas — Day 20 completed — Completed a practical ML data preprocessing workflow covering dataset inspection, missing values, data type conversion, text cleaning, category cleaning, invalid-value handling, duplicate removal, feature creation, validation, and CSV export.
+
+Next Step: Continue with Pandas Day 21 for the final practical project and review before moving to Matplotlib.
+---
+
 
 ## Day 1 — Pandas Fundamentals
 
@@ -1214,12 +1222,7 @@ Built a Student ML Dataset Preprocessor that:
 - Creates performance categories
 - Generates department statistics
 - Exports ML-ready datasets to CSV
----
-### Current Progress
 
-Pandas — Day 20 completed — Completed a practical ML data preprocessing workflow covering dataset inspection, missing values, data type conversion, text cleaning, category cleaning, invalid-value handling, duplicate removal, feature creation, validation, and CSV export.
-
-Next Step: Continue with Pandas Day 21 for the final practical project and review before moving to Matplotlib.
 ---
 ## Repository Structure
 
