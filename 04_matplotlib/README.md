@@ -1,28 +1,77 @@
-# 📊 Module 04: Data Visualization with Matplotlib & Seaborn
+# Matplotlib
 
-## 📖 Overview
-Visualization is critical for Exploratory Data Analysis (EDA) and communicating machine learning model results. This module covers both the foundational Matplotlib library and the high-level Seaborn library.
+This section covers Matplotlib, the main Python library we'll use for data visualization in the Machine Learning journey.
 
-## 🎯 Learning Objectives
-1. Understand the Matplotlib Figure and Axes object hierarchy.
-2. Create standard plots: line, scatter, bar, and histograms.
-3. Customize plot aesthetics: titles, labels, legends, and colors.
-4. Create complex multi-plot layouts using subplots.
-5. Leverage Seaborn for rapid statistical plotting (boxplots, violins, pairplots).
-6. Visualize correlation matrices using heatmaps.
-7. Customize Seaborn themes and palettes.
-8. Save plots in high resolution for reports.
-9. Create ML-specific visualizations (ROC curves, learning curves).
-10. Tell a coherent story using data visualization.
+## Topics
 
-## 🛠️ Prerequisites
-- Completion of Module 02 (NumPy) and Module 03 (Pandas)
+- Matplotlib basics
+- Line plots
+- Bar charts
+- Histograms
+- Scatter plots
+- Pie charts
+- Figure customization
+- Multiple plots
+- Plotting Pandas data
+- Saving visualizations
 
-## 📂 Folder Structure
-- `notes/`: Principles of good data visualization.
-- `exercises/`: Plotting challenges to recreate specific graphs.
-- `mini_projects/`: Comprehensive visual analysis projects.
+## Structure
 
-## 📚 Resources
-- [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
-- [Seaborn Gallery](https://seaborn.pydata.org/examples/index.html)
+- `notes/` — Learning notes and examples
+- `exercises/` — Practice problems
+- `mini_projects/` — Practical visualization projects
+
+## Goal
+
+Learn how to visualize datasets and understand patterns, trends, distributions, and relationships before applying Machine Learning models.
+
+## Day 1 — Matplotlib Basics
+
+### Topics Covered
+
+- Importing Matplotlib
+- `pyplot`
+- `plt.plot()`
+- `plt.show()`
+- `plt.title()`
+- `plt.xlabel()`
+- `plt.ylabel()`
+- `plt.legend()`
+- `plt.grid()`
+- `plt.figure()`
+- `figsize`
+- Plotting multiple lines
+- Plotting Pandas DataFrame columns
+- Saving graphs with `plt.savefig()`
+- Understanding X-axis and Y-axis
+
+### Files
+
+- `notes/01_matplotlib_basics.py`
+- `exercises/exercise_01.py`
+- `mini_projects/matplotlib_basic_analysis.py`
+
+### What I Learned
+
+- How to create basic line graphs
+- How to identify X-axis and Y-axis data
+- How to customize graph titles and axis labels
+- How to add legends and grids
+- How to control figure size
+- How to plot data stored in Pandas DataFrames
+- How to save visualizations as image files
+- How to visualize a value changing across an ordered variable such as months
+
+### Mini Project
+
+Built a Monthly Sales visualization using Pandas and Matplotlib.
+
+The project:
+
+- Creates a small sales dataset
+- Uses months as the X-axis
+- Uses sales as the Y-axis
+- Creates a line plot
+- Adds a title and axis labels
+- Adds a legend and grid
+- Saves the visualization as a PNG file
