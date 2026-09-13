@@ -75,3 +75,52 @@ The project:
 - Adds a title and axis labels
 - Adds a legend and grid
 - Saves the visualization as a PNG file
+---
+## Day 2 — Bar Charts
+
+### Topics Covered
+
+- Bar charts
+- `plt.bar()`
+- `plt.barh()`
+- Category and numerical values
+- Bar width
+- X-axis and Y-axis
+- Y-axis grid
+- Horizontal bar charts
+- Plotting Pandas DataFrames with bar charts
+- Comparing categories
+
+### Files
+
+- `notes/02_bar_charts.py`
+- `exercises/exercise_02.py`
+- `mini_projects/matplotlib_bar_analysis.py`
+
+### What I Learned
+
+- How to create vertical bar charts
+- How to create horizontal bar charts
+- How categories are matched with numerical values
+- How to control bar width
+- How to add appropriate grid lines
+- How to visualize Pandas DataFrame columns
+- How to use bar charts for category comparisons
+
+### Mini Project
+
+Built a Product Sales Analysis visualization using Pandas and Matplotlib.
+
+The project:
+
+- Creates a product sales dataset
+- Uses products as categories
+- Uses units sold as numerical values
+- Creates a bar chart
+- Adds a title and axis labels
+- Adds a Y-axis grid
+- Saves the visualization as a PNG file
+
+### Key Concept
+
+Bar charts are useful for comparing values across separate categories.
