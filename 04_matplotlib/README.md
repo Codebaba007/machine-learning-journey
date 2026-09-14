@@ -24,7 +24,13 @@ This section covers Matplotlib, the main Python library we'll use for data visua
 ## Goal
 
 Learn how to visualize datasets and understand patterns, trends, distributions, and relationships before applying Machine Learning models.
+---
+### Current Progress
 
+Matplotlib — Day 3 completed — Covered scatter plots, numerical relationships, point size, transparency, Pandas scatter plots, and basic ML-style data analysis.
+
+Next Step: Continue with Matplotlib Day 4 and learn the next visualization techniques.
+---
 ## Day 1 — Matplotlib Basics
 
 ### Topics Covered
@@ -124,3 +130,55 @@ The project:
 ### Key Concept
 
 Bar charts are useful for comparing values across separate categories.
+
+## Day 3 — Scatter Plots
+
+### Topics Covered
+
+- Scatter plots
+- `plt.scatter()`
+- X and Y numerical variables
+- Individual data points
+- Positive relationships
+- Negative relationships
+- No obvious relationship
+- Point size with `s=`
+- Transparency with `alpha=`
+- Scatter plots with Pandas
+- Basic ML-style data analysis
+- Exploratory Data Analysis (EDA)
+
+### Files
+
+- `notes/03_scatter_plots.py`
+- `exercises/exercise_03.py`
+- `mini_projects/matplotlib_scatter_analysis.py`
+
+### What I Learned
+
+- How to create scatter plots
+- How to plot two numerical variables
+- How to identify positive and negative relationships
+- How to recognize when there is no obvious relationship
+- How to control point size and transparency
+- How to create scatter plots from Pandas DataFrames
+- How scatter plots can help explore relationships before machine learning
+
+### Mini Project
+
+Built a House Size vs House Price scatter plot using Pandas and Matplotlib.
+
+The project:
+
+- Creates a house dataset
+- Uses house size as the X-axis
+- Uses house price as the Y-axis
+- Creates a scatter plot
+- Controls point size and transparency
+- Adds a title and axis labels
+- Adds a grid
+- Saves the visualization as a PNG file
+
+### Key Concept
+
+Scatter plots help visualize the relationship between two numerical variables and are useful during Exploratory Data Analysis (EDA).
