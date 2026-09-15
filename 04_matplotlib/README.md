@@ -27,9 +27,9 @@ Learn how to visualize datasets and understand patterns, trends, distributions, 
 ---
 ### Current Progress
 
-Matplotlib — Day 3 completed — Covered scatter plots, numerical relationships, point size, transparency, Pandas scatter plots, and basic ML-style data analysis.
+Matplotlib — Day 4 completed — Covered multiple plots, subplots, `plt.subplot()`, `plt.subplots()`, subplot rows and columns, and basic visualization dashboards.
 
-Next Step: Continue with Matplotlib Day 4 and learn the next visualization techniques.
+Next Step: Continue with Matplotlib Day 5 and learn the next visualization techniques.
 ---
 ## Day 1 — Matplotlib Basics
 
@@ -182,3 +182,55 @@ The project:
 ### Key Concept
 
 Scatter plots help visualize the relationship between two numerical variables and are useful during Exploratory Data Analysis (EDA).
+
+
+## Day 4 — Multiple Plots & Subplots
+
+### Topics Covered
+
+- Multiple plots
+- Subplots
+- `plt.subplot()`
+- `plt.subplots()`
+- Rows and columns
+- Subplot positions
+- `fig` and `ax` basics
+- Plotting line charts in subplots
+- Plotting bar charts in subplots
+- Plotting scatter plots in subplots
+- `tight_layout()`
+- Visualization dashboards
+
+### Files
+
+- `notes/04_subplots.py`
+- `exercises/exercise_04.py`
+- `mini_projects/matplotlib_dashboard.py`
+
+### What I Learned
+
+- How to place multiple graphs in one figure
+- How `plt.subplot()` divides a figure into positions
+- How `plt.subplots()` creates multiple plotting areas
+- How to access different subplot positions
+- How to combine different chart types in one figure
+- How to use `tight_layout()` to improve subplot spacing
+- How multiple visualizations can be combined into a simple dashboard
+
+### Mini Project
+
+Built a Business Visualization Dashboard using Pandas and Matplotlib.
+
+The dashboard:
+
+- Creates a monthly business dataset
+- Visualizes monthly sales
+- Visualizes monthly customers
+- Visualizes monthly profit
+- Shows the relationship between customers and profit
+- Combines four visualizations into one figure
+- Saves the dashboard as a PNG file
+
+### Key Concept
+
+Subplots allow multiple visualizations to be combined into a single figure, making it easier to compare different aspects of a dataset.
