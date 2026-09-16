@@ -27,9 +27,9 @@ Learn how to visualize datasets and understand patterns, trends, distributions, 
 ---
 ### Current Progress
 
-Matplotlib — Day 4 completed — Covered multiple plots, subplots, `plt.subplot()`, `plt.subplots()`, subplot rows and columns, and basic visualization dashboards.
+Matplotlib — Day 5 completed — Covered histograms, bins, frequency, distributions, `edgecolor`, Pandas histograms, comparing distributions, and `density=True`.
 
-Next Step: Continue with Matplotlib Day 5 and learn the next visualization techniques.
+Next Step: Continue with Matplotlib Day 6 and learn the next visualization techniques.
 ---
 ## Day 1 — Matplotlib Basics
 
@@ -234,3 +234,64 @@ The dashboard:
 ### Key Concept
 
 Subplots allow multiple visualizations to be combined into a single figure, making it easier to compare different aspects of a dataset.
+---
+
+## Day 5 — Histograms
+
+### Topics Covered
+
+- Histograms
+- `plt.hist()`
+- Histogram vs bar chart
+- Numerical data distributions
+- Bins
+- `bins=`
+- Frequency and count
+- `edgecolor=`
+- Histograms with Pandas
+- Reading distributions
+- Data concentration
+- Data spread
+- Peaks and unusual values
+- Comparing distributions
+- `alpha=`
+- `label=`
+- `plt.legend()`
+- `density=True`
+- Probability density
+
+### Files
+
+- `notes/05_histograms.py`
+- `exercises/exercise_05.py`
+- `mini_projects/matplotlib_histogram_analysis.py`
+
+### What I Learned
+
+- How to create histograms from numerical data
+- How histograms group values into bins
+- How the Y-axis represents frequency
+- How to control the number of bins
+- How to make histogram bars easier to distinguish
+- How to create histograms from Pandas DataFrames
+- How to identify concentration and spread in a distribution
+- How to compare distributions
+- How `density=True` changes a histogram to probability density
+
+### Mini Project
+
+Built a Student Score Distribution visualization using Pandas and Matplotlib.
+
+The project:
+
+- Creates a student score dataset
+- Uses scores as numerical data
+- Groups scores into bins
+- Creates a histogram
+- Adds a title and axis labels
+- Adds a Y-axis grid
+- Saves the visualization as a PNG file
+
+### Key Concept
+
+Histograms show the distribution of a numerical variable by grouping values into ranges and counting how many observations fall into each range.
