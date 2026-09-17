@@ -27,9 +27,10 @@ Learn how to visualize datasets and understand patterns, trends, distributions, 
 ---
 ### Current Progress
 
-Matplotlib — Day 5 completed — Covered histograms, bins, frequency, distributions, `edgecolor`, Pandas histograms, comparing distributions, and `density=True`.
+Matplotlib — Day 6 completed — Covered pie charts, `plt.pie()`, labels, percentages, rotation, exploded slices, shadows, equal axis scaling, and parts-of-a-whole visualization.
 
-Next Step: Continue with Matplotlib Day 6 and learn the next visualization techniques.
+Next Step: Continue with Matplotlib Day 7 and learn the next visualization techniques.
+
 ---
 ## Day 1 — Matplotlib Basics
 
@@ -295,3 +296,58 @@ The project:
 ### Key Concept
 
 Histograms show the distribution of a numerical variable by grouping values into ranges and counting how many observations fall into each range.
+---
+
+## Day 6 — Pie Charts
+
+### Topics Covered
+
+- Pie charts
+- `plt.pie()`
+- `labels=`
+- `autopct=`
+- `startangle=`
+- `explode=`
+- `shadow=`
+- `plt.axis("equal")`
+- Categories and proportions
+- Parts of a whole
+- Pie charts with Pandas
+- Pie charts vs bar charts
+
+### Files
+
+- `notes/06_pie_charts.py`
+- `exercises/exercise_06.py`
+- `mini_projects/matplotlib_pie_analysis.py`
+
+### What I Learned
+
+- How to create pie charts
+- How to represent parts of a whole
+- How to label pie-chart slices
+- How to display percentages
+- How to rotate a pie chart
+- How to separate slices using `explode`
+- How to add a shadow
+- How to keep a pie chart circular
+- How to create pie charts from Pandas DataFrames
+- When pie charts are useful for showing proportions
+
+### Mini Project
+
+Built a Monthly Expense Distribution visualization using Pandas and Matplotlib.
+
+The project:
+
+- Creates a monthly expense dataset
+- Uses categories as pie-chart labels
+- Uses expenses to determine slice sizes
+- Displays percentages
+- Highlights the Rent category
+- Adds a title
+- Saves the visualization as a PNG file
+
+### Key Concept
+
+Pie charts are useful for showing how different categories make up a meaningful whole.
