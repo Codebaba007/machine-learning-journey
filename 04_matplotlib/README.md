@@ -27,10 +27,9 @@ Learn how to visualize datasets and understand patterns, trends, distributions, 
 ---
 ### Current Progress
 
-Matplotlib — Day 6 completed — Covered pie charts, `plt.pie()`, labels, percentages, rotation, exploded slices, shadows, equal axis scaling, and parts-of-a-whole visualization.
+Matplotlib — Day 7 completed — Covered box plots, median, quartiles, IQR, whiskers, potential outliers, comparing multiple datasets, Pandas box plots, and basic EDA use.
 
-Next Step: Continue with Matplotlib Day 7 and learn the next visualization techniques.
-
+Next Step: Continue with Matplotlib Day 8 and learn the next visualization techniques.
 ---
 ## Day 1 — Matplotlib Basics
 
@@ -351,3 +350,59 @@ The project:
 ### Key Concept
 
 Pie charts are useful for showing how different categories make up a meaningful whole.
+---
+## Day 7 — Box Plots
+
+### Topics Covered
+
+- Box plots
+- `plt.boxplot()`
+- Median
+- Quartiles
+- Q1
+- Q3
+- Interquartile Range (IQR)
+- Whiskers
+- Potential outliers
+- `1.5 × IQR` outlier rule
+- Comparing multiple datasets
+- `plt.xticks()`
+- Box plots with Pandas
+- Distribution comparison
+- Basic ML/EDA use of box plots
+
+### Files
+
+- `notes/07_box_plots.py`
+- `exercises/exercise_07.py`
+- `mini_projects/matplotlib_box_analysis.py`
+
+### What I Learned
+
+- How to create box plots
+- How to interpret the median
+- How to understand Q1 and Q3
+- How to calculate the IQR
+- How whiskers work
+- How potential outliers are identified
+- How to compare multiple distributions
+- How to create box plots from Pandas data
+- How box plots can help during Exploratory Data Analysis
+
+### Mini Project
+
+Built a Department Salary Distribution Analysis using Pandas and Matplotlib.
+
+The project:
+
+- Creates a department salary dataset
+- Separates salary data by department
+- Creates box plots for multiple departments
+- Compares salary distributions
+- Shows median and spread
+- Helps identify potential outliers
+- Saves the visualization as a PNG file
+
+### Key Concept
+
+Box plots summarize numerical distributions and make it easy to compare the center, spread, and potential outliers of different datasets.
