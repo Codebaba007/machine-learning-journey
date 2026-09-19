@@ -27,9 +27,9 @@ Learn how to visualize datasets and understand patterns, trends, distributions, 
 ---
 ### Current Progress
 
-Matplotlib — Day 7 completed — Covered box plots, median, quartiles, IQR, whiskers, potential outliers, comparing multiple datasets, Pandas box plots, and basic EDA use.
+Matplotlib — Day 8 completed — Covered plot customization with colors, markers, line styles, line width, marker size, scatter customization, bar-chart customization, and readable visualization styling.
 
-Next Step: Continue with Matplotlib Day 8 and learn the next visualization techniques.
+Next Step: Continue with Matplotlib Day 9 and learn the next visualization techniques.
 ---
 ## Day 1 — Matplotlib Basics
 
@@ -406,3 +406,57 @@ The project:
 ### Key Concept
 
 Box plots summarize numerical distributions and make it easy to compare the center, spread, and potential outliers of different datasets.
+---
+## Day 8 — Plot Customization
+
+### Topics Covered
+
+- Plot customization
+- `color=`
+- `marker=`
+- `linestyle=`
+- `linewidth=`
+- `markersize=`
+- Scatter plot customization
+- `s=`
+- `alpha=`
+- Bar chart customization
+- Combining customization options
+- Improving visualization readability
+
+### Files
+
+- `notes/08_customization.py`
+- `exercises/exercise_08.py`
+- `mini_projects/matplotlib_custom_analysis.py`
+
+### What I Learned
+
+- How to change plot colors
+- How to add and customize markers
+- How to change line styles
+- How to control line thickness
+- How to control marker size
+- How to customize scatter plots
+- How to customize bar charts
+- How to combine multiple customization options
+- How to make visualizations easier to read
+
+### Mini Project
+
+Built a Custom Monthly Sales Analysis using Pandas and Matplotlib.
+
+The project:
+
+- Creates a monthly sales dataset
+- Plots monthly sales
+- Customizes the line color
+- Adds circular markers
+- Uses a dashed line
+- Controls line and marker sizes
+- Adds labels, title, legend, and grid
+- Saves the visualization as a PNG file
+
+### Key Concept
+
+Matplotlib customization changes how data is displayed without changing the underlying data.
