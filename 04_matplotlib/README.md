@@ -27,9 +27,9 @@ Learn how to visualize datasets and understand patterns, trends, distributions, 
 ---
 ### Current Progress
 
-Matplotlib — Day 8 completed — Covered plot customization with colors, markers, line styles, line width, marker size, scatter customization, bar-chart customization, and readable visualization styling.
+Matplotlib — Day 9 completed — Covered annotations, `plt.annotate()`, `plt.text()`, `xy`, `xytext`, `arrowprops`, offset-based annotation positioning, and highlighting important observations in charts.
 
-Next Step: Continue with Matplotlib Day 9 and learn the next visualization techniques.
+Next Step: Continue with Matplotlib Day 10 and learn the next visualization techniques.
 ---
 ## Day 1 — Matplotlib Basics
 
@@ -460,3 +460,56 @@ The project:
 ### Key Concept
 
 Matplotlib customization changes how data is displayed without changing the underlying data.
+---
+## Day 9 — Annotations
+
+### Topics Covered
+
+- Plot annotations
+- `plt.annotate()`
+- `plt.text()`
+- `xy=`
+- `xytext=`
+- `arrowprops=`
+- `textcoords="offset points"`
+- Highlighting important data points
+- Annotating line plots
+- Annotating scatter plots
+- Annotating bar charts
+- Positioning annotation text
+- Practical EDA use of annotations
+
+### Files
+
+- `notes/09_annotations.py`
+- `exercises/exercise_09.py`
+- `mini_projects/matplotlib_annotations_analysis.py`
+
+### What I Learned
+
+- How to add annotations to plots
+- How to identify the target point with `xy`
+- How to position annotation text with `xytext`
+- How to connect annotations to data points with arrows
+- How to use offset points for better annotation positioning
+- How to add text directly to a graph
+- How to highlight important observations
+- How annotations can improve EDA visualizations
+
+### Mini Project
+
+Built a Monthly Sales Analysis with annotations using Pandas and Matplotlib.
+
+The project:
+
+- Creates a monthly sales dataset
+- Creates a sales line plot
+- Highlights the highest sales
+- Highlights a sales drop
+- Uses arrows to connect annotations to data points
+- Uses offset positioning for readable annotations
+- Saves the visualization as a PNG file
+
+### Key Concept
+
+Annotations allow important observations in a visualization to be highlighted and explained directly on the graph.
