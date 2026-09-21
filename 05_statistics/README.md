@@ -1,28 +1,58 @@
-# 📈 Module 05: Statistics & Probability for ML
+### Current Progress
 
-## 📖 Overview
-Machine learning models are heavily rooted in statistical concepts. This module covers the theoretical and practical statistical knowledge required to understand data distributions, evaluate models, and make inferences.
+Statistics & Probability — Day 1 completed — Covered descriptive statistics, population vs sample, mean, median, mode, minimum, maximum, range, and the role of descriptive statistics in ML.
 
-## 🎯 Learning Objectives
-1. Compute descriptive statistics (mean, median, variance, standard deviation).
-2. Understand and visualize common probability distributions (Normal, Binomial, Poisson).
-3. Grasp the Central Limit Theorem and its importance.
-4. Formulate and conduct hypothesis testing (p-values, t-tests).
-5. Understand Type I and Type II errors.
-6. Calculate and interpret correlation and covariance.
-7. Apply Bayes' Theorem and understand Bayesian vs Frequentist thinking.
-8. Understand sampling techniques and handling imbalanced data.
-9. Perform A/B testing analysis.
-10. Implement statistical functions using SciPy and Statsmodels.
+Next Step: Continue with Statistics Day 2 and learn variance and standard deviation.
+---
+## Day 1 — Descriptive Statistics
 
-## 🛠️ Prerequisites
-- Python, NumPy, Pandas, Matplotlib
+### Topics Covered
 
-## 📂 Folder Structure
-- `notes/`: Theory and math behind statistical concepts.
-- `exercises/`: Statistical calculation and coding challenges.
-- `mini_projects/`: Real-world inference and simulation projects.
+- Descriptive statistics
+- Population vs sample
+- Mean
+- Median
+- Mode
+- Minimum
+- Maximum
+- Range
+- Mean vs median
+- Effect of extreme values
+- Descriptive statistics in ML
 
-## 📚 Resources
-- [StatQuest with Josh Starmer (YouTube)](https://www.youtube.com/user/joshstarmer)
-- [Think Stats (O'Reilly)](https://greenteapress.com/wp/think-stats-2e/)
+### Files
+
+- `notes/01_descriptive_statistics.py`
+- `exercises/exercise_01.py`
+- `mini_projects/statistics_basic_analysis.py`
+
+### What I Learned
+
+- What descriptive statistics are
+- The difference between a population and a sample
+- How mean represents the average
+- How median represents the middle of ordered data
+- How mode represents the most frequent value
+- How to identify minimum and maximum values
+- How to calculate and interpret range
+- Why mean can be affected by extreme values
+- Why median can be useful when data contains outliers
+- Why descriptive statistics are useful during ML data analysis
+
+### Mini Project
+
+Built a Student Score Statistical Analysis.
+
+The project:
+
+- Creates a student score dataset
+- Calculates the mean
+- Calculates the median
+- Finds the mode
+- Finds the minimum and maximum
+- Calculates the range
+- Produces a basic statistical summary of the dataset
+
+### Key Concept
+
+Descriptive statistics summarize the important characteristics of a dataset and provide an initial understanding of the data before further analysis or machine learning.
