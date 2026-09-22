@@ -1,8 +1,8 @@
 ### Current Progress
 
-Statistics & Probability — Day 1 completed — Covered descriptive statistics, population vs sample, mean, median, mode, minimum, maximum, range, and the role of descriptive statistics in ML.
+Statistics & Probability — Day 2 completed — Covered variance, population vs sample variance, standard deviation, `ddof=1`, interpreting data spread, and the effect of outliers on variation.
 
-Next Step: Continue with Statistics Day 2 and learn variance and standard deviation.
+Next Step: Continue with Statistics Day 3 and learn percentiles and quartiles.
 ---
 ## Day 1 — Descriptive Statistics
 
@@ -56,3 +56,59 @@ The project:
 ### Key Concept
 
 Descriptive statistics summarize the important characteristics of a dataset and provide an initial understanding of the data before further analysis or machine learning.
+---
+## Day 2 — Variance & Standard Deviation
+
+### Topics Covered
+
+- Data spread
+- Variance
+- Distance from the mean
+- Squared deviations
+- Population variance
+- Sample variance
+- Standard deviation
+- Population standard deviation
+- Sample standard deviation
+- `ddof=1`
+- Interpreting standard deviation
+- Effect of outliers on variance and standard deviation
+- Variance vs standard deviation
+- Range vs standard deviation
+- Statistical spread in ML
+
+### Files
+
+- `notes/02_variance_standard_deviation.py`
+- `exercises/exercise_02.py`
+- `mini_projects/statistics_spread_analysis.py`
+
+### What I Learned
+
+- Why mean alone is not enough to describe a dataset
+- How variance measures average squared distance from the mean
+- How standard deviation represents spread in the original units
+- The difference between population and sample calculations
+- How `ddof=1` is used for sample standard deviation
+- How to interpret small and large standard deviations
+- Why standard deviation is affected by outliers
+- Why range and standard deviation measure spread differently
+- Why variation is important when analyzing ML features
+
+### Mini Project
+
+Built a Student Score Spread Analysis.
+
+The project:
+
+- Creates a student score dataset
+- Calculates the mean
+- Calculates variance
+- Calculates standard deviation
+- Calculates minimum and maximum
+- Calculates range
+- Compares different measures of spread
+
+### Key Concept
+
+Standard deviation describes how much data typically varies around its mean. A small standard deviation indicates relatively consistent values, while a large standard deviation indicates greater spread.
