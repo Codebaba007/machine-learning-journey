@@ -1,8 +1,8 @@
 ### Current Progress
 
-Statistics & Probability — Day 2 completed — Covered variance, population vs sample variance, standard deviation, `ddof=1`, interpreting data spread, and the effect of outliers on variation.
+Statistics & Probability — Day 3 completed — Covered percentiles, quartiles, Q1, Q2, Q3, IQR, the middle 50% of data, percentile interpretation, and IQR-based potential outlier detection.
 
-Next Step: Continue with Statistics Day 3 and learn percentiles and quartiles.
+Next Step: Continue with Statistics Day 4 and learn distributions and their shapes.
 ---
 ## Day 1 — Descriptive Statistics
 
@@ -112,3 +112,59 @@ The project:
 ### Key Concept
 
 Standard deviation describes how much data typically varies around its mean. A small standard deviation indicates relatively consistent values, while a large standard deviation indicates greater spread.
+---
+## Day 3 — Percentiles & Quartiles
+
+### Topics Covered
+
+- Percentiles
+- Percentile rank
+- 25th, 50th, 75th, and 90th percentiles
+- Quartiles
+- Q1
+- Q2
+- Q3
+- Q2 as the median
+- Middle 50% of data
+- Interquartile Range (IQR)
+- Percentiles vs quartiles
+- IQR-based outlier detection
+- Box plot concepts
+- Percentiles in ML and EDA
+
+### Files
+
+- `notes/03_percentiles_quartiles.py`
+- `exercises/exercise_03.py`
+- `mini_projects/statistics_percentile_analysis.py`
+
+### What I Learned
+
+- What a percentile represents
+- How percentiles describe the relative position of a value in a dataset
+- The difference between percentage and percentile
+- How quartiles divide ordered data
+- Why Q1 represents the 25th percentile
+- Why Q2 represents the 50th percentile and median
+- Why Q3 represents the 75th percentile
+- How the IQR describes the spread of the middle 50% of data
+- How IQR is less affected by extreme values than range
+- How the 1.5 × IQR rule can identify potential outliers
+- How quartiles and IQR connect to box plots
+- Why percentiles are useful for ML data analysis and EDA
+
+### Mini Project
+
+Built a Student Score Percentile Analysis.
+
+The project:
+
+- Creates a student score dataset
+- Calculates Q1, Q2, and Q3
+- Calculates the IQR
+- Calculates lower and upper outlier boundaries
+- Identifies potential outliers
+
+### Key Concept
+
+Percentiles describe the relative position of values within a dataset, while quartiles divide the data into four parts. The IQR measures the spread of the middle 50% and can be used to identify potential outliers.
