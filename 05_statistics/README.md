@@ -1,8 +1,8 @@
 ### Current Progress
 
-Statistics & Probability — Day 3 completed — Covered percentiles, quartiles, Q1, Q2, Q3, IQR, the middle 50% of data, percentile interpretation, and IQR-based potential outlier detection.
+Statistics & Probability — Day 4 completed — Covered distributions, frequency distributions, probability distributions, distribution shape, normal and uniform distributions, skewness, and the relationship between mean and median.
 
-Next Step: Continue with Statistics Day 4 and learn distributions and their shapes.
+Next Step: Continue with Statistics Day 5 and learn probability fundamentals.
 ---
 ## Day 1 — Descriptive Statistics
 
@@ -168,3 +168,64 @@ The project:
 ### Key Concept
 
 Percentiles describe the relative position of values within a dataset, while quartiles divide the data into four parts. The IQR measures the spread of the middle 50% and can be used to identify potential outliers.
+---
+## Day 4 — Distributions
+
+### Topics Covered
+
+- Distributions
+- Frequency distributions
+- Probability distributions
+- Distribution shape
+- Symmetric distributions
+- Normal distribution
+- Uniform distribution
+- Right-skewed distributions
+- Left-skewed distributions
+- Mean and median in different distributions
+- Standard deviation and distribution spread
+- Histograms
+- Distributions in EDA
+- Distributions in Machine Learning
+
+### Files
+
+- `notes/04_distributions.py`
+- `exercises/exercise_04.py`
+- `mini_projects/statistics_distribution_analysis.py`
+
+### What I Learned
+
+- What a distribution represents
+- How frequency describes how often values occur
+- How probability distributions describe the likelihood of possible outcomes
+- How to recognize different distribution shapes
+- The characteristics of a normal distribution
+- How standard deviation affects the spread of a normal distribution
+- What a uniform distribution represents
+- How to identify right-skewed and left-skewed distributions
+- How skewness can affect the relationship between mean and median
+- Why mean is sensitive to extreme values
+- How histograms help visualize distributions
+- Why distribution analysis is important during EDA
+- Why understanding feature distributions is useful in Machine Learning
+
+### Mini Project
+
+Built a Student Score Distribution Analysis.
+
+The project:
+
+- Creates a student score dataset
+- Calculates the mean
+- Calculates the median
+- Calculates standard deviation
+- Calculates Q1 and Q3
+- Visualizes the distribution using a histogram
+- Demonstrates right-skewed data
+- Demonstrates left-skewed data
+- Compares mean and median for different distributions
+
+### Key Concept
+
+A distribution describes how values are spread across a dataset. Understanding its shape helps identify concentration, spread, skewness, and unusual patterns that may not be obvious from a single statistical measure.
