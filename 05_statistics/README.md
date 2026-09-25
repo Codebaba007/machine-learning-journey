@@ -1,8 +1,8 @@
 ### Current Progress
 
-Statistics & Probability — Day 4 completed — Covered distributions, frequency distributions, probability distributions, distribution shape, normal and uniform distributions, skewness, and the relationship between mean and median.
+Statistics & Probability — Day 5 completed — Covered probability fundamentals, experiments, outcomes, sample spaces, events, favorable outcomes, complements, addition rules, independent events, dependent events, and mutually exclusive events.
 
-Next Step: Continue with Statistics Day 5 and learn probability fundamentals.
+Next Step: Continue with Statistics Day 6 and learn conditional probability.
 ---
 ## Day 1 — Descriptive Statistics
 
@@ -229,3 +229,63 @@ The project:
 ### Key Concept
 
 A distribution describes how values are spread across a dataset. Understanding its shape helps identify concentration, spread, skewness, and unusual patterns that may not be obvious from a single statistical measure.
+---
+## Day 5 — Probability Fundamentals
+
+### Topics Covered
+
+- Probability
+- Experiments
+- Outcomes
+- Sample spaces
+- Events
+- Favorable outcomes
+- Basic probability formula
+- Probability range
+- Impossible events
+- Certain events
+- Complements
+- Addition rule
+- Mutually exclusive events
+- Independent events
+- Dependent events
+- Multiplication rule for independent events
+- Experimental probability
+- Probability in Machine Learning
+
+### Files
+
+- `notes/05_probability_fundamentals.py`
+- `exercises/exercise_05.py`
+- `mini_projects/statistics_probability_analysis.py`
+
+### What I Learned
+
+- What probability represents
+- How experiments, outcomes, and sample spaces are related
+- How to define events
+- How to calculate basic probability
+- Why probability always falls between 0 and 1
+- How to calculate the complement of an event
+- How the addition rule works
+- The difference between mutually exclusive and independent events
+- How independent events use the multiplication rule
+- How dependent events differ from independent events
+- How experimental probability can be estimated from repeated trials
+- Why probability is important for Machine Learning
+
+### Mini Project
+
+Built a Coin Flip Probability Analysis.
+
+The project:
+
+- Simulates 1,000 coin flips
+- Counts Heads and Tails
+- Calculates experimental probabilities
+- Verifies that the probabilities add up to approximately 1
+- Demonstrates the difference between theoretical and experimental probability
+
+### Key Concept
+
+Probability provides a mathematical way to represent uncertainty and measure how likely events are to occur. It forms an important foundation for understanding later concepts such as conditional probability, Bayes' theorem, probability distributions, and Machine Learning classification.
