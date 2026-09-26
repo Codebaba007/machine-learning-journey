@@ -1,8 +1,9 @@
 ### Current Progress
 
-Statistics & Probability — Day 5 completed — Covered probability fundamentals, experiments, outcomes, sample spaces, events, favorable outcomes, complements, addition rules, independent events, dependent events, and mutually exclusive events.
+Statistics & Probability — Day 6 completed — Covered conditional probability, the conditional probability formula, contingency tables, independent and dependent events, and applications in Machine Learning.
 
-Next Step: Continue with Statistics Day 6 and learn conditional probability.
+Next Step: Continue with Statistics Day 7 and learn Bayes' theorem.
+
 ---
 ## Day 1 — Descriptive Statistics
 
@@ -289,3 +290,51 @@ The project:
 ### Key Concept
 
 Probability provides a mathematical way to represent uncertainty and measure how likely events are to occur. It forms an important foundation for understanding later concepts such as conditional probability, Bayes' theorem, probability distributions, and Machine Learning classification.
+---
+## Day 6 — Conditional Probability
+
+### Topics Covered
+
+- Conditional probability
+- \(P(A \mid B)\) notation
+- Conditional probability formula
+- Given information
+- Conditional probability using tables
+- Real-life applications
+- Independent and dependent events
+- Relationship between conditional probability and independence
+- Conditional probability in Machine Learning
+
+### Files
+
+- `notes/06_conditional_probability.py`
+- `exercises/exercise_06.py`
+- `mini_projects/statistics_conditional_probability.py`
+
+### What I Learned
+
+- What conditional probability represents
+- How additional information changes probability
+- How to interpret \(P(A \mid B)\)
+- How to calculate conditional probability using the formula
+- How to calculate conditional probability from a contingency table
+- Why \(P(A \mid B)\) and \(P(B \mid A)\) can have different values
+- How conditional probability relates to independent and dependent events
+- How conditional probability is used in Machine Learning
+
+### Mini Project
+
+Built a Student Course Probability Analysis.
+
+The project:
+
+- Creates a student course enrollment dataset
+- Calculates the probability of studying Python
+- Calculates the probability of studying JavaScript
+- Calculates the probability of studying both courses
+- Calculates conditional probabilities
+- Checks whether the two events are independent
+
+### Key Concept
+
+Conditional probability measures the probability of an event occurring when another event is already known to have occurred. It allows us to update probabilities based on available information and is an important foundation for Bayes' theorem and Machine Learning.
