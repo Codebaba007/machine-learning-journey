@@ -1,8 +1,9 @@
 ### Current Progress
 
-Statistics & Probability — Day 6 completed — Covered conditional probability, the conditional probability formula, contingency tables, independent and dependent events, and applications in Machine Learning.
+Statistics & Probability — Day 7 completed — Covered Bayes' theorem, prior probability, likelihood, evidence, posterior probability, and applications in Machine Learning.
 
-Next Step: Continue with Statistics Day 7 and learn Bayes' theorem.
+Next Step: Continue with Statistics Day 8 and learn random variables and expected value.
+
 
 ---
 ## Day 1 — Descriptive Statistics
@@ -338,3 +339,55 @@ The project:
 ### Key Concept
 
 Conditional probability measures the probability of an event occurring when another event is already known to have occurred. It allows us to update probabilities based on available information and is an important foundation for Bayes' theorem and Machine Learning.
+---
+## Day 7 — Bayes' Theorem
+
+### Topics Covered
+
+- Bayes' theorem
+- Prior probability
+- Likelihood
+- Evidence
+- Posterior probability
+- Bayes' theorem formula
+- Updating probabilities with new information
+- Conditional probability vs. Bayes' theorem
+- Medical testing examples
+- Applications in Machine Learning
+- Naive Bayes introduction
+
+### Files
+
+- `notes/07_bayes_theorem.py`
+- `exercises/exercise_07.py`
+- `mini_projects/statistics_bayes_theorem.py`
+
+### What I Learned
+
+- What Bayes' theorem is and why it is useful
+- How prior probability represents initial beliefs
+- How likelihood measures the probability of evidence under a condition
+- How evidence represents the overall probability of an observation
+- How posterior probability updates the prior using new evidence
+- How to apply Bayes' theorem to medical testing
+- Why \(P(A \mid B)\) and \(P(B \mid A)\) are different
+- How Bayes' theorem connects to conditional probability
+- How Bayes' theorem is used in Machine Learning
+- The basic idea behind Naive Bayes
+
+### Mini Project
+
+Built a Medical Test Bayes' Theorem Analysis.
+
+The project:
+
+- Creates a medical testing dataset
+- Calculates the prior probability of disease
+- Calculates the likelihood of a positive test
+- Calculates the evidence
+- Applies Bayes' theorem
+- Calculates the posterior probability of disease given a positive test
+
+### Key Concept
+
+Bayes' theorem updates the probability of an event using new evidence. It combines prior probability, likelihood, and evidence to calculate posterior probability. It is an important foundation for probabilistic Machine Learning and Naive Bayes.
