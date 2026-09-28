@@ -1,9 +1,8 @@
 ### Current Progress
 
-Statistics & Probability — Day 7 completed — Covered Bayes' theorem, prior probability, likelihood, evidence, posterior probability, and applications in Machine Learning.
+Statistics & Probability — Day 8 completed — Covered random variables, discrete and continuous variables, probability distributions, and expected value, including its formula and real-life applications.
 
-Next Step: Continue with Statistics Day 8 and learn random variables and expected value.
-
+Next Step: Continue with Statistics Day 9 and learn covariance and correlation.
 
 ---
 ## Day 1 — Descriptive Statistics
@@ -391,3 +390,50 @@ The project:
 ### Key Concept
 
 Bayes' theorem updates the probability of an event using new evidence. It combines prior probability, likelihood, and evidence to calculate posterior probability. It is an important foundation for probabilistic Machine Learning and Naive Bayes.
+---
+## Day 8 — Random Variables & Expected Value
+
+### Topics Covered
+
+- Random variables
+- Discrete random variables
+- Continuous random variables
+- Probability distributions
+- Expected value
+- Expected value formula
+- Expected value using probability tables
+- Long-run average
+- Real-life applications of expected value
+- Expected value in Machine Learning
+
+### Files
+
+- `notes/08_random_variables_expected_value.py`
+- `exercises/exercise_08.py`
+- `mini_projects/statistics_expected_value.py`
+
+### What I Learned
+
+- What a random variable represents
+- The difference between discrete and continuous random variables
+- How probability distributions describe possible outcomes
+- What expected value means
+- How to calculate expected value using probabilities
+- Why expected value represents a long-run average rather than a guaranteed outcome
+- How expected value can be applied to real-life problems
+- How expected value is useful in Machine Learning
+
+### Mini Project
+
+Built a Daily Sales Expected Value Analysis.
+
+The project:
+
+- Creates a daily sales probability distribution
+- Calculates weighted sales for each possible outcome
+- Checks that the probabilities sum to 1
+- Calculates expected daily sales
+
+### Key Concept
+
+Expected value is the probability-weighted average of a random variable. It represents the long-run average outcome over repeated trials and is useful for reasoning about uncertainty in statistics and Machine Learning.
