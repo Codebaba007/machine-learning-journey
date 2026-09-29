@@ -1,9 +1,8 @@
 ### Current Progress
 
-Statistics & Probability — Day 8 completed — Covered random variables, discrete and continuous variables, probability distributions, and expected value, including its formula and real-life applications.
+Statistics & Probability — Day 9 completed — Covered covariance, positive and negative relationships, Pearson correlation, correlation strength and direction, covariance vs. correlation, and correlation vs. causation.
 
-Next Step: Continue with Statistics Day 9 and learn covariance and correlation.
-
+Next Step: Continue with Statistics Day 10 and learn sampling and sampling distributions.
 ---
 ## Day 1 — Descriptive Statistics
 
@@ -437,3 +436,56 @@ The project:
 ### Key Concept
 
 Expected value is the probability-weighted average of a random variable. It represents the long-run average outcome over repeated trials and is useful for reasoning about uncertainty in statistics and Machine Learning.
+---
+## Day 9 — Covariance & Correlation
+
+### Topics Covered
+
+- Covariance
+- Positive covariance
+- Negative covariance
+- Zero covariance
+- Population covariance
+- Sample covariance
+- Pearson correlation coefficient
+- Correlation range (-1 to +1)
+- Strength and direction of linear relationships
+- Covariance vs. correlation
+- Correlation vs. causation
+- Nonlinear relationships
+- Correlation in EDA and Machine Learning
+
+### Files
+
+- `notes/09_covariance_correlation.py`
+- `exercises/exercise_09.py`
+- `mini_projects/statistics_correlation_analysis.py`
+
+### What I Learned
+
+- How covariance describes the direction in which two variables vary together
+- The difference between positive, negative, and near-zero covariance
+- The difference between population and sample covariance
+- Why covariance magnitude depends on units and scale
+- How Pearson correlation standardizes covariance
+- How to interpret correlation values between -1 and +1
+- Why correlation measures linear association
+- Why zero correlation does not rule out a nonlinear relationship
+- Why correlation does not prove causation
+- How covariance and correlation help analyze ML features
+
+### Mini Project
+
+Built a Student Performance Correlation Analysis.
+
+The project:
+
+- Creates a dataset containing study hours, exam scores, and sleep hours
+- Calculates a covariance matrix
+- Calculates a correlation matrix
+- Examines the relationship between study hours and exam scores
+- Visualizes the relationship using a scatter plot
+
+### Key Concept
+
+Covariance describes how two variables vary together, while correlation standardizes the direction and strength of their linear relationship. Correlation is easier to interpret and compare, but it does not establish causation.
