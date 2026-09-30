@@ -1,8 +1,8 @@
 ### Current Progress
 
-Statistics & Probability — Day 9 completed — Covered covariance, positive and negative relationships, Pearson correlation, correlation strength and direction, covariance vs. correlation, and correlation vs. causation.
+Statistics & Probability — Day 10 completed — Covered sampling methods, sampling bias, sampling variability, sampling distributions, standard error, the Central Limit Theorem, and sampling in Machine Learning.
 
-Next Step: Continue with Statistics Day 10 and learn sampling and sampling distributions.
+Next Step: Continue with Statistics Day 11.
 ---
 ## Day 1 — Descriptive Statistics
 
@@ -489,3 +489,57 @@ The project:
 ### Key Concept
 
 Covariance describes how two variables vary together, while correlation standardizes the direction and strength of their linear relationship. Correlation is easier to interpret and compare, but it does not establish causation.
+---
+## Day 10 — Sampling & Sampling Distributions
+
+### Topics Covered
+
+- Population and sample
+- Population parameters and sample statistics
+- Sampling and statistical inference
+- Simple random sampling
+- Systematic sampling
+- Stratified sampling
+- Cluster sampling
+- Sampling bias
+- Sampling variability
+- Sampling distributions
+- Standard error
+- Central Limit Theorem (CLT)
+- Sampling in Machine Learning
+
+### Files
+
+- `notes/10_sampling.py`
+- `exercises/exercise_10.py`
+- `mini_projects/statistics_sampling_analysis.py`
+
+### What I Learned
+
+- The difference between a population and a sample
+- How sample statistics are used to estimate population parameters
+- How simple random, systematic, stratified, and cluster sampling work
+- Why sampling bias can produce misleading results
+- How different samples produce different statistics
+- What a sampling distribution represents
+- The difference between standard deviation and standard error
+- How sample size affects standard error
+- How the Central Limit Theorem explains the behavior of sample means
+- Why sampling is important in Machine Learning
+
+### Mini Project
+
+Built a Sampling Analysis of Student Performance.
+
+The project:
+
+- Simulates a population of student scores
+- Draws repeated random samples of different sizes
+- Calculates sample means and standard errors
+- Compares observed and theoretical standard errors
+- Visualizes sampling distributions for different sample sizes
+- Examines how sample size affects sampling variability
+
+### Key Concept
+
+Sampling allows us to estimate population characteristics using a subset of observations. Sampling distributions and standard errors help us understand the uncertainty in those estimates. Larger samples generally reduce sampling variability, while biased sampling can still lead to misleading conclusions.
