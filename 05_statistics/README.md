@@ -1,8 +1,8 @@
 ### Current Progress
 
-Statistics & Probability — Day 10 completed — Covered sampling methods, sampling bias, sampling variability, sampling distributions, standard error, the Central Limit Theorem, and sampling in Machine Learning.
+Statistics & Probability — Day 11 completed — Covered point and interval estimates, confidence levels, margin of error, Z- and t-confidence intervals, standard error, factors affecting interval width, and confidence intervals in Machine Learning.
 
-Next Step: Continue with Statistics Day 11.
+Next Step: Continue with Statistics Day 12.
 ---
 ## Day 1 — Descriptive Statistics
 
@@ -543,3 +543,54 @@ The project:
 ### Key Concept
 
 Sampling allows us to estimate population characteristics using a subset of observations. Sampling distributions and standard errors help us understand the uncertainty in those estimates. Larger samples generally reduce sampling variability, while biased sampling can still lead to misleading conclusions.
+---
+## Day 11 — Confidence Intervals
+
+### Topics Covered
+
+- Point estimates and interval estimates
+- Confidence intervals
+- Confidence levels (90%, 95%, and 99%)
+- Margin of error
+- Confidence intervals for population means
+- Z-confidence intervals
+- t-confidence intervals
+- Critical values and degrees of freedom
+- Standard error in confidence intervals
+- Factors affecting interval width
+- Confidence intervals in Machine Learning
+
+### Files
+
+- `notes/11_confidence_intervals.py`
+- `exercises/exercise_11.py`
+- `mini_projects/statistics_confidence_interval_analysis.py`
+
+### What I Learned
+
+- The difference between point estimates and interval estimates
+- How confidence intervals estimate unknown population parameters
+- How to interpret confidence levels using repeated sampling
+- How margin of error determines interval width
+- When to use Z-intervals and t-intervals
+- How degrees of freedom affect t critical values
+- How sample size, confidence level, and variability affect interval width
+- How confidence intervals help express uncertainty in ML evaluation
+
+### Mini Project
+
+Built a Student Performance Confidence Interval Analysis.
+
+The project:
+
+- Simulates a population of student exam scores
+- Draws samples of different sizes
+- Calculates confidence intervals at 90%, 95%, and 99% confidence levels
+- Compares interval widths across sample sizes and confidence levels
+- Checks whether intervals contain the simulated population mean
+- Visualizes confidence interval width and interval bounds
+
+### Key Concept
+
+A confidence interval provides a range of plausible values for an unknown population parameter. The confidence level describes the long-run coverage of the interval method. Larger samples generally produce narrower intervals, while higher confidence levels generally produce wider intervals.
+
