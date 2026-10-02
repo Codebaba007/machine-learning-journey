@@ -1,8 +1,8 @@
 ### Current Progress
 
-Statistics & Probability — Day 11 completed — Covered point and interval estimates, confidence levels, margin of error, Z- and t-confidence intervals, standard error, factors affecting interval width, and confidence intervals in Machine Learning.
+Statistics & Probability — Day 12 completed — Covered hypothesis testing, null and alternative hypotheses, test directions, significance levels, Z-statistics, critical values, p-values, Type I and Type II errors, statistical power, and ML applications.
 
-Next Step: Continue with Statistics Day 12.
+Next Step: Continue with Statistics Day 13.
 ---
 ## Day 1 — Descriptive Statistics
 
@@ -593,4 +593,60 @@ The project:
 ### Key Concept
 
 A confidence interval provides a range of plausible values for an unknown population parameter. The confidence level describes the long-run coverage of the interval method. Larger samples generally produce narrower intervals, while higher confidence levels generally produce wider intervals.
+---
+## Day 12 — Hypothesis Testing Fundamentals
+
+### Topics Covered
+
+- Hypothesis testing
+- Null hypothesis (H₀)
+- Alternative hypothesis (H₁)
+- Two-tailed tests
+- Left-tailed and right-tailed tests
+- Significance level (α)
+- Test statistics
+- Critical values
+- P-values
+- Type I and Type II errors
+- Statistical power
+- Hypothesis testing in Machine Learning
+
+### Files
+
+- `notes/12_hypothesis_testing.py`
+- `exercises/exercise_12.py`
+- `mini_projects/hypothesis_testing_analysis.py`
+
+### What I Learned
+
+- How hypothesis testing evaluates claims about a population using sample data
+- The difference between null and alternative hypotheses
+- How to identify two-tailed, left-tailed, and right-tailed tests
+- How significance levels determine rejection thresholds
+- How to calculate a Z-test statistic
+- How to calculate and interpret p-values using SciPy
+- How to make decisions using critical values and p-values
+- The difference between Type I and Type II errors
+- How statistical power relates to Type II errors
+- How hypothesis testing can help evaluate differences in ML model performance
+
+### Mini Project
+
+Built a Student Exam Score Hypothesis Testing Analysis.
+
+The project:
+
+- Simulates a population of student exam scores
+- Draws a random sample from the population
+- Calculates the sample mean and standard deviation
+- Performs a two-tailed Z-test
+- Calculates the standard error, Z-statistic, and p-value
+- Compares the p-value with the significance level
+- Makes a statistical decision
+- Visualizes the sample distribution and hypothesis test
+
+### Key Concept
+
+Hypothesis testing uses sample data to evaluate a claim about a population. The p-value measures how unusual the observed result would be if the null hypothesis were true. A small p-value provides evidence against the null hypothesis, but does not prove the alternative hypothesis.
+
 
