@@ -1,8 +1,8 @@
 ### Current Progress
 
-Statistics & Probability — Day 12 completed — Covered hypothesis testing, null and alternative hypotheses, test directions, significance levels, Z-statistics, critical values, p-values, Type I and Type II errors, statistical power, and ML applications.
+Statistics & Probability — Day 13 completed — Covered Z-tests vs t-tests, t-distributions, degrees of freedom, one-sample t-tests, independent two-sample t-tests, paired t-tests, and the SciPy `stats` library.
 
-Next Step: Continue with Statistics Day 13.
+Next Step: Continue with Statistics Day 14. 
 ---
 ## Day 1 — Descriptive Statistics
 
@@ -648,5 +648,82 @@ The project:
 ### Key Concept
 
 Hypothesis testing uses sample data to evaluate a claim about a population. The p-value measures how unusual the observed result would be if the null hypothesis were true. A small p-value provides evidence against the null hypothesis, but does not prove the alternative hypothesis.
+---
+## Day 13 — Z-Test vs T-Test
+
+### Topics Covered
+
+- Z-test recap
+- T-test
+- Population standard deviation vs sample standard deviation
+- T-distribution
+- Degrees of freedom
+- One-sample t-test
+- Independent two-sample t-test
+- Paired t-test
+- Z-test vs t-test
+- P-values with t-tests
+- Confidence intervals and t-tests
+- SciPy `stats` library
+- Normal distribution functions
+- T-distribution functions
+- Statistical testing in Machine Learning
+
+### SciPy `stats` Functions
+
+- `stats.norm.pdf()`
+- `stats.norm.cdf()`
+- `stats.norm.sf()`
+- `stats.t.pdf()`
+- `stats.t.cdf()`
+- `stats.t.sf()`
+- `stats.ttest_1samp()`
+- `stats.ttest_ind()`
+- `stats.ttest_rel()`
+- `stats.describe()`
+
+### What I Learned
+
+- Why a t-test is used when the population standard deviation is unknown
+- The difference between population standard deviation and sample standard deviation
+- How the t-distribution accounts for additional uncertainty
+- What degrees of freedom mean
+- Why the t-distribution approaches the normal distribution as sample size increases
+- How to perform a one-sample t-test
+- How to compare two independent groups using a t-test
+- How to perform a paired t-test
+- How to calculate t-statistics and p-values
+- How to use SciPy's `stats` module for statistical analysis
+- The difference between PDF, CDF, and survival function
+- How statistical testing can be applied to ML experiments and model comparisons
+
+### Mini Project
+
+Built a Z-Test vs T-Test statistical analysis using simulated data.
+
+The project:
+
+- Generates a population of observations
+- Creates a random sample
+- Calculates sample statistics
+- Calculates standard error
+- Calculates a t-statistic manually
+- Calculates degrees of freedom
+- Calculates a p-value
+- Performs a one-sample t-test using SciPy
+- Performs an independent two-sample t-test
+- Performs a paired t-test
+- Compares manual calculations with SciPy results
+
+### Important Note
+
+Statistics is one of the more difficult sections of the Machine Learning journey.
+
+The first pass is focused on building familiarity with the concepts and tools. The Statistics section will be revisited later for a dedicated reinforcement phase using simpler intuition, practical ML examples, and additional exercises.
+
+### Key Concept
+
+A Z-test commonly uses the known population standard deviation, while a t-test uses the sample standard deviation when the population standard deviation is unknown. The t-distribution accounts for the additional uncertainty introduced by estimating the population standard deviation.
+
 
 
