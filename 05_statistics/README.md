@@ -1,8 +1,8 @@
 ### Current Progress
 
-Statistics & Probability — Day 13 completed — Covered Z-tests vs t-tests, t-distributions, degrees of freedom, one-sample t-tests, independent two-sample t-tests, paired t-tests, and the SciPy `stats` library.
+Statistics & Probability — Day 14 completed — Covered ANOVA, between-group and within-group variation, F-statistics, F-distributions, one-way ANOVA, p-values, post-hoc testing, ANOVA assumptions, and practical applications.
 
-Next Step: Continue with Statistics Day 14. 
+Next Step: Continue with Statistics Day 15.
 ---
 ## Day 1 — Descriptive Statistics
 
@@ -724,6 +724,69 @@ The first pass is focused on building familiarity with the concepts and tools. T
 ### Key Concept
 
 A Z-test commonly uses the known population standard deviation, while a t-test uses the sample standard deviation when the population standard deviation is unknown. The t-distribution accounts for the additional uncertainty introduced by estimating the population standard deviation.
+---
+## Day 14 — ANOVA (Analysis of Variance)
+
+### Topics Covered
+
+- Analysis of Variance (ANOVA)
+- Comparing multiple group means
+- Problems with performing multiple t-tests
+- Null hypothesis (H₀)
+- Alternative hypothesis (H₁)
+- Between-group variation
+- Within-group variation
+- Total variation
+- F-statistic
+- F-distribution
+- One-way ANOVA
+- Degrees of freedom in ANOVA
+- P-values and ANOVA decisions
+- Post-hoc testing
+- ANOVA assumptions
+- ANOVA in Machine Learning
+
+### SciPy Functions
+
+- `stats.f_oneway()`
+
+### What I Learned
+
+- Why ANOVA is useful when comparing multiple groups
+- Why performing many separate t-tests can increase the chance of Type I errors
+- How ANOVA compares between-group variation with within-group variation
+- What the F-statistic represents
+- Why the F-statistic cannot be negative
+- How the F-distribution is used in ANOVA
+- How to formulate null and alternative hypotheses for ANOVA
+- How to interpret an ANOVA p-value
+- Why a significant ANOVA result only tells us that at least one group mean differs
+- The purpose of post-hoc tests
+- The basic assumptions of one-way ANOVA
+- How ANOVA can be useful in exploratory data analysis and ML
+
+### Mini Project
+
+Built a Student Performance ANOVA Analysis.
+
+The project:
+
+- Simulates student scores for three teaching methods
+- Calculates the mean score for each group
+- Performs a one-way ANOVA
+- Calculates the F-statistic
+- Calculates the p-value
+- Makes a statistical decision using α = 0.05
+- Creates a summary of group means, standard deviations, and sample sizes
+- Visualizes the score distributions using boxplots and histograms
+
+### Key Concept
+
+ANOVA compares the variation between group means with the variation within groups. A large F-statistic indicates that the between-group variation is large relative to the within-group variation. A statistically significant ANOVA result provides evidence that at least one population mean differs from the others, but does not identify which groups differ.
+
+### Important Note
+
+Statistics is one of the more difficult sections of the Machine Learning journey. This is the first pass through the material. The Statistics section will be revisited later for a dedicated reinforcement phase with simpler explanations, practical ML examples, and additional practice.
 
 
 
