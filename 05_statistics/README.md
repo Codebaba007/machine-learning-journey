@@ -1,8 +1,8 @@
 ### Current Progress
 
-Statistics & Probability — Day 14 completed — Covered ANOVA, between-group and within-group variation, F-statistics, F-distributions, one-way ANOVA, p-values, post-hoc testing, ANOVA assumptions, and practical applications.
+Statistics & Probability — Day 15 completed — Covered categorical data, Chi-Square tests, goodness-of-fit, tests of independence, contingency tables, observed and expected frequencies, Chi-Square statistics, degrees of freedom, p-values, Cramér's V, and categorical feature analysis.
 
-Next Step: Continue with Statistics Day 15.
+Next Step: Continue with Statistics Day 16.
 ---
 ## Day 1 — Descriptive Statistics
 
@@ -787,6 +787,94 @@ ANOVA compares the variation between group means with the variation within group
 ### Important Note
 
 Statistics is one of the more difficult sections of the Machine Learning journey. This is the first pass through the material. The Statistics section will be revisited later for a dedicated reinforcement phase with simpler explanations, practical ML examples, and additional practice.
+---
+## Day 15 — Chi-Square Tests
+
+### Topics Covered
+
+- Categorical data
+- Numerical vs categorical data
+- Chi-Square tests
+- Observed frequencies
+- Expected frequencies
+- Chi-Square statistic
+- Chi-Square distribution
+- Goodness-of-fit test
+- Chi-Square test of independence
+- Contingency tables
+- Expected frequency calculation
+- Degrees of freedom
+- P-values and statistical decisions
+- Effect size
+- Cramér's V
+- Assumptions and limitations
+- Chi-Square tests in Machine Learning
+
+### SciPy Functions
+
+- `stats.chisquare()`
+- `stats.chi2_contingency()`
+- `stats.chi2.sf()`
+
+### Pandas Functions
+
+- `pd.crosstab()`
+
+### What I Learned
+
+- The difference between numerical and categorical data
+- Why Chi-Square tests are useful for categorical data
+- The difference between observed and expected frequencies
+- How the Chi-Square statistic is calculated
+- How the Chi-Square distribution is used for statistical testing
+- How to perform a goodness-of-fit test
+- How to perform a Chi-Square test of independence
+- How to create and interpret contingency tables
+- How to calculate expected frequencies
+- How degrees of freedom are determined
+- How to interpret Chi-Square p-values
+- Why statistical association does not necessarily imply causation
+- The basic idea of effect size and Cramér's V
+- How Chi-Square tests can be used for categorical feature analysis in ML
+
+### Mini Project
+
+Built a Customer Churn and Contract Type Chi-Square Analysis.
+
+The project:
+
+- Simulates customer contract and churn data
+- Creates a Pandas DataFrame
+- Builds a contingency table using `pd.crosstab()`
+- Performs a Chi-Square test of independence
+- Calculates observed and expected frequencies
+- Calculates the Chi-Square statistic
+- Calculates the p-value
+- Makes a statistical decision
+- Calculates Cramér's V
+- Calculates churn rates by contract type
+- Visualizes observed frequencies
+- Visualizes churn rates
+- Compares observed and expected frequencies
+
+### Key Concept
+
+Chi-Square tests compare observed categorical frequencies with expected frequencies. A goodness-of-fit test evaluates whether one categorical variable follows an expected distribution, while a Chi-Square test of independence evaluates whether two categorical variables are associated.
+
+For a contingency table:
+
+χ² = Σ((O − E)² / E)
+
+For independence:
+
+df = (rows − 1)(columns − 1)
+
+A statistically significant result provides evidence against the null hypothesis, but an association does not automatically establish causation.
+
+### Important Note
+
+Statistics is one of the more difficult sections of the Machine Learning journey. This is the first pass through the material. The Statistics section will be revisited later for a dedicated reinforcement phase with simpler explanations, practical ML examples, and additional practice.
+
 
 
 
