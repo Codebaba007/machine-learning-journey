@@ -1,8 +1,9 @@
 ### Current Progress
 
-Statistics & Probability — Day 15 completed — Covered categorical data, Chi-Square tests, goodness-of-fit, tests of independence, contingency tables, observed and expected frequencies, Chi-Square statistics, degrees of freedom, p-values, Cramér's V, and categorical feature analysis.
+Statistics & Probability — Day 16 completed — Covered parametric vs non-parametric methods, ranking data, Mann-Whitney U, Wilcoxon signed-rank, Kruskal-Wallis, Friedman tests, p-values, and non-parametric test selection.
 
-Next Step: Continue with Statistics Day 16.
+Next Step: Continue with the next section of the Machine Learning journey.
+
 ---
 ## Day 1 — Descriptive Statistics
 
@@ -874,7 +875,86 @@ A statistically significant result provides evidence against the null hypothesis
 ### Important Note
 
 Statistics is one of the more difficult sections of the Machine Learning journey. This is the first pass through the material. The Statistics section will be revisited later for a dedicated reinforcement phase with simpler explanations, practical ML examples, and additional practice.
+---
+## Day 16 — Non-Parametric Tests
 
+### Topics Covered
+
+- Parametric vs non-parametric statistics
+- Distributional assumptions
+- Why non-parametric tests are useful
+- Ranking data
+- Tied ranks
+- Independent vs paired data
+- Mann-Whitney U test
+- Wilcoxon signed-rank test
+- Kruskal-Wallis test
+- Friedman test
+- Null and alternative hypotheses
+- P-values
+- Significance level (α)
+- Statistical decisions
+- Non-parametric tests in Machine Learning and data analysis
+
+### SciPy Functions
+
+- `stats.mannwhitneyu()`
+- `stats.wilcoxon()`
+- `stats.kruskal()`
+- `stats.friedmanchisquare()`
+
+### What I Learned
+
+- The difference between parametric and non-parametric statistical methods
+- Why distributional assumptions matter when choosing a statistical test
+- Why non-parametric methods are useful for skewed data, outliers, ordinal data, and questionable distributional assumptions
+- How ranking converts raw observations into ordered positions
+- How tied observations receive average ranks
+- How independent and paired data differ
+- When to use the Mann-Whitney U test
+- When to use the Wilcoxon signed-rank test
+- When to use the Kruskal-Wallis test
+- When to use the Friedman test
+- How to formulate null and alternative hypotheses
+- How to use p-values with non-parametric tests
+- How to make statistical decisions using α = 0.05
+- How non-parametric tests can be used in practical data analysis and ML workflows
+
+### Test Selection
+
+- Two independent groups → Mann-Whitney U
+- Two paired groups → Wilcoxon signed-rank
+- Three or more independent groups → Kruskal-Wallis
+- Three or more paired/repeated groups → Friedman
+
+### Mini Project
+
+Built a Non-Parametric Customer Satisfaction Analysis.
+
+The project:
+
+- Compared mobile and desktop customer satisfaction using the Mann-Whitney U test
+- Compared satisfaction before and after a website redesign using the Wilcoxon signed-rank test
+- Compared satisfaction across three subscription plans using the Kruskal-Wallis test
+- Compared three interface designs using the Friedman test
+- Calculated test statistics and p-values
+- Made statistical decisions using α = 0.05
+- Created a summary of group means
+- Visualized customer satisfaction using a boxplot
+
+### Key Concept
+
+Non-parametric tests generally make fewer assumptions about the exact population distribution and often use ranks rather than relying directly on raw numerical distances. The correct test depends on the number of groups and whether the observations are independent or paired.
+
+### Important Note
+
+The first pass through Statistics focuses on learning the major concepts and practical tools. The Statistics section will continue to be reinforced through deeper theory, hand calculations, interpretation, and practical ML applications.
+
+### Current Progress
+
+Statistics & Probability — Day 16 completed — Covered parametric vs non-parametric methods, ranking data, Mann-Whitney U, Wilcoxon signed-rank, Kruskal-Wallis, Friedman tests, p-values, and non-parametric test selection.
+
+Next Step: Continue with the next section of the Machine Learning journey.
 
 
 
