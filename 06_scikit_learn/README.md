@@ -25,11 +25,15 @@ This section covers Scikit-learn, the main Python library used to learn and prac
 - `mini_projects/` — Practical Machine Learning projects
 
 ---
-### Current Progress
+## Current Progress
 
-Scikit-learn — Day 1 — Covered Scikit-learn foundations, features and targets, dataset shapes, supervised learning, train/test splitting, model fitting, prediction, evaluation, and the first regression mini-project.
+Scikit-learn — Day 2 completed — Covered data preprocessing foundations, feature scaling, standardization, `StandardScaler`, `fit()`, `transform()`, `fit_transform()`, and proper training/test preprocessing.
 
-Next Step: Continue with Scikit-learn Day 2.
+Completed:
+- Day 1 — Scikit-learn Foundations and Train/Test Split
+- Day 2 — Data Preprocessing and Feature Scaling
+
+Next Step: Continue with Scikit-learn Day 3.
 ---
 
 ## Day 1 — Scikit-learn Foundations and Train/Test Split
@@ -110,4 +114,68 @@ The test set should remain separate from model fitting so that it can provide a 
 ### Important Note
 
 The housing dataset is illustrative and is intended for learning the Machine Learning workflow. Its results should not be treated as a reliable estimate of real-world housing prices.
+---
+## Day 2 — Data Preprocessing and Feature Scaling
 
+### Topics Covered
+
+- Why feature scales matter
+- Feature scaling
+- Standardization
+- Z-score scaling
+- `StandardScaler`
+- `fit()`
+- `transform()`
+- `fit_transform()`
+- Training data vs testing data during preprocessing
+- Data leakage in feature scaling
+
+### Functions and Classes
+
+- `StandardScaler()`
+- `train_test_split()`
+- `fit_transform()`
+- `transform()`
+- `DataFrame.mean()`
+- `DataFrame.std()`
+
+### What I Learned
+
+- Why different feature scales can affect certain ML algorithms
+- How standardization transforms numerical features
+- How to interpret standardized values
+- The difference between `fit()`, `transform()`, and `fit_transform()`
+- How to fit a scaler on training data and apply it to testing data
+- Why preprocessing must avoid test-data leakage
+- How to compare original and standardized feature values
+
+### Formula
+
+Standardization:
+
+z = (x - μ) / σ
+
+Where:
+
+- `x` is the original feature value
+- `μ` is the feature mean
+- `σ` is the feature standard deviation
+- `z` is the standardized value
+
+### Mini Project
+
+Built a Housing Feature Scaling Analysis.
+
+The project:
+
+- Created an illustrative housing dataset
+- Selected house area and bedroom count as input features
+- Split data into training and testing subsets
+- Applied `StandardScaler` to the features
+- Compared original and standardized values
+- Checked feature means and standard deviations
+- Visualized feature distributions before and after scaling
+
+### Key Concept
+
+Fit preprocessing transformations on the training data only, then apply the learned transformation to the test data. This helps prevent data leakage during model evaluation.
