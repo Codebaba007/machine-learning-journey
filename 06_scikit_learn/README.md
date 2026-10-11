@@ -27,13 +27,14 @@ This section covers Scikit-learn, the main Python library used to learn and prac
 ---
 ## Current Progress
 
-Scikit-learn — Day 2 completed — Covered data preprocessing foundations, feature scaling, standardization, `StandardScaler`, `fit()`, `transform()`, `fit_transform()`, and proper training/test preprocessing.
+Scikit-learn — Day 3 completed — Covered linear regression, prediction equations, coefficients, intercepts, residuals, model fitting, prediction, Mean Absolute Error, and regression visualization.
 
 Completed:
 - Day 1 — Scikit-learn Foundations and Train/Test Split
 - Day 2 — Data Preprocessing and Feature Scaling
+- Day 3 — Linear Regression
 
-Next Step: Continue with Scikit-learn Day 3.
+Next Step: Continue with Scikit-learn Day 4.
 ---
 
 ## Day 1 — Scikit-learn Foundations and Train/Test Split
@@ -179,3 +180,37 @@ The project:
 ### Key Concept
 
 Fit preprocessing transformations on the training data only, then apply the learned transformation to the test data. This helps prevent data leakage during model evaluation.
+---
+## Day 3 — Linear Regression
+
+### Topics Covered
+
+- Introduction to regression
+- Linear regression
+- Simple linear regression
+- Input features and numerical targets
+- The linear regression equation
+- Slope and coefficient
+- Intercept
+- Actual values vs predicted values
+- Residuals
+- Training and testing workflow
+- Mean Absolute Error (MAE)
+- Inspecting learned model parameters
+- Visualizing regression lines and predictions
+
+### Scikit-learn Classes and Functions
+
+- `LinearRegression()`
+- `train_test_split()`
+- `mean_absolute_error()`
+- `fit()`
+- `predict()`
+- `coef_`
+- `intercept_`
+
+### What I Learned
+
+- How regression predicts numerical values
+- How linear regression models a relationship using a linear equation
+- What the input feature `
