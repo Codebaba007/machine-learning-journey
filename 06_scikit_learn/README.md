@@ -27,14 +27,15 @@ This section covers Scikit-learn, the main Python library used to learn and prac
 ---
 ## Current Progress
 
-Scikit-learn — Day 3 completed — Covered linear regression, prediction equations, coefficients, intercepts, residuals, model fitting, prediction, Mean Absolute Error, and regression visualization.
+Scikit-learn — Day 4 completed — Covered multiple linear regression, multiple feature coefficients, intercept interpretation, residuals, model fitting, prediction, Mean Absolute Error, and housing price prediction.
 
 Completed:
 - Day 1 — Scikit-learn Foundations and Train/Test Split
 - Day 2 — Data Preprocessing and Feature Scaling
 - Day 3 — Linear Regression
+- Day 4 — Multiple Linear Regression
 
-Next Step: Continue with Scikit-learn Day 4.
+Next Step: Continue with Scikit-learn Day 5.
 ---
 
 ## Day 1 — Scikit-learn Foundations and Train/Test Split
@@ -214,3 +215,94 @@ Fit preprocessing transformations on the training data only, then apply the lear
 - How regression predicts numerical values
 - How linear regression models a relationship using a linear equation
 - What the input feature `
+---
+## Day 4 — Multiple Linear Regression
+
+### Topics Covered
+
+- Simple vs. multiple linear regression
+- Multiple input features
+- Numerical targets
+- The multiple linear regression equation
+- Feature coefficients
+- Intercept
+- Interpreting coefficients while holding other features constant
+- Actual vs. predicted values
+- Residuals
+- Training and testing data
+- Mean Absolute Error (MAE)
+- Making predictions for new observations
+- Visualizing actual vs. predicted values
+
+### Scikit-learn Classes and Functions
+
+- `LinearRegression()`
+- `train_test_split()`
+- `mean_absolute_error()`
+- `fit()`
+- `predict()`
+- `coef_`
+- `intercept_`
+
+### What I Learned
+
+- The difference between simple and multiple linear regression
+- How multiple features contribute to a numerical prediction
+- How to interpret the multiple linear regression equation
+- What each feature coefficient represents
+- How to interpret the intercept
+- How to inspect learned coefficients using `model.coef_`
+- How to inspect the intercept using `model.intercept_`
+- How to train a model using multiple input features
+- How to predict targets for held-out data and new observations
+- How to calculate and interpret residuals
+- How Mean Absolute Error measures prediction errors
+- Why coefficients describe model relationships but do not automatically establish causation
+
+### Key Formula
+
+Multiple linear regression:
+
+ŷ = b₀ + b₁x₁ + b₂x₂
+
+Where:
+
+- `ŷ` is the predicted target
+- `b₀` is the intercept
+- `b₁` is the coefficient for the first feature
+- `x₁` is the first feature value
+- `b₂` is the coefficient for the second feature
+- `x₂` is the second feature value
+
+Residual:
+
+e = y − ŷ
+
+Where:
+
+- `e` is the residual
+- `y` is the actual target
+- `ŷ` is the predicted target
+
+### Mini Project
+
+Built a House Price Prediction Analysis Using Multiple Linear Regression.
+
+The project:
+
+- Created an illustrative housing dataset
+- Used house area and bedroom count as input features
+- Used house price as the target
+- Split the data into training and testing subsets
+- Trained a multiple linear regression model
+- Inspected the learned coefficients and intercept
+- Predicted prices for held-out houses
+- Predicted the price of a new example house
+- Calculated residuals and Mean Absolute Error
+- Visualized actual vs. predicted prices
+
+### Key Concept
+
+Multiple linear regression uses several input features to predict a numerical target. Each feature has a learned coefficient, and the model combines the feature contributions with the intercept to generate a prediction.
+
+A coefficient describes the change in the model's prediction associated with a one-unit increase in that feature when the other features remain constant.
