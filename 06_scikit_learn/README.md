@@ -27,15 +27,17 @@ This section covers Scikit-learn, the main Python library used to learn and prac
 ---
 ## Current Progress
 
-Scikit-learn — Day 4 completed — Covered multiple linear regression, multiple feature coefficients, intercept interpretation, residuals, model fitting, prediction, Mean Absolute Error, and housing price prediction.
+Scikit-learn — Day 5 completed — Covered regression evaluation metrics, residuals, MAE, MSE, RMSE, R², baseline comparison, and held-out test evaluation.
 
 Completed:
 - Day 1 — Scikit-learn Foundations and Train/Test Split
 - Day 2 — Data Preprocessing and Feature Scaling
 - Day 3 — Linear Regression
 - Day 4 — Multiple Linear Regression
+- Day 5 — Regression Evaluation Metrics
 
-Next Step: Continue with Scikit-learn Day 5.
+Next Step: Continue with Scikit-learn Day 6.
+
 ---
 
 ## Day 1 — Scikit-learn Foundations and Train/Test Split
@@ -306,3 +308,87 @@ The project:
 Multiple linear regression uses several input features to predict a numerical target. Each feature has a learned coefficient, and the model combines the feature contributions with the intercept to generate a prediction.
 
 A coefficient describes the change in the model's prediction associated with a one-unit increase in that feature when the other features remain constant.
+---
+## Day 5 — Regression Evaluation Metrics
+
+### Topics Covered
+
+- Why regression models need evaluation metrics
+- Actual vs. predicted values
+- Residuals and absolute errors
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² score (coefficient of determination)
+- Interpreting regression evaluation results
+- Comparing a model with a baseline
+- Evaluating predictions on held-out test data
+
+### Scikit-learn Functions and Classes
+
+- `mean_absolute_error()`
+- `mean_squared_error()`
+- `r2_score()`
+- `LinearRegression()`
+- `DummyRegressor()`
+- `train_test_split()`
+
+### What I Learned
+
+- Why a trained regression model must be evaluated
+- How residuals measure the difference between actual and predicted values
+- How MAE measures the average absolute prediction error
+- How MSE squares errors and gives larger errors more weight
+- How RMSE returns the error measurement to the target's original units
+- How R² compares model predictions against a mean-prediction baseline
+- Why lower MAE, MSE, and RMSE values are generally better when comparing models on the same evaluation data
+- Why R² is not the same as prediction accuracy
+- How to compare a linear regression model against a simple baseline
+- Why evaluation should use held-out test data
+
+### Key Formulas
+
+Residual:
+
+e = y − ŷ
+
+Mean Absolute Error:
+
+MAE = (1/n) × Σ|yᵢ − ŷᵢ|
+
+Mean Squared Error:
+
+MSE = (1/n) × Σ(yᵢ − ŷᵢ)²
+
+Root Mean Squared Error:
+
+RMSE = √MSE
+
+R² score:
+
+R² = 1 − SS_res / SS_tot
+
+### Mini Project
+
+Built a House Price Regression Evaluation Analysis.
+
+The project:
+
+- Created an illustrative housing dataset
+- Used house area and bedroom count as features
+- Used house price as the target
+- Split the dataset into training and testing subsets
+- Trained a linear regression model
+- Created a mean-prediction baseline using `DummyRegressor`
+- Evaluated both approaches using MAE, MSE, RMSE, and R²
+- Compared actual and predicted test prices
+- Predicted the price of a new example house
+- Visualized actual vs. predicted prices
+
+### Key Concept
+
+Regression evaluation metrics measure different aspects of prediction performance. MAE summarizes absolute errors, MSE and RMSE penalize larger errors more strongly, and R² measures performance relative to a mean-prediction baseline.
+
+Calculating evaluation metrics does not automatically retrain or improve a model. Model improvement requires additional decisions, such as revising features or choosing a different model, followed by appropriate validation.
+
+The housing dataset is illustrative and should not be treated as real-world market data.
