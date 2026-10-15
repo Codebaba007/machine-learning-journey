@@ -25,18 +25,14 @@ This section covers Scikit-learn, the main Python library used to learn and prac
 - `mini_projects/` — Practical Machine Learning projects
 
 ---
+
 ## Current Progress
+- Current Section: Scikit-learn
+- Current Day: Day 6
+- Current Topic: Classification Fundamentals
+- Completed Days: 6
+- Next Topic: Classification Evaluation Metrics
 
-Scikit-learn — Day 5 completed — Covered regression evaluation metrics, residuals, MAE, MSE, RMSE, R², baseline comparison, and held-out test evaluation.
-
-Completed:
-- Day 1 — Scikit-learn Foundations and Train/Test Split
-- Day 2 — Data Preprocessing and Feature Scaling
-- Day 3 — Linear Regression
-- Day 4 — Multiple Linear Regression
-- Day 5 — Regression Evaluation Metrics
-
-Next Step: Continue with Scikit-learn Day 6.
 
 ---
 
@@ -392,3 +388,37 @@ Regression evaluation metrics measure different aspects of prediction performanc
 Calculating evaluation metrics does not automatically retrain or improve a model. Model improvement requires additional decisions, such as revising features or choosing a different model, followed by appropriate validation.
 
 The housing dataset is illustrative and should not be treated as real-world market data.
+---
+
+## Day 6: Classification Fundamentals
+
+### Topics Covered
+- Regression vs classification
+- Features (`X`) and class labels (`y`)
+- Logistic Regression for binary classification
+- Training and predicting with `fit()` and `predict()`
+- Getting class probabilities with `predict_proba()`
+- Understanding prediction thresholds
+- Splitting classification data with `train_test_split()`
+- Using `stratify=y` to preserve class proportions
+- Applying `StandardScaler` to training, test, and new data
+- Making predictions for a new customer
+
+### Files
+- `notes/06_classification.py`
+- `exercises/exercise_06.py`
+- `mini_projects/classification_analysis.py`
+
+### Mini-Project
+Built a customer-churn classification workflow using Logistic Regression. Prepared features and labels, split the data into training and testing sets, scaled numerical features, generated class predictions and probabilities, and predicted churn for a new customer.
+
+### Key Learnings
+- Regression predicts numerical values; classification predicts categories.
+- `predict()` returns a predicted class.
+- `predict_proba()` returns estimated probabilities for each class.
+- `StandardScaler` standardizes numerical features.
+- Fit the scaler on training data and reuse it to transform test and new data.
+- `test_size` controls the test-set proportion.
+- `random_state` makes the split reproducible.
+- `stratify=y` approximately preserves class proportions.
+- Predictions and probabilities alone do not establish model quality; classification evaluation comes next.
