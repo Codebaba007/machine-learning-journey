@@ -26,13 +26,13 @@ This section covers Scikit-learn, the main Python library used to learn and prac
 
 ---
 
+
 ## Current Progress
 - Current Section: Scikit-learn
-- Current Day: Day 6
-- Current Topic: Classification Fundamentals
-- Completed Days: 6
-- Next Topic: Classification Evaluation Metrics
-
+- Current Day: Day 7
+- Current Topic: Classification Evaluation Metrics
+- Completed Days: 7
+- Next Topic: Improving Classification Models
 
 ---
 
@@ -422,3 +422,37 @@ Built a customer-churn classification workflow using Logistic Regression. Prepar
 - `random_state` makes the split reproducible.
 - `stratify=y` approximately preserves class proportions.
 - Predictions and probabilities alone do not establish model quality; classification evaluation comes next.
+---
+
+## Day 7: Classification Evaluation Metrics
+
+### Topics Covered
+- Evaluating classification models
+- Accuracy and correct predictions
+- Confusion matrix
+- True Positive (TP) and True Negative (TN)
+- False Positive (FP) and False Negative (FN)
+- Precision and recall
+- F1-score
+- Scikit-learn evaluation functions
+- `classification_report()`
+- Evaluating predictions against test labels
+
+### Files
+- `notes/07_classification_metrics.py`
+- `exercises/exercise_07.py`
+- `mini_projects/classification_evaluation.py`
+
+### Mini-Project
+Built a customer-churn classification evaluation workflow using Logistic Regression. Prepared the dataset, split training and test data, scaled numerical features, trained the classifier, and evaluated predictions using accuracy, precision, recall, F1-score, and a confusion matrix.
+
+### Key Learnings
+- Accuracy measures the proportion of correct predictions.
+- A confusion matrix summarizes correct predictions and classification errors.
+- Precision measures how trustworthy positive predictions are.
+- Recall measures how many actual positive cases the model identifies.
+- F1-score balances precision and recall.
+- `classification_report()` displays per-class evaluation metrics.
+- Evaluation metrics should be calculated on held-out test data.
+- Accuracy alone can be misleading when classes are imbalanced.
+- Small synthetic datasets are useful for learning but cannot establish real-world model performance.
