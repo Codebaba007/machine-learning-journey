@@ -456,3 +456,34 @@ Built a customer-churn classification evaluation workflow using Logistic Regress
 - Evaluation metrics should be calculated on held-out test data.
 - Accuracy alone can be misleading when classes are imbalanced.
 - Small synthetic datasets are useful for learning but cannot establish real-world model performance.
+---
+
+## Day 8: Underfitting, Overfitting, and Model Generalization
+
+### Topics Covered
+- Understanding model generalization
+- Underfitting and overfitting
+- Comparing training and test performance
+- Decision tree regression
+- Controlling model complexity with `max_depth`
+- Mean Absolute Error (MAE)
+- Comparing models with different depths
+- Understanding the training-test error gap
+
+### Files
+- `notes/08_model_generalization.py`
+- `exercises/exercise_08.py`
+- `mini_projects/model_fit_analysis.py`
+
+### Mini-Project
+Built a model-fit analysis workflow using Decision Tree Regression. Trained models with different maximum depths, calculated training and test MAE, and compared their performance in a results table to investigate underfitting, overfitting, and generalization.
+
+### Key Learnings
+- Generalization means performing well on unseen data.
+- Underfitting occurs when a model fails to learn important patterns.
+- Overfitting occurs when a model fits training data too closely and performs worse on unseen data.
+- Training performance alone cannot establish model quality.
+- `max_depth` controls the maximum depth of a decision tree.
+- Training MAE and test MAE help compare model performance.
+- A large gap between training and test error can indicate overfitting.
+- Synthetic datasets demonstrate concepts but do not establish real-world performance.
