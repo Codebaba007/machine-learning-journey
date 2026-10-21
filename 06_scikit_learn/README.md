@@ -26,13 +26,12 @@ This section covers Scikit-learn, the main Python library used to learn and prac
 
 ---
 
-
 ## Current Progress
 - Current Section: Scikit-learn
-- Current Day: Day 7
-- Current Topic: Classification Evaluation Metrics
-- Completed Days: 7
-- Next Topic: Improving Classification Models
+- Current Day: Day 9
+- Current Topic: Hyperparameter Tuning and Cross-Validation
+- Completed Days: 9
+- Next Topic: Improving Model Performance
 
 ---
 
@@ -487,3 +486,37 @@ Built a model-fit analysis workflow using Decision Tree Regression. Trained mode
 - Training MAE and test MAE help compare model performance.
 - A large gap between training and test error can indicate overfitting.
 - Synthetic datasets demonstrate concepts but do not establish real-world performance.
+---
+
+## Day 9: Hyperparameter Tuning and Cross-Validation
+
+### Topics Covered
+- Parameters vs. hyperparameters
+- Decision tree hyperparameter `max_depth`
+- Underfitting and overfitting in model selection
+- Cross-validation with `cross_val_score()`
+- Five-fold cross-validation
+- Hyperparameter search with `GridSearchCV`
+- Comparing candidate model settings
+- Using negative MAE as a Scikit-learn scoring convention
+- Selecting the best estimator with `best_estimator_`
+- Evaluating the selected model on held-out test data
+
+### Files
+- `notes/09_hyperparameter_tuning.py`
+- `exercises/exercise_09.py`
+- `mini_projects/hyperparameter_tuning_analysis.py`
+
+### Mini-Project
+Built a hyperparameter-tuning analysis workflow using Decision Tree Regression and GridSearchCV. Compared different maximum tree depths using five-fold cross-validation, summarized training and validation MAE, selected the best candidate, and evaluated it on held-out test data.
+
+### Key Learnings
+- Parameters are learned from data; hyperparameters are selected before training.
+- Cross-validation evaluates candidate settings across multiple data splits.
+- `GridSearchCV` searches the specified hyperparameter combinations.
+- Lower MAE indicates smaller average absolute prediction errors.
+- Scikit-learn uses negative MAE for its model-selection scoring convention.
+- `best_params_` returns the selected settings.
+- `best_estimator_` returns the selected, refitted model.
+- The test set should remain separate during hyperparameter selection and be used for final evaluation.
+- The best candidate in a search is not guaranteed to be the best possible model.
