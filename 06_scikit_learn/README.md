@@ -28,10 +28,10 @@ This section covers Scikit-learn, the main Python library used to learn and prac
 
 ## Current Progress
 - Current Section: Scikit-learn
-- Current Day: Day 9
-- Current Topic: Hyperparameter Tuning and Cross-Validation
-- Completed Days: 9
-- Next Topic: Improving Model Performance
+- Current Day: Day 10
+- Current Topic: Scikit-learn Pipelines
+- Completed Days: 10
+- Next Topic: Handling Missing Data
 
 ---
 
@@ -520,3 +520,35 @@ Built a hyperparameter-tuning analysis workflow using Decision Tree Regression a
 - `best_estimator_` returns the selected, refitted model.
 - The test set should remain separate during hyperparameter selection and be used for final evaluation.
 - The best candidate in a search is not guaranteed to be the best possible model.
+---
+
+## Day 10: Scikit-learn Pipelines
+
+### Topics Covered
+- Understanding machine-learning pipelines
+- Combining preprocessing and modeling steps
+- `Pipeline()` from Scikit-learn
+- Integrating `StandardScaler` and `LogisticRegression`
+- Training and predicting through a pipeline
+- Preventing preprocessing data leakage
+- Pipelines with `GridSearchCV`
+- Tuning pipeline hyperparameters using `model__parameter` syntax
+- Evaluating classification models
+
+### Files
+- `notes/10_ml_pipelines.py`
+- `exercises/exercise_10.py`
+- `mini_projects/pipeline_analysis.py`
+
+### Mini-Project
+Built a customer-churn classification workflow using a Scikit-learn Pipeline. Combined feature scaling and Logistic Regression, tuned regularization strength with GridSearchCV, compared cross-validation performance, and evaluated the selected pipeline using accuracy, precision, recall, F1-score, and a confusion matrix.
+
+### Key Learnings
+- A pipeline combines preprocessing and model training into one workflow.
+- `pipeline.fit()` fits preprocessing steps and trains the estimator.
+- `pipeline.predict()` applies the fitted preprocessing steps before making predictions.
+- Preprocessing is fitted within each training fold during cross-validation.
+- Pipeline hyperparameters use the `step_name__parameter_name` format.
+- `model__C` tunes the regularization strength of Logistic Regression.
+- GridSearchCV selects settings using cross-validation.
+- The held-out test set should remain separate during model selection.
