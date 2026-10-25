@@ -28,10 +28,10 @@ This section covers Scikit-learn, the main Python library used to learn and prac
 
 ## Current Progress
 - Current Section: Scikit-learn
-- Current Day: Day 10
-- Current Topic: Scikit-learn Pipelines
-- Completed Days: 10
-- Next Topic: Handling Missing Data
+- Current Day: Day 11
+- Current Topic: Handling Missing Data
+- Completed Days: 11
+- Next Topic: Encoding Categorical Features
 
 ---
 
@@ -552,3 +552,34 @@ Built a customer-churn classification workflow using a Scikit-learn Pipeline. Co
 - `model__C` tunes the regularization strength of Logistic Regression.
 - GridSearchCV selects settings using cross-validation.
 - The held-out test set should remain separate during model selection.
+---
+
+## Day 11: Handling Missing Data
+
+### Topics Covered
+- Understanding missing values (`NaN`)
+- Imputation using `SimpleImputer`
+- Mean, median, most frequent, and constant strategies
+- `fit_transform()` versus `transform()`
+- Preventing data leakage during preprocessing
+- Combining imputation, scaling, and regression in a `Pipeline`
+
+### Files
+- `notes/11_missing_data.py`
+- `exercises/exercise_11.py`
+- `mini_projects/missing_data_analysis.py`
+
+### Mini-Project: House Price Prediction with Missing Data
+- Created a dataset containing missing house features.
+- Split the data into training and test sets.
+- Used median imputation inside a machine learning pipeline.
+- Applied feature scaling and trained a `LinearRegression` model.
+- Evaluated predictions using Mean Absolute Error (MAE).
+- Predicted the price of a new house with a missing feature.
+
+### Key Learnings
+- Imputation replaces missing values using a chosen strategy.
+- The imputer must learn its statistics from training data only.
+- Test data must use the already-fitted imputer.
+- Pipelines combine preprocessing and model training into one workflow.
+
