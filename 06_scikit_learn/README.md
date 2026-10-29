@@ -28,10 +28,11 @@ This section covers Scikit-learn, the main Python library used to learn and prac
 
 ## Current Progress
 - Current Section: Scikit-learn
-- Current Day: Day 11
-- Current Topic: Handling Missing Data
-- Completed Days: 11
-- Next Topic: Encoding Categorical Features
+- Current Day: Day 12
+- Current Topic: Encoding Categorical Features
+- Completed Days: 12
+- Next Topic: Feature Engineering
+
 
 ---
 
@@ -582,4 +583,37 @@ Built a customer-churn classification workflow using a Scikit-learn Pipeline. Co
 - The imputer must learn its statistics from training data only.
 - Test data must use the already-fitted imputer.
 - Pipelines combine preprocessing and model training into one workflow.
+---
+
+## Day 12: Encoding Categorical Features
+
+### Topics Covered
+- Why categorical features need encoding
+- OneHotEncoder for categories without a natural order
+- OrdinalEncoder for ordered categories
+- Specifying category order explicitly
+- Handling unknown categories with `handle_unknown="ignore"`
+- ColumnTransformer for applying different transformations to different columns
+- Combining encoding, scaling, and regression in a Pipeline
+
+### Files
+- `notes/12_categorical_encoding.py`
+- `exercises/exercise_12.py`
+- `mini_projects/categorical_encoding_analysis.py`
+
+### Mini-Project: House Price Prediction with Categorical Features
+- Used area, bedroom count, and city as input features.
+- Split the dataset into training and test sets.
+- Scaled numerical features using StandardScaler.
+- Encoded city names using OneHotEncoder.
+- Combined preprocessing and LinearRegression in a Pipeline.
+- Evaluated predictions using Mean Absolute Error (MAE).
+- Tested a prediction for a house in a previously unseen city.
+
+### Key Learnings
+- One-hot encoding avoids imposing an artificial ranking on nominal categories.
+- Ordinal encoding represents categories with a meaningful order.
+- Unknown categories can be handled with `handle_unknown="ignore"`.
+- ColumnTransformer applies different preprocessing to numerical and categorical columns.
+- Pipelines help keep preprocessing consistent between training and prediction.
 
