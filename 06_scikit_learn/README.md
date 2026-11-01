@@ -26,12 +26,14 @@ This section covers Scikit-learn, the main Python library used to learn and prac
 
 ---
 
+
 ## Current Progress
 - Current Section: Scikit-learn
-- Current Day: Day 12
-- Current Topic: Encoding Categorical Features
-- Completed Days: 12
-- Next Topic: Feature Engineering
+- Current Day: Day 13
+- Current Topic: Feature Engineering
+- Completed Days: 13
+- Next Topic: Feature Selection
+
 
 
 ---
@@ -616,4 +618,37 @@ Built a customer-churn classification workflow using a Scikit-learn Pipeline. Co
 - Unknown categories can be handled with `handle_unknown="ignore"`.
 - ColumnTransformer applies different preprocessing to numerical and categorical columns.
 - Pipelines help keep preprocessing consistent between training and prediction.
+---
 
+## Day 13: Feature Engineering
+
+### Topics Covered
+- Understanding feature engineering
+- Creating new features from existing columns
+- Mathematical feature transformations
+- Log transformation using `np.log1p()`
+- Polynomial features using `PolynomialFeatures`
+- Extracting date features using Pandas
+- Integrating feature transformations into ML workflows
+
+### Files
+- `notes/13_feature_engineering.py`
+- `exercises/exercise_13.py`
+- `mini_projects/feature_engineering_analysis.py`
+
+### Mini-Project: House Price Prediction with Feature Engineering
+- Created a house price dataset using area, bedrooms, and house age.
+- Engineered additional features from existing data.
+- Applied polynomial feature generation.
+- Used StandardScaler for feature scaling.
+- Built a machine learning Pipeline with LinearRegression.
+- Evaluated predictions using Mean Absolute Error (MAE).
+- Practised predicting prices for new houses.
+
+### Key Learnings
+- Feature engineering creates useful information from existing features.
+- Mathematical transformations can change how models interpret data.
+- PolynomialFeatures creates additional polynomial terms.
+- Date features can reveal seasonal and time-based patterns.
+- Feature engineering must avoid target leakage.
+- Only use information available at prediction time when creating features.
