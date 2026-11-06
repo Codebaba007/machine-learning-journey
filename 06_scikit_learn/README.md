@@ -29,10 +29,11 @@ This section covers Scikit-learn, the main Python library used to learn and prac
 
 ## Current Progress
 - Current Section: Scikit-learn
-- Current Day: Day 13
-- Current Topic: Feature Engineering
-- Completed Days: 13
-- Next Topic: Feature Selection
+- Current Day: Day 14
+- Current Topic: Feature Selection
+- Completed Days: 14
+- Next Topic: Handling Imbalanced Datasets
+
 
 
 
@@ -652,3 +653,39 @@ Built a customer-churn classification workflow using a Scikit-learn Pipeline. Co
 - Date features can reveal seasonal and time-based patterns.
 - Feature engineering must avoid target leakage.
 - Only use information available at prediction time when creating features.
+---
+
+## Day 14: Feature Selection
+
+### Topics Covered
+- Understanding feature selection
+- Selecting useful features from existing datasets
+- SelectKBest for statistical feature selection
+- f_regression for regression feature scoring
+- Random Forest feature importance
+- Recursive Feature Elimination (RFE)
+- Using feature selection inside a Pipeline
+- Avoiding data leakage during feature selection
+
+### Files
+- `notes/14_feature_selection.py`
+- `exercises/exercise_14.py`
+- `mini_projects/feature_selection_analysis.py`
+
+### Mini-Project: House Price Prediction Using Feature Selection
+- Created a house price dataset with relevant and irrelevant features.
+- Split the dataset into training and test sets.
+- Built a baseline regression model using all features.
+- Applied SelectKBest to select the top three features.
+- Integrated feature selection, scaling, and LinearRegression in a Pipeline.
+- Compared model performance using Mean Absolute Error (MAE).
+- Inspected selected features and statistical scores.
+
+### Key Learnings
+- Feature selection reduces unnecessary input features.
+- SelectKBest evaluates features using statistical scoring methods.
+- Random Forest provides impurity-based feature importance.
+- RFE repeatedly removes less useful features.
+- Feature selection should be fitted using training data only.
+- Fewer features do not automatically guarantee better performance.
+
