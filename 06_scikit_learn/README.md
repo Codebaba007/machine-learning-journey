@@ -29,12 +29,10 @@ This section covers Scikit-learn, the main Python library used to learn and prac
 
 ## Current Progress
 - Current Section: Scikit-learn
-- Current Day: Day 14
-- Current Topic: Feature Selection
-- Completed Days: 14
-- Next Topic: Handling Imbalanced Datasets
-
-
+- Current Day: Day 15
+- Current Topic: Handling Imbalanced Datasets
+- Completed Days: 15
+- Next Topic: Model Persistence and Saving Trained Models
 
 
 ---
@@ -688,4 +686,53 @@ Built a customer-churn classification workflow using a Scikit-learn Pipeline. Co
 - RFE repeatedly removes less useful features.
 - Feature selection should be fitted using training data only.
 - Fewer features do not automatically guarantee better performance.
+---
+## Day 15 — Handling Imbalanced Datasets
 
+### Topics Covered
+- Understanding class imbalance
+- Majority and minority classes
+- Why accuracy can be misleading
+- Precision, Recall, and F1-score for imbalanced classification
+- Confusion Matrix
+- Balanced Accuracy
+- Random Oversampling
+- Random Undersampling
+- SMOTE (Synthetic Minority Over-sampling Technique)
+- Stratified train-test splitting
+- Resampling training data only
+- Using imbalanced-learn pipelines
+- Avoiding data leakage during resampling
+
+### Notes
+- `notes/15_imbalanced_datasets.py`
+
+### Exercise
+- `exercises/exercise_15.py`
+
+### Mini Project
+- `mini_projects/imbalanced_classification_analysis.py`
+
+### Key Learnings
+- Accuracy alone can be misleading when the dataset is imbalanced.
+- Precision measures how many predicted positive cases were actually positive.
+- Recall measures how many actual positive cases were detected.
+- F1-score balances precision and recall.
+- Balanced accuracy considers performance across both classes.
+- Oversampling increases minority-class examples.
+- Undersampling reduces majority-class examples.
+- SMOTE generates synthetic minority-class examples.
+- Always split the dataset before resampling.
+- Apply resampling only to the training data.
+- An imbalanced-learn Pipeline can combine scaling, resampling, and model training.
+
+### Important Evaluation Note
+Classification metrics such as accuracy, precision, recall, F1-score, and balanced accuracy are often displayed as decimal values between 0 and 1.
+
+To express them as percentages:
+
+`Percentage = Metric × 100`
+
+A high accuracy score does not automatically mean a model performs well on the minority class.
+
+---
